@@ -1,0 +1,14 @@
+{
+  "base": {
+    "font-size": {
+      "value": 14,
+      "type": "number",
+      "description": "Used as a base size for the mobile view."
+    },
+    "type-scale": {
+      "value": 1.2,
+      "type": "number",
+      "description": "Minor third scale"
+    }
+  }
+}

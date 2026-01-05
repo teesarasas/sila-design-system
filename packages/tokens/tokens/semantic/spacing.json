@@ -1,0 +1,40 @@
+{
+  "layout": {
+    "space-3xs": {
+      "value": "round( {base.font-size} * {base.multiplier.100} /4)*4",
+      "type": "spacing"
+    },
+    "space-2xs": {
+      "value": "round( {base.font-size} * {base.multiplier.200} /4)*4",
+      "type": "spacing"
+    },
+    "space-xs": {
+      "value": "round( {base.font-size} * {base.multiplier.300} /4)*4",
+      "type": "spacing"
+    },
+    "space-s": {
+      "value": "round( {base.font-size} * {base.multiplier.400} /4)*4",
+      "type": "spacing"
+    },
+    "space-m": {
+      "value": "round( {base.font-size} * {base.multiplier.500} /4)*4",
+      "type": "spacing"
+    },
+    "space-l": {
+      "value": "round( {base.font-size} * {base.multiplier.600} /4)*4",
+      "type": "spacing"
+    },
+    "space-xl": {
+      "value": "round( {base.font-size} * {base.multiplier.700} /4)*4",
+      "type": "spacing"
+    },
+    "space-2xl": {
+      "value": "round( {base.font-size} * {base.multiplier.800} /4)*4",
+      "type": "spacing"
+    },
+    "space-3xl": {
+      "value": "round( {base.font-size} * {base.multiplier.900} /4)*4",
+      "type": "spacing"
+    }
+  }
+}

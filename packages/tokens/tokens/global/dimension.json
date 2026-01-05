@@ -1,0 +1,78 @@
+{
+  "base": {
+    "dimension": {
+      "4": {
+        "value": 4,
+        "type": "number"
+      },
+      "8": {
+        "value": 8,
+        "type": "number"
+      },
+      "12": {
+        "value": 12,
+        "type": "number"
+      },
+      "16": {
+        "value": 16,
+        "type": "number"
+      },
+      "20": {
+        "value": 20,
+        "type": "number"
+      },
+      "24": {
+        "value": 24,
+        "type": "number"
+      },
+      "28": {
+        "value": 28,
+        "type": "number"
+      },
+      "32": {
+        "value": 32,
+        "type": "number"
+      },
+      "36": {
+        "value": 36,
+        "type": "number"
+      },
+      "40": {
+        "value": 40,
+        "type": "number"
+      },
+      "44": {
+        "value": 44,
+        "type": "number"
+      },
+      "48": {
+        "value": 48,
+        "type": "number"
+      },
+      "52": {
+        "value": 52,
+        "type": "number"
+      },
+      "56": {
+        "value": 56,
+        "type": "number"
+      },
+      "60": {
+        "value": 60,
+        "type": "number"
+      },
+      "64": {
+        "value": 64,
+        "type": "number"
+      },
+      "68": {
+        "value": 68,
+        "type": "number"
+      },
+      "72": {
+        "value": 72,
+        "type": "number"
+      }
+    }
+  }
+}
