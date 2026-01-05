@@ -1,18 +1,57 @@
 import StyleDictionary from 'style-dictionary';
 import { register } from '@tokens-studio/sd-transforms';
+import fs from 'fs';
+import path from 'path';
 
-// 1. Register Tokens Studio Transforms
+// --- PART 1: Split Token Logic ---
+const splitTokenFile = () => {
+  const inputPath = path.join(process.cwd(), 'tokens.json');
+  const outputDir = path.join(process.cwd(), 'tokens');
+
+  if (!fs.existsSync(inputPath)) {
+    console.error(`❌ Error: tokens.json not found at ${inputPath}`);
+    return;
+  }
+
+  const rawTokens = JSON.parse(fs.readFileSync(inputPath, 'utf-8'));
+
+  if (fs.existsSync(outputDir)) {
+    fs.rmSync(outputDir, { recursive: true, force: true });
+  }
+  fs.mkdirSync(outputDir);
+
+  Object.keys(rawTokens).forEach(key => {
+    const content = rawTokens[key];
+    if (typeof content !== 'object' || key.startsWith('$')) return;
+
+    const filePath = path.join(outputDir, `${key}.json`);
+    const folderPath = path.dirname(filePath);
+    if (!fs.existsSync(folderPath)) {
+      fs.mkdirSync(folderPath, { recursive: true });
+    }
+
+    fs.writeFileSync(filePath, JSON.stringify(content, null, 2));
+    console.log(`✅ Extracted: tokens/${key}.json`);
+  });
+};
+
+splitTokenFile();
+
+// --- PART 2: Register Transforms ---
+// ลงทะเบียน transform ของ tokens-studio
 register(StyleDictionary);
 
-// 2. ✅ Custom Transform: "size/pxToRem" (แปลง px เป็น rem)
+// Custom: px to rem (V4 Syntax)
 StyleDictionary.registerTransform({
   name: 'size/pxToRem',
   type: 'value',
   transitive: true,
+  // ใช้ filter แทน matcher
   filter: (token) => {
     const type = token.type || token.$type;
     return ['fontSizes', 'spacing', 'borderRadius', 'borderWidth', 'sizing', 'dimension'].includes(type);
   },
+  // ใช้ transform แทน transformer
   transform: (token) => {
     const val = parseFloat(token.value);
     if (isNaN(val)) return token.value;
@@ -20,30 +59,28 @@ StyleDictionary.registerTransform({
   }
 });
 
-// 3. ✅ Custom Transform: "name/kebab" (ตั้งชื่อตัวแปรแบบ CSS แท้ๆ)
+// Custom: kebab-case naming (V4 Syntax)
 StyleDictionary.registerTransform({
   name: 'name/kebab',
   type: 'name',
   transform: (token) => {
-    // วนลูปทุกส่วนของชื่อ (Path) มาแปลงร่าง
-    return token.path.map(part => {
-      return part
-        // 1. แปลง camelCase เป็น kebab-case (เช่น fontSize -> font-size)
-        .replace(/([a-z0-9])([A-Z])/g, '$1-$2')
-        // 2. แปลงทุกอย่างเป็นตัวเล็ก
-        .toLowerCase()
-        // 3. แทนที่ช่องว่างด้วยขีด (เผื่อมี)
-        .replace(/\s+/g, '-');
-    }).join('-'); // เอามาต่อกันด้วยขีด
+    return token.path.join('-')
+      .replace(/([a-z0-9])([A-Z])/g, '$1-$2')
+      .toLowerCase()
+      .replace(/\s+/g, '-');
   }
 });
 
-// 4. ฟังก์ชัน Config
-function getStyleDictionaryConfig(themeName, sources) {
+// --- PART 3: Config ---
+const getStyleDictionaryConfig = () => {
   return {
-    source: sources,
+    source: [
+      "tokens/**/*.json"
+    ],
     platforms: {
       css: {
+        prefix: "sl",
+        transformGroup: "tokens-studio",
         transforms: [
           'ts/descriptionToComment',
           'ts/size/px',
@@ -53,15 +90,14 @@ function getStyleDictionaryConfig(themeName, sources) {
           'ts/resolveMath',
           'ts/size/css/letterspacing',
           'ts/color/css/hexrgba',
-          'name/kebab',   // 👈 ใช้ตัวใหม่ที่เราเพิ่งอัปเกรด logic
+          'name/kebab',   
           'size/pxToRem'
         ],
-        prefix: 'sl',
-        buildPath: 'build/css/',
+        buildPath: "dist/css/",
         files: [
           {
-            destination: `${themeName}.css`,
-            format: 'css/variables',
+            destination: "variables.css",
+            format: "css/variables",
             options: {
               outputReferences: true,
             }
@@ -70,42 +106,21 @@ function getStyleDictionaryConfig(themeName, sources) {
       }
     }
   };
-}
+};
 
-// --- 5. Main Execution ---
-console.log('🏗️  Building Sila Design System (SD v4)...');
+// --- PART 4: Execution (จุดที่แก้!) ---
+console.log('\n🏗️  Building Sila Design System...');
 
-try {
-  // A. Global
-  const globalSD = new StyleDictionary(
-    getStyleDictionaryConfig('global', [
-      'tokens/global/**/*.json',
-      'tokens/semantic/**/*.json',
-      'tokens/components/**/*.json',
-      '!tokens/global/mobile/**/*.json',
-      '!tokens/global/desktop/**/*.json'
-    ])
-  );
-  await globalSD.buildAllPlatforms();
+// 🔥 FIX: ใช้ new StyleDictionary() และ await แทน .extend()
+const runBuild = async () => {
+  try {
+    const config = getStyleDictionaryConfig();
+    const sd = new StyleDictionary(config);
+    await sd.buildAllPlatforms(); // V4 เป็น async แล้ว
+    console.log('✨ Build Success! Check: packages/tokens/dist/css/variables.css');
+  } catch (e) {
+    console.error('❌ Build Failed:', e);
+  }
+};
 
-  // B. Mobile
-  const mobileSD = new StyleDictionary(
-    getStyleDictionaryConfig('theme-mobile', [
-      'tokens/global/mobile/**/*.json'
-    ])
-  );
-  await mobileSD.buildAllPlatforms();
-
-  // C. Desktop
-  const desktopSD = new StyleDictionary(
-    getStyleDictionaryConfig('theme-desktop', [
-      'tokens/global/desktop/**/*.json'
-    ])
-  );
-  await desktopSD.buildAllPlatforms();
-
-  console.log('✅ Build Success! Files generated in build/css/');
-
-} catch (e) {
-  console.error('❌ Build Failed:', e);
-}
+runBuild();

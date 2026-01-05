@@ -1,0 +1,34 @@
+{
+  "semantic": {
+    "size": {
+      "action-height": {
+        "sm": {
+          "value": "{base.dimension.28}",
+          "type": "sizing"
+        },
+        "base": {
+          "value": "{base.dimension.36}",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{base.dimension.44}",
+          "type": "sizing"
+        }
+      },
+      "action-icon": {
+        "sm": {
+          "value": "round(( {base.font-size} * pow({base.type-scale}, -1))/2)*2",
+          "type": "sizing"
+        },
+        "base": {
+          "value": "{base.font-size}",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "round(({base.font-size}*pow({base.type-scale},1))/2)*2",
+          "type": "sizing"
+        }
+      }
+    }
+  }
+}
