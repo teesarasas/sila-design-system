@@ -1,0 +1,212 @@
+{
+  "semantic": {
+    "text": {
+      "text-sm-regular": {
+        "value": {
+          "fontFamily": "{base.font-families.Geist}",
+          "fontWeight": "400",
+          "lineHeight": "{semantic.line-height.text.sm}",
+          "fontSize": "{semantic.font-size.text.sm}"
+        },
+        "type": "typography",
+        "description": "Secondary text. Use for metadata (timestamps, authors), footnotes, helper text below inputs, or legal disclaimers. Do NOT use for main content essential to the user journey (readability concerns)."
+      },
+      "text-base-regular": {
+        "value": {
+          "fontFamily": "{base.font-families.Geist}",
+          "fontWeight": "400",
+          "fontSize": "{base.font-size}",
+          "lineHeight": "{semantic.line-height.text.base}"
+        },
+        "type": "typography",
+        "description": "The DEFAULT token for all standard content. Use for paragraphs, lists (ul/ol), and general reading. If no specific size is required, MUST default to this token. Optimized for long-form reading comfort."
+      },
+      "text-lg-regular": {
+        "value": {
+          "fontFamily": "{base.font-families.Geist}",
+          "fontWeight": "400",
+          "fontSize": "{semantic.font-size.text.lg}",
+          "lineHeight": "{semantic.line-height.text.lg}"
+        },
+        "type": "typography",
+        "description": "Lead paragraph or introductory text. Use this ONLY for the first paragraph of a section, abstract summaries, or emphasized text blocks. Do NOT use for long-form content as it consumes too much vertical space."
+      },
+      "text-sm-medium": {
+        "value": {
+          "fontFamily": "{base.font-families.Geist}",
+          "fontWeight": "500",
+          "lineHeight": "{semantic.line-height.text.sm}",
+          "fontSize": "{semantic.font-size.text.sm}"
+        },
+        "type": "typography",
+        "description": "Secondary text. Use for metadata (timestamps, authors), footnotes, helper text below inputs, or legal disclaimers. Do NOT use for main content essential to the user journey (readability concerns)."
+      },
+      "text-base-medium": {
+        "value": {
+          "fontFamily": "{base.font-families.Geist}",
+          "fontWeight": "500",
+          "fontSize": "{base.font-size}",
+          "lineHeight": "{semantic.line-height.text.base}"
+        },
+        "type": "typography",
+        "description": "The DEFAULT token for all standard content. Use for paragraphs, lists (ul/ol), and general reading. If no specific size is required, MUST default to this token. Optimized for long-form reading comfort."
+      },
+      "text-lg-medium": {
+        "value": {
+          "fontFamily": "{base.font-families.Geist}",
+          "fontWeight": "500",
+          "fontSize": "{semantic.font-size.text.lg}",
+          "lineHeight": "{semantic.line-height.text.lg}"
+        },
+        "type": "typography",
+        "description": "Lead paragraph or introductory text. Use this ONLY for the first paragraph of a section, abstract summaries, or emphasized text blocks. Do NOT use for long-form content as it consumes too much vertical space."
+      }
+    },
+    "headline": {
+      "h6": {
+        "value": {
+          "fontFamily": "{base.font-families.Geist}",
+          "fontWeight": "700",
+          "fontSize": "{semantic.font-size.heading.h6}",
+          "lineHeight": "{semantic.line-height.headline.h6}"
+        },
+        "type": "typography",
+        "description": "Level 6 Heading. The lowest section level. Used for low-level labels or titles within an H5. MUST strictly follow H5."
+      },
+      "h5": {
+        "value": {
+          "fontFamily": "{base.font-families.Geist}",
+          "fontWeight": "700",
+          "fontSize": "{semantic.font-size.heading.h5}",
+          "lineHeight": "{semantic.line-height.headline.h5}"
+        },
+        "type": "typography",
+        "description": "Level 5 Heading. Used for detailed groups within an H4. MUST strictly follow H4."
+      },
+      "h4": {
+        "value": {
+          "fontFamily": "{base.font-families.Geist}",
+          "fontWeight": "700",
+          "fontSize": "{semantic.font-size.heading.h4}",
+          "lineHeight": "{semantic.line-height.headline.h4}"
+        },
+        "type": "typography",
+        "description": "Level 4 Heading. Used for nested topics within an H3 block. MUST strictly follow H3. Do NOT use H4 directly after H2."
+      },
+      "h3": {
+        "value": {
+          "fontFamily": "{base.font-families.Geist}",
+          "fontWeight": "700",
+          "fontSize": "{semantic.font-size.heading.h3}",
+          "lineHeight": "{semantic.line-height.headline.h3}"
+        },
+        "type": "typography",
+        "description": "Level 3 Heading. Used for subsections within an H2 block. MUST NOT appear unless nested under an H2. Do NOT use H3 directly after H1 (skipping H2 is a WCAG violation)."
+      },
+      "h2": {
+        "value": {
+          "fontFamily": "{base.font-families.Geist}",
+          "fontWeight": "700",
+          "fontSize": "{semantic.font-size.heading.h2}",
+          "lineHeight": "{semantic.line-height.headline.h2}"
+        },
+        "type": "typography",
+        "description": "Level 2 Heading. Used for major sections within the page. MUST follow an H1 or be the start of a major section. Do NOT skip from H1 to H3. Acts as a container for H3 content."
+      },
+      "h1": {
+        "value": {
+          "fontFamily": "{base.font-families.Geist}",
+          "fontWeight": "700",
+          "fontSize": "{semantic.font-size.heading.h1}",
+          "lineHeight": "{semantic.line-height.headline.h1}"
+        },
+        "type": "typography",
+        "description": "Level 1 Heading. MUST serve as the unique page title. There MUST be exactly one H1 per page. Do NOT use for decorative text; use it solely for the main topic of the page."
+      }
+    },
+    "font-size": {
+      "text": {
+        "sm": {
+          "value": "round(( {base.font-size} * pow({base.type-scale}, -1))/2)*2",
+          "type": "fontSizes"
+        },
+        "base": {
+          "value": "{base.font-size}",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "round(({base.font-size}*pow({base.type-scale},1))/2)*2",
+          "type": "fontSizes"
+        }
+      },
+      "heading": {
+        "h6": {
+          "value": "round(( {base.font-size} * pow({base.type-scale}, 2))/2)*2",
+          "type": "fontSizes"
+        },
+        "h5": {
+          "value": "round(( {base.font-size} * pow({base.type-scale}, 3))/2)*2",
+          "type": "fontSizes"
+        },
+        "h4": {
+          "value": "round(( {base.font-size} * pow({base.type-scale}, 4))/2)*2",
+          "type": "fontSizes"
+        },
+        "h3": {
+          "value": "round(( {base.font-size} * pow({base.type-scale}, 5))/2)*2",
+          "type": "fontSizes"
+        },
+        "h2": {
+          "value": "round(( {base.font-size} * pow({base.type-scale}, 6))/2)*2",
+          "type": "fontSizes"
+        },
+        "h1": {
+          "value": "round(( {base.font-size} * pow({base.type-scale}, 7))/2)*2",
+          "type": "fontSizes"
+        }
+      }
+    },
+    "line-height": {
+      "text": {
+        "sm": {
+          "value": "round( {semantic.font-size.text.sm}  * {base.line-height-ratio.text} /4)*4",
+          "type": "lineHeights"
+        },
+        "base": {
+          "value": "round( {semantic.font-size.text.base}  * {base.line-height-ratio.text} /4)*4",
+          "type": "lineHeights"
+        },
+        "lg": {
+          "value": "round( {semantic.font-size.text.lg}  * {base.line-height-ratio.text} /4)*4",
+          "type": "lineHeights"
+        }
+      },
+      "headline": {
+        "h6": {
+          "value": "round( {semantic.font-size.heading.h6}  * {base.line-height-ratio.headline} /4)*4",
+          "type": "lineHeights"
+        },
+        "h5": {
+          "value": "round( {semantic.font-size.heading.h5}  * {base.line-height-ratio.headline} /4)*4",
+          "type": "lineHeights"
+        },
+        "h4": {
+          "value": "round( {semantic.font-size.heading.h4}  * {base.line-height-ratio.headline} /4)*4",
+          "type": "lineHeights"
+        },
+        "h3": {
+          "value": "round( {semantic.font-size.heading.h3}  * {base.line-height-ratio.headline} /4)*4",
+          "type": "lineHeights"
+        },
+        "h2": {
+          "value": "round( {semantic.font-size.heading.h2}  * {base.line-height-ratio.headline} /4)*4",
+          "type": "lineHeights"
+        },
+        "h1": {
+          "value": "round( {semantic.font-size.heading.h1}  * {base.line-height-ratio.headline} /4)*4",
+          "type": "lineHeights"
+        }
+      }
+    }
+  }
+}
