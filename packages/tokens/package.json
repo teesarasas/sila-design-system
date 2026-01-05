@@ -1,0 +1,11 @@
+{
+  "name": "@sila-ds/tokens",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "style-dictionary": "^4.0.0",
+    "@tokens-studio/sd-transforms": "^1.0.0"
+  }
+}
