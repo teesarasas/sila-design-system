@@ -1,0 +1,302 @@
+{
+  "color": {
+    "background": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Primary background color"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.gray.gray-100}",
+        "$description": "Secondary/subtle background color"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.gray.gray-200}",
+        "$description": "Tertiary background color"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.gray.gray-1000}",
+        "$description": "Inverse background for contrast"
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.blue.blue-700}",
+        "$description": "Brand/primary action background"
+      },
+      "brand-subtle": {
+        "$type": "color",
+        "$value": "{color.blue.blue-100}",
+        "$description": "Subtle brand background"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{color.green.green-700}",
+        "$description": "Success state background"
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "{color.green.green-100}",
+        "$description": "Subtle success background"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{color.yellow.yellow-700}",
+        "$description": "Warning state background"
+      },
+      "warning-subtle": {
+        "$type": "color",
+        "$value": "{color.yellow.yellow-100}",
+        "$description": "Subtle warning background"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{color.red.red-700}",
+        "$description": "Danger/error state background"
+      },
+      "danger-subtle": {
+        "$type": "color",
+        "$value": "{color.red.red-100}",
+        "$description": "Subtle danger background"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.gray.gray-200}",
+        "$description": "Disabled state background"
+      },
+      "overlay": {
+        "$type": "color",
+        "$value": "{color.black-alpha.black-alpha-500}",
+        "$description": "Overlay/modal backdrop"
+      },
+      "transparent": {
+        "$type": "color",
+        "$value": "{color.white-alpha.white-alpha-1000}"
+      },
+      "interactive": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.blue.blue-700}",
+          "$description": "Primary interactive color"
+        },
+        "primary-hover": {
+          "$type": "color",
+          "$value": "{color.blue.blue-800}",
+          "$description": "Primary interactive hover state"
+        },
+        "primary-active": {
+          "$type": "color",
+          "$value": "{color.blue.blue-900}",
+          "$description": "Primary interactive active state"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-100}",
+          "$description": "Secondary interactive color"
+        },
+        "secondary-hover": {
+          "$type": "color",
+          "$value": "{color.gray.gray-200}",
+          "$description": "Secondary interactive hover state"
+        },
+        "secondary-active": {
+          "$type": "color",
+          "$value": "{color.gray.gray-300}",
+          "$description": "Secondary interactive active state"
+        }
+      },
+      "status": {
+        "info": {
+          "$type": "color",
+          "$value": "{color.blue.blue-100}",
+          "$description": "Primary interactive color"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.green.green-100}",
+          "$description": "Primary interactive hover state"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{color.yellow.yellow-100}",
+          "$description": "Primary interactive active state"
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{color.red.red-100}",
+          "$description": "Secondary interactive color"
+        },
+        "neutral": {
+          "$type": "color",
+          "$value": "{color.gray.gray-100}",
+          "$description": "Secondary interactive hover state"
+        }
+      }
+    },
+    "foreground": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.gray.gray-900}",
+        "$description": "Primary text color - WCAG AA compliant"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.gray.gray-700}",
+        "$description": "Secondary text color - WCAG AA compliant"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{color.gray.gray-600}",
+        "$description": "Tertiary/muted text - WCAG AA for large text"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Inverse text for dark backgrounds"
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.blue.blue-700}",
+        "$description": "Brand colored text - WCAG AA compliant"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{color.green.green-700}",
+        "$description": "Success text color - WCAG AA compliant"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{color.orange.orange-700}",
+        "$description": "Warning text color - WCAG AA compliant"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{color.red.red-700}",
+        "$description": "Danger/error text - WCAG AA compliant"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.gray.gray-500}",
+        "$description": "Disabled text color - WCAG AA for large text"
+      },
+      "placeholder": {
+        "$type": "color",
+        "$value": "{color.gray.gray-500}",
+        "$description": "Placeholder text color"
+      },
+      "on-brand": {
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Text on brand background"
+      },
+      "on-success": {
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Text on success background"
+      },
+      "on-warning": {
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Text on warning background"
+      },
+      "on-danger": {
+        "$type": "color",
+        "$value": "{color.white}",
+        "$description": "Text on danger background"
+      },
+      "status": {
+        "info": {
+          "$type": "color",
+          "$value": "{color.blue.blue-700}"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.green.green-700}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{color.yellow.yellow-700}"
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{color.red.red-700}"
+        },
+        "neutral": {
+          "$type": "color",
+          "$value": "{color.gray.gray-700}"
+        }
+      }
+    },
+    "border": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.gray.gray-300}",
+        "$description": "Primary border color"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.gray.gray-200}",
+        "$description": "Secondary/subtle border"
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "{color.blue.blue-700}",
+        "$description": "Focus ring color - WCAG compliant"
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.blue.blue-600}",
+        "$description": "Brand border color"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "{color.green.green-600}",
+        "$description": "Success border color"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{color.orange.orange-600}",
+        "$description": "Warning border color"
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{color.red.red-600}",
+        "$description": "Danger border color"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.gray.gray-300}",
+        "$description": "Disabled border color"
+      },
+      "transparent": {
+        "$type": "color",
+        "$value": "{color.white-alpha.white-alpha-1000}",
+        "$description": "Transparent border color"
+      }
+    }
+  },
+  "opacity": {
+    "disabled": {
+      "$type": "number",
+      "$value": "{opacity.50}",
+      "$description": "Disabled state opacity"
+    },
+    "hover": {
+      "$type": "number",
+      "$value": "{opacity.80}",
+      "$description": "Hover state opacity"
+    },
+    "visible": {
+      "$type": "number",
+      "$value": "{opacity.100}",
+      "$description": "Fully visible"
+    },
+    "hidden": {
+      "$type": "number",
+      "$value": "{opacity.0}",
+      "$description": "Fully hidden"
+    }
+  }
+}

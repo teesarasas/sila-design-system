@@ -1,0 +1,24 @@
+{
+  "elevation": {
+    "low": {
+      "$type": "shadow",
+      "$value": "{elevation.sm}",
+      "$description": "Low elevation for subtle depth"
+    },
+    "medium": {
+      "$type": "shadow",
+      "$value": "{elevation.md}",
+      "$description": "Medium elevation for cards"
+    },
+    "high": {
+      "$type": "shadow",
+      "$value": "{elevation.lg}",
+      "$description": "High elevation for dropdowns"
+    },
+    "highest": {
+      "$type": "shadow",
+      "$value": "{elevation.xl}",
+      "$description": "Highest elevation for modals"
+    }
+  }
+}

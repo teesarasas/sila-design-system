@@ -1,64 +1,44 @@
 {
-  "semantic": {
-    "margin": {
-      "margin-3xs": {
-        "value": "round( {base.font-size} * {base.multiplier.100} /4)*4",
-        "type": "spacing"
-      },
-      "margin-2xs": {
-        "value": "round( {base.font-size} * {base.multiplier.200} /4)*4",
-        "type": "spacing"
-      },
-      "margin-xs": {
-        "value": "round( {base.font-size} * {base.multiplier.300} /4)*4",
-        "type": "spacing"
-      },
-      "margin-sm": {
-        "value": "round( {base.font-size} * {base.multiplier.400} /4)*4",
-        "type": "spacing"
-      },
-      "margin-md": {
-        "value": "round( {base.font-size} * {base.multiplier.500} /4)*4",
-        "type": "spacing"
-      },
-      "margin-lg": {
-        "value": "round( {base.font-size} * {base.multiplier.600} /4)*4",
-        "type": "spacing"
-      },
-      "margin-xl": {
-        "value": "round( {base.font-size} * {base.multiplier.700} /4)*4",
-        "type": "spacing"
-      },
-      "margin-2xl": {
-        "value": "round( {base.font-size} * {base.multiplier.800} /4)*4",
-        "type": "spacing"
-      },
-      "margin-3xl": {
-        "value": "round( {base.font-size} * {base.multiplier.900} /4)*4",
-        "type": "spacing"
-      }
+  "spacing": {
+    "none": {
+      "$type": "dimension",
+      "$value": "{spacing.0}",
+      "$description": "No spacing"
     },
-    "padding": {
-      "padding-sm": {
-        "value": "{base.dimension.8}",
-        "type": "spacing"
-      },
-      "padding-md": {
-        "value": "{base.dimension.12}",
-        "type": "spacing"
-      },
-      "padding-lg": {
-        "value": "{base.dimension.16}",
-        "type": "spacing"
-      },
-      "padding-xl": {
-        "value": "{base.dimension.24}",
-        "type": "spacing"
-      },
-      "padding-2xl": {
-        "value": "{base.dimension.48}",
-        "type": "spacing"
-      }
+    "xs": {
+      "$type": "dimension",
+      "$value": "{spacing.4px}",
+      "$description": "Extra small spacing"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "{spacing.8px}",
+      "$description": "Small spacing"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "{spacing.12px}",
+      "$description": "Medium spacing"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "{spacing.16px}",
+      "$description": "Large spacing"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "{spacing.24px}",
+      "$description": "Extra large spacing"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "{spacing.32px}",
+      "$description": "2x large spacing"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "{spacing.48px}",
+      "$description": "3x large spacing"
     }
   }
 }

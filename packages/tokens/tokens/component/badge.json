@@ -1,0 +1,78 @@
+{
+  "badge": {
+    "size": {
+      "font-size": {
+        "$type": "fontSizes",
+        "$value": "{typography.font-size.body-sm}"
+      },
+      "height": {
+        "$type": "sizing",
+        "$value": "{size.status.height.sm}"
+      }
+    },
+    "spacing": {
+      "padding-x": {
+        "$type": "spacing",
+        "$value": "{spacing.md}"
+      }
+    },
+    "info": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.background.status.info}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.foreground.status.info}"
+      }
+    },
+    "border-radius": {
+      "$type": "borderRadius",
+      "$value": "{radius.4px}"
+    },
+    "neutral": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.background.status.neutral}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.foreground.status.neutral}"
+      }
+    },
+    "success": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.background.status.success}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.foreground.status.success}"
+      }
+    },
+    "warning": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.background.status.warning}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.foreground.status.warning}"
+      }
+    },
+    "danger": {
+      "background": {
+        "$type": "color",
+        "$value": "{color.background.status.danger}"
+      },
+      "foreground": {
+        "$type": "color",
+        "$value": "{color.foreground.status.danger}"
+      }
+    },
+    "font-weight": {
+      "$type": "fontWeights",
+      "$value": "{typography.font-weight.medium}"
+    }
+  }
+}

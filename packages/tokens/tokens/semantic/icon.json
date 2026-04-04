@@ -1,0 +1,41 @@
+{
+  "icon": {
+    "size": {
+      "xs": {
+        "$type": "dimension",
+        "$value": "{size.12px}",
+        "$description": "12px - Extra small icons (inline with small text)"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{size.16px}",
+        "$description": "16px - Small icons (inline with body text)"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{size.20px}",
+        "$description": "20px - Medium icons (default for buttons)"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "{size.24px}",
+        "$description": "24px - Large icons (navigation, actions)"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{size.32px}",
+        "$description": "32px - Extra large icons (feature icons)"
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "{size.40px}",
+        "$description": "40px - 2x large icons (hero sections)"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "{size.48px}",
+        "$description": "48px - 3x large icons (illustrations)"
+      }
+    }
+  }
+}

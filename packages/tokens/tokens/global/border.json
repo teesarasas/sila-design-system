@@ -1,0 +1,26 @@
+{
+  "border": {
+    "width": {
+      "0px": {
+        "$type": "borderWidth",
+        "$value": "0",
+        "$description": "No border"
+      },
+      "1px": {
+        "$type": "borderWidth",
+        "$value": "1px",
+        "$description": "Thin border"
+      },
+      "2px": {
+        "$type": "borderWidth",
+        "$value": "2px",
+        "$description": "Medium border"
+      },
+      "4px": {
+        "$type": "borderWidth",
+        "$value": "4px",
+        "$description": "Thick border"
+      }
+    }
+  }
+}
