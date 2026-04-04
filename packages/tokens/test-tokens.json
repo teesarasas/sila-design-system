@@ -1,0 +1,2813 @@
+{
+  "global/color": {
+    "color": {
+      "white": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "black": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "white-alpha": {
+        "white-alpha-100": {
+          "$type": "color",
+          "$value": "#ffffff1a",
+          "$description": "White 10%"
+        },
+        "white-alpha-200": {
+          "$type": "color",
+          "$value": "#ffffff33",
+          "$description": "White 20%"
+        },
+        "white-alpha-300": {
+          "$type": "color",
+          "$value": "#ffffff4d",
+          "$description": "White 30%"
+        },
+        "white-alpha-400": {
+          "$type": "color",
+          "$value": "#ffffff66",
+          "$description": "White 40%"
+        },
+        "white-alpha-500": {
+          "$type": "color",
+          "$value": "#ffffff80",
+          "$description": "White 50% (Medium)"
+        },
+        "white-alpha-600": {
+          "$type": "color",
+          "$value": "#ffffff99",
+          "$description": "White 60%"
+        },
+        "white-alpha-700": {
+          "$type": "color",
+          "$value": "#ffffffb3",
+          "$description": "White 70%"
+        },
+        "white-alpha-800": {
+          "$type": "color",
+          "$value": "#ffffffcc",
+          "$description": "White 80%"
+        },
+        "white-alpha-900": {
+          "$type": "color",
+          "$value": "#ffffffe6",
+          "$description": "White 90%"
+        },
+        "white-alpha-1000": {
+          "$type": "color",
+          "$value": "#ffffff00",
+          "$description": "transparent"
+        }
+      },
+      "black-alpha": {
+        "black-alpha-100": {
+          "$type": "color",
+          "$value": "#0000001a",
+          "$description": "Black 10%"
+        },
+        "black-alpha-200": {
+          "$type": "color",
+          "$value": "#00000033",
+          "$description": "Black 20%"
+        },
+        "black-alpha-300": {
+          "$type": "color",
+          "$value": "#0000004d",
+          "$description": "Black 30%"
+        },
+        "black-alpha-400": {
+          "$type": "color",
+          "$value": "#00000066",
+          "$description": "Black 40%"
+        },
+        "black-alpha-500": {
+          "$type": "color",
+          "$value": "#00000080",
+          "$description": "Black 50% (Medium)"
+        },
+        "black-alpha-600": {
+          "$type": "color",
+          "$value": "#00000099",
+          "$description": "Black 60%"
+        },
+        "black-alpha-700": {
+          "$type": "color",
+          "$value": "#000000b3",
+          "$description": "Black 70%"
+        },
+        "black-alpha-800": {
+          "$type": "color",
+          "$value": "#000000cc",
+          "$description": "Black 80%"
+        },
+        "black-alpha-900": {
+          "$type": "color",
+          "$value": "#000000e6",
+          "$description": "Black 90%"
+        },
+        "black-alpha-1000": {
+          "$type": "color",
+          "$value": "#00000000",
+          "$description": "transparent"
+        }
+      },
+      "gray": {
+        "gray-100": {
+          "$type": "color",
+          "$value": "#f7f7f7",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff"
+        },
+        "gray-200": {
+          "$type": "color",
+          "$value": "#dddddd",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff"
+        },
+        "gray-300": {
+          "$type": "color",
+          "$value": "#c4c4c4",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff"
+        },
+        "gray-400": {
+          "$type": "color",
+          "$value": "#ababab",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff"
+        },
+        "gray-500": {
+          "$type": "color",
+          "$value": "#939393",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff"
+        },
+        "gray-600": {
+          "$type": "color",
+          "$value": "#7c7c7c",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff"
+        },
+        "gray-700": {
+          "$type": "color",
+          "$value": "#656565",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff"
+        },
+        "gray-800": {
+          "$type": "color",
+          "$value": "#4f4f4f",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff"
+        },
+        "gray-900": {
+          "$type": "color",
+          "$value": "#3b3b3b",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff"
+        },
+        "gray-1000": {
+          "$type": "color",
+          "$value": "#272727",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff"
+        }
+      },
+      "indigo": {
+        "indigo-100": {
+          "$type": "color",
+          "$value": "#f6f7f9",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff"
+        },
+        "indigo-200": {
+          "$type": "color",
+          "$value": "#d7dde5",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff"
+        },
+        "indigo-300": {
+          "$type": "color",
+          "$value": "#bcc5d2",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff"
+        },
+        "indigo-400": {
+          "$type": "color",
+          "$value": "#9facbe",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff"
+        },
+        "indigo-500": {
+          "$type": "color",
+          "$value": "#8494ab",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff"
+        },
+        "indigo-600": {
+          "$type": "color",
+          "$value": "#6a7d99",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff"
+        },
+        "indigo-700": {
+          "$type": "color",
+          "$value": "#506686",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff"
+        },
+        "indigo-800": {
+          "$type": "color",
+          "$value": "#385073",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff"
+        },
+        "indigo-900": {
+          "$type": "color",
+          "$value": "#203b62",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff"
+        },
+        "indigo-1000": {
+          "$type": "color",
+          "$value": "#0b264c",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff"
+        }
+      },
+      "neutral": {
+        "neutral-100": {
+          "$type": "color",
+          "$value": "#f7f7f8",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff"
+        },
+        "neutral-200": {
+          "$type": "color",
+          "$value": "#dbdde0",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff"
+        },
+        "neutral-300": {
+          "$type": "color",
+          "$value": "#c1c4c9",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff"
+        },
+        "neutral-400": {
+          "$type": "color",
+          "$value": "#a6abb1",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff"
+        },
+        "neutral-500": {
+          "$type": "color",
+          "$value": "#8e939b",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff"
+        },
+        "neutral-600": {
+          "$type": "color",
+          "$value": "#767d86",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff"
+        },
+        "neutral-700": {
+          "$type": "color",
+          "$value": "#5e6570",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff"
+        },
+        "neutral-800": {
+          "$type": "color",
+          "$value": "#484f5a",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff"
+        },
+        "neutral-900": {
+          "$type": "color",
+          "$value": "#343b46",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff"
+        },
+        "neutral-1000": {
+          "$type": "color",
+          "$value": "#212731",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff"
+        }
+      },
+      "blue": {
+        "blue-100": {
+          "$type": "color",
+          "$value": "#f4f8fe",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff"
+        },
+        "blue-200": {
+          "$type": "color",
+          "$value": "#ceddf9",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff"
+        },
+        "blue-300": {
+          "$type": "color",
+          "$value": "#acc5f4",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff"
+        },
+        "blue-400": {
+          "$type": "color",
+          "$value": "#89abed",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff"
+        },
+        "blue-500": {
+          "$type": "color",
+          "$value": "#6792e6",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff"
+        },
+        "blue-600": {
+          "$type": "color",
+          "$value": "#4778de",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff"
+        },
+        "blue-700": {
+          "$type": "color",
+          "$value": "#255cd5",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff"
+        },
+        "blue-800": {
+          "$type": "color",
+          "$value": "#0340c7",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff"
+        },
+        "blue-900": {
+          "$type": "color",
+          "$value": "#0025ae",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff"
+        },
+        "blue-1000": {
+          "$type": "color",
+          "$value": "#000090",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff"
+        }
+      },
+      "orange": {
+        "orange-100": {
+          "$type": "color",
+          "$value": "#fbf5f4",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff"
+        },
+        "orange-200": {
+          "$type": "color",
+          "$value": "#f1d6d3",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff"
+        },
+        "orange-300": {
+          "$type": "color",
+          "$value": "#e7bab5",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff"
+        },
+        "orange-400": {
+          "$type": "color",
+          "$value": "#db9b93",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff"
+        },
+        "orange-500": {
+          "$type": "color",
+          "$value": "#d17c72",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff"
+        },
+        "orange-600": {
+          "$type": "color",
+          "$value": "#c55c50",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff"
+        },
+        "orange-700": {
+          "$type": "color",
+          "$value": "#b83627",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff"
+        },
+        "orange-800": {
+          "$type": "color",
+          "$value": "#9f1100",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff"
+        },
+        "orange-900": {
+          "$type": "color",
+          "$value": "#790d00",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff"
+        },
+        "orange-1000": {
+          "$type": "color",
+          "$value": "#520900",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff"
+        }
+      },
+      "green": {
+        "green-100": {
+          "$type": "color",
+          "$value": "#f5f8f6",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff"
+        },
+        "green-200": {
+          "$type": "color",
+          "$value": "#d1e1d7",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff"
+        },
+        "green-300": {
+          "$type": "color",
+          "$value": "#afcbb9",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff"
+        },
+        "green-400": {
+          "$type": "color",
+          "$value": "#8bb49b",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff"
+        },
+        "green-500": {
+          "$type": "color",
+          "$value": "#6a9e7e",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff"
+        },
+        "green-600": {
+          "$type": "color",
+          "$value": "#498961",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff"
+        },
+        "green-700": {
+          "$type": "color",
+          "$value": "#267243",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff"
+        },
+        "green-800": {
+          "$type": "color",
+          "$value": "#0c5c2a",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff"
+        },
+        "green-900": {
+          "$type": "color",
+          "$value": "#09441f",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff"
+        },
+        "green-1000": {
+          "$type": "color",
+          "$value": "#062d15",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff"
+        }
+      },
+      "red": {
+        "red-100": {
+          "$type": "color",
+          "$value": "#fbf6f6",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff"
+        },
+        "red-200": {
+          "$type": "color",
+          "$value": "#ecd8d8",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff"
+        },
+        "red-300": {
+          "$type": "color",
+          "$value": "#dfbcbc",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff"
+        },
+        "red-400": {
+          "$type": "color",
+          "$value": "#d19e9e",
+          "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff"
+        },
+        "red-500": {
+          "$type": "color",
+          "$value": "#c48181",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff"
+        },
+        "red-600": {
+          "$type": "color",
+          "$value": "#b66565",
+          "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff"
+        },
+        "red-700": {
+          "$type": "color",
+          "$value": "#a84545",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff"
+        },
+        "red-800": {
+          "$type": "color",
+          "$value": "#902a2a",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff"
+        },
+        "red-900": {
+          "$type": "color",
+          "$value": "#6d1f1f",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff"
+        },
+        "red-1000": {
+          "$type": "color",
+          "$value": "#491515",
+          "$description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff"
+        }
+      }
+    }
+  },
+  "global/typography": {
+    "typography": {
+      "font-family": {
+        "sans": {
+          "$type": "fontFamily",
+          "$value": "Geist, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+          "$description": "Primary sans-serif font stack with Geist"
+        },
+        "mono": {
+          "$type": "fontFamily",
+          "$value": "Geist Mono, ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace",
+          "$description": "Monospace font stack with Geist Mono"
+        }
+      },
+      "font-weight": {
+        "regular": {
+          "$type": "fontWeight",
+          "$value": 400,
+          "$description": "Regular weight for body text"
+        },
+        "medium": {
+          "$type": "fontWeight",
+          "$value": 500,
+          "$description": "Medium weight for emphasis"
+        },
+        "semibold": {
+          "$type": "fontWeight",
+          "$value": 600,
+          "$description": "Semibold weight for headings"
+        },
+        "bold": {
+          "$type": "fontWeight",
+          "$value": 700,
+          "$description": "Bold weight for strong emphasis"
+        }
+      },
+      "font-size": {
+        "xs": {
+          "$type": "dimension",
+          "$value": "0.75rem",
+          "$description": "12px - Extra small text"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "0.875rem",
+          "$description": "14px - Small text"
+        },
+        "base": {
+          "$type": "dimension",
+          "$value": "1rem",
+          "$description": "16px - Base body text"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "1.125rem",
+          "$description": "18px - Large text"
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": "1.25rem",
+          "$description": "20px - Extra large text"
+        },
+        "2xl": {
+          "$type": "dimension",
+          "$value": "1.5rem",
+          "$description": "24px - Heading 4"
+        },
+        "3xl": {
+          "$type": "dimension",
+          "$value": "1.875rem",
+          "$description": "30px - Heading 3"
+        },
+        "4xl": {
+          "$type": "dimension",
+          "$value": "2.25rem",
+          "$description": "36px - Heading 2"
+        },
+        "5xl": {
+          "$type": "dimension",
+          "$value": "3rem",
+          "$description": "48px - Heading 1"
+        },
+        "6xl": {
+          "$type": "dimension",
+          "$value": "3.75rem",
+          "$description": "60px - Display text"
+        }
+      },
+      "line-height": {
+        "none": {
+          "$type": "number",
+          "$value": 1,
+          "$description": "No extra line height"
+        },
+        "tight": {
+          "$type": "number",
+          "$value": 1.25,
+          "$description": "Tight line height for headings"
+        },
+        "snug": {
+          "$type": "number",
+          "$value": 1.375,
+          "$description": "Snug line height"
+        },
+        "normal": {
+          "$type": "number",
+          "$value": 1.5,
+          "$description": "Normal line height for body text"
+        },
+        "relaxed": {
+          "$type": "number",
+          "$value": 1.625,
+          "$description": "Relaxed line height for readability"
+        },
+        "loose": {
+          "$type": "number",
+          "$value": 2,
+          "$description": "Loose line height"
+        }
+      },
+      "letter-spacing": {
+        "tighter": {
+          "$type": "dimension",
+          "$value": "-0.05em",
+          "$description": "Tighter letter spacing for large headings"
+        },
+        "tight": {
+          "$type": "dimension",
+          "$value": "-0.025em",
+          "$description": "Tight letter spacing"
+        },
+        "normal": {
+          "$type": "dimension",
+          "$value": "0em",
+          "$description": "Normal letter spacing"
+        },
+        "wide": {
+          "$type": "dimension",
+          "$value": "0.025em",
+          "$description": "Wide letter spacing"
+        },
+        "wider": {
+          "$type": "dimension",
+          "$value": "0.05em",
+          "$description": "Wider letter spacing"
+        },
+        "widest": {
+          "$type": "dimension",
+          "$value": "0.1em",
+          "$description": "Widest letter spacing for all caps"
+        }
+      }
+    }
+  },
+  "global/spacing": {
+    "spacing": {
+      "0": {
+        "$type": "dimension",
+        "$value": "0",
+        "$description": "No spacing"
+      },
+      "1": {
+        "$type": "dimension",
+        "$value": "0.25rem",
+        "$description": "4px"
+      },
+      "2": {
+        "$type": "dimension",
+        "$value": "0.5rem",
+        "$description": "8px"
+      },
+      "3": {
+        "$type": "dimension",
+        "$value": "0.75rem",
+        "$description": "12px"
+      },
+      "4": {
+        "$type": "dimension",
+        "$value": "1rem",
+        "$description": "16px"
+      },
+      "5": {
+        "$type": "dimension",
+        "$value": "1.25rem",
+        "$description": "20px"
+      },
+      "6": {
+        "$type": "dimension",
+        "$value": "1.5rem",
+        "$description": "24px"
+      },
+      "8": {
+        "$type": "dimension",
+        "$value": "2rem",
+        "$description": "32px"
+      },
+      "10": {
+        "$type": "dimension",
+        "$value": "2.5rem",
+        "$description": "40px"
+      },
+      "12": {
+        "$type": "dimension",
+        "$value": "3rem",
+        "$description": "48px"
+      },
+      "16": {
+        "$type": "dimension",
+        "$value": "4rem",
+        "$description": "64px"
+      },
+      "20": {
+        "$type": "dimension",
+        "$value": "5rem",
+        "$description": "80px"
+      },
+      "24": {
+        "$type": "dimension",
+        "$value": "6rem",
+        "$description": "96px"
+      }
+    }
+  },
+  "global/radius": {
+    "radius": {
+      "none": {
+        "$type": "dimension",
+        "$value": "0",
+        "$description": "No border radius"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "0.125rem",
+        "$description": "2px - Small radius"
+      },
+      "base": {
+        "$type": "dimension",
+        "$value": "0.25rem",
+        "$description": "4px - Default radius"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "0.375rem",
+        "$description": "6px - Medium radius"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "0.5rem",
+        "$description": "8px - Large radius"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "0.75rem",
+        "$description": "12px - Extra large radius"
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "1rem",
+        "$description": "16px - 2x large radius"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "1.5rem",
+        "$description": "24px - 3x large radius"
+      },
+      "full": {
+        "$type": "dimension",
+        "$value": "9999px",
+        "$description": "Full/pill radius"
+      }
+    }
+  },
+  "global/border": {
+    "border": {
+      "width": {
+        "none": {
+          "$type": "dimension",
+          "$value": "0",
+          "$description": "No border"
+        },
+        "thin": {
+          "$type": "dimension",
+          "$value": "1px",
+          "$description": "Thin border"
+        },
+        "medium": {
+          "$type": "dimension",
+          "$value": "2px",
+          "$description": "Medium border"
+        },
+        "thick": {
+          "$type": "dimension",
+          "$value": "4px",
+          "$description": "Thick border"
+        }
+      }
+    }
+  },
+  "global/opacity": {
+    "opacity": {
+      "0": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "Fully transparent"
+      },
+      "5": {
+        "$type": "number",
+        "$value": 0.05,
+        "$description": "5% opacity"
+      },
+      "10": {
+        "$type": "number",
+        "$value": 0.1,
+        "$description": "10% opacity"
+      },
+      "20": {
+        "$type": "number",
+        "$value": 0.2,
+        "$description": "20% opacity"
+      },
+      "25": {
+        "$type": "number",
+        "$value": 0.25,
+        "$description": "25% opacity"
+      },
+      "30": {
+        "$type": "number",
+        "$value": 0.3,
+        "$description": "30% opacity"
+      },
+      "40": {
+        "$type": "number",
+        "$value": 0.4,
+        "$description": "40% opacity"
+      },
+      "50": {
+        "$type": "number",
+        "$value": 0.5,
+        "$description": "50% opacity"
+      },
+      "60": {
+        "$type": "number",
+        "$value": 0.6,
+        "$description": "60% opacity"
+      },
+      "70": {
+        "$type": "number",
+        "$value": 0.7,
+        "$description": "70% opacity"
+      },
+      "75": {
+        "$type": "number",
+        "$value": 0.75,
+        "$description": "75% opacity"
+      },
+      "80": {
+        "$type": "number",
+        "$value": 0.8,
+        "$description": "80% opacity"
+      },
+      "90": {
+        "$type": "number",
+        "$value": 0.9,
+        "$description": "90% opacity"
+      },
+      "95": {
+        "$type": "number",
+        "$value": 0.95,
+        "$description": "95% opacity"
+      },
+      "100": {
+        "$type": "number",
+        "$value": 1,
+        "$description": "Fully opaque"
+      }
+    }
+  },
+  "global/elevation": {
+    "elevation": {
+      "none": {
+        "$type": "shadow",
+        "$value": "none",
+        "$description": "No shadow"
+      },
+      "xs": {
+        "$type": "shadow",
+        "$value": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+        "$description": "Extra small shadow"
+      },
+      "sm": {
+        "$type": "shadow",
+        "$value": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+        "$description": "Small shadow"
+      },
+      "md": {
+        "$type": "shadow",
+        "$value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "$description": "Medium shadow"
+      },
+      "lg": {
+        "$type": "shadow",
+        "$value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "$description": "Large shadow"
+      },
+      "xl": {
+        "$type": "shadow",
+        "$value": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+        "$description": "Extra large shadow"
+      },
+      "2xl": {
+        "$type": "shadow",
+        "$value": "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+        "$description": "2x large shadow"
+      }
+    }
+  },
+  "global/icon": {
+    "icon": {
+      "size": {
+        "xs": {
+          "$type": "dimension",
+          "$value": "0.75rem",
+          "$description": "12px - Extra small icons (inline with small text)"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "1rem",
+          "$description": "16px - Small icons (inline with body text)"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "1.25rem",
+          "$description": "20px - Medium icons (default for buttons)"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "1.5rem",
+          "$description": "24px - Large icons (navigation, actions)"
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": "2rem",
+          "$description": "32px - Extra large icons (feature icons)"
+        },
+        "2xl": {
+          "$type": "dimension",
+          "$value": "2.5rem",
+          "$description": "40px - 2x large icons (hero sections)"
+        },
+        "3xl": {
+          "$type": "dimension",
+          "$value": "3rem",
+          "$description": "48px - 3x large icons (illustrations)"
+        }
+      },
+      "stroke-width": {
+        "thin": {
+          "$type": "dimension",
+          "$value": "1px",
+          "$description": "Thin stroke for larger icons"
+        },
+        "regular": {
+          "$type": "dimension",
+          "$value": "1.5px",
+          "$description": "Regular stroke width (default)"
+        },
+        "bold": {
+          "$type": "dimension",
+          "$value": "2px",
+          "$description": "Bold stroke for emphasis"
+        }
+      }
+    }
+  },
+  "global/size": {
+    "size": {
+      "0": {
+        "$type": "dimension",
+        "$value": "0",
+        "$description": "No size"
+      },
+      "1": {
+        "$type": "dimension",
+        "$value": "0.25rem",
+        "$description": "4px"
+      },
+      "2": {
+        "$type": "dimension",
+        "$value": "0.5rem",
+        "$description": "8px"
+      },
+      "3": {
+        "$type": "dimension",
+        "$value": "0.75rem",
+        "$description": "12px"
+      },
+      "4": {
+        "$type": "dimension",
+        "$value": "1rem",
+        "$description": "16px"
+      },
+      "5": {
+        "$type": "dimension",
+        "$value": "1.25rem",
+        "$description": "20px"
+      },
+      "6": {
+        "$type": "dimension",
+        "$value": "1.5rem",
+        "$description": "24px"
+      },
+      "8": {
+        "$type": "dimension",
+        "$value": "2rem",
+        "$description": "32px"
+      },
+      "10": {
+        "$type": "dimension",
+        "$value": "2.5rem",
+        "$description": "40px"
+      },
+      "12": {
+        "$type": "dimension",
+        "$value": "3rem",
+        "$description": "48px"
+      },
+      "16": {
+        "$type": "dimension",
+        "$value": "4rem",
+        "$description": "64px"
+      },
+      "20": {
+        "$type": "dimension",
+        "$value": "5rem",
+        "$description": "80px"
+      },
+      "24": {
+        "$type": "dimension",
+        "$value": "6rem",
+        "$description": "96px"
+      },
+      "32": {
+        "$type": "dimension",
+        "$value": "8rem",
+        "$description": "128px"
+      },
+      "40": {
+        "$type": "dimension",
+        "$value": "10rem",
+        "$description": "160px"
+      },
+      "48": {
+        "$type": "dimension",
+        "$value": "12rem",
+        "$description": "192px"
+      },
+      "56": {
+        "$type": "dimension",
+        "$value": "14rem",
+        "$description": "224px"
+      },
+      "64": {
+        "$type": "dimension",
+        "$value": "16rem",
+        "$description": "256px"
+      },
+      "full": {
+        "$type": "dimension",
+        "$value": "100%",
+        "$description": "Full width/height"
+      },
+      "screen": {
+        "$type": "dimension",
+        "$value": "100vh",
+        "$description": "Full viewport height"
+      }
+    }
+  },
+  "semantic/light": {
+    "color": {
+      "background": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "Primary background color"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-100}",
+          "$description": "Secondary/subtle background color"
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-200}",
+          "$description": "Tertiary background color"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{color.gray.gray-1000}",
+          "$description": "Inverse background for contrast"
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{color.blue.blue-700}",
+          "$description": "Brand/primary action background"
+        },
+        "brand-subtle": {
+          "$type": "color",
+          "$value": "{color.blue.blue-100}",
+          "$description": "Subtle brand background"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.green.green-700}",
+          "$description": "Success state background"
+        },
+        "success-subtle": {
+          "$type": "color",
+          "$value": "{color.green.green-100}",
+          "$description": "Subtle success background"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{color.orange.orange-700}",
+          "$description": "Warning state background"
+        },
+        "warning-subtle": {
+          "$type": "color",
+          "$value": "{color.orange.orange-100}",
+          "$description": "Subtle warning background"
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{color.red.red-700}",
+          "$description": "Danger/error state background"
+        },
+        "danger-subtle": {
+          "$type": "color",
+          "$value": "{color.red.red-100}",
+          "$description": "Subtle danger background"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.gray.gray-200}",
+          "$description": "Disabled state background"
+        },
+        "overlay": {
+          "$type": "color",
+          "$value": "{color.black-alpha.black-alpha-500}",
+          "$description": "Overlay/modal backdrop"
+        }
+      },
+      "foreground": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-1000}",
+          "$description": "Primary text color - WCAG AA compliant"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-700}",
+          "$description": "Secondary text color - WCAG AA compliant"
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-600}",
+          "$description": "Tertiary/muted text - WCAG AA for large text"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "Inverse text for dark backgrounds"
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{color.blue.blue-700}",
+          "$description": "Brand colored text - WCAG AA compliant"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.green.green-700}",
+          "$description": "Success text color - WCAG AA compliant"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{color.orange.orange-800}",
+          "$description": "Warning text color - WCAG AA compliant"
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{color.red.red-700}",
+          "$description": "Danger/error text - WCAG AA compliant"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.gray.gray-500}",
+          "$description": "Disabled text color - WCAG AA for large text"
+        },
+        "placeholder": {
+          "$type": "color",
+          "$value": "{color.gray.gray-500}",
+          "$description": "Placeholder text color"
+        },
+        "on-brand": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "Text on brand background"
+        },
+        "on-success": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "Text on success background"
+        },
+        "on-warning": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "Text on warning background"
+        },
+        "on-danger": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "Text on danger background"
+        }
+      },
+      "border": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-300}",
+          "$description": "Primary border color"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-200}",
+          "$description": "Secondary/subtle border"
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "{color.blue.blue-600}",
+          "$description": "Focus ring color - WCAG compliant"
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{color.blue.blue-600}",
+          "$description": "Brand border color"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.green.green-600}",
+          "$description": "Success border color"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{color.orange.orange-600}",
+          "$description": "Warning border color"
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{color.red.red-600}",
+          "$description": "Danger border color"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.gray.gray-300}",
+          "$description": "Disabled border color"
+        }
+      },
+      "interactive": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.blue.blue-700}",
+          "$description": "Primary interactive color"
+        },
+        "primary-hover": {
+          "$type": "color",
+          "$value": "{color.blue.blue-800}",
+          "$description": "Primary interactive hover state"
+        },
+        "primary-active": {
+          "$type": "color",
+          "$value": "{color.blue.blue-900}",
+          "$description": "Primary interactive active state"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-700}",
+          "$description": "Secondary interactive color"
+        },
+        "secondary-hover": {
+          "$type": "color",
+          "$value": "{color.gray.gray-800}",
+          "$description": "Secondary interactive hover state"
+        },
+        "secondary-active": {
+          "$type": "color",
+          "$value": "{color.gray.gray-900}",
+          "$description": "Secondary interactive active state"
+        }
+      }
+    },
+    "typography": {
+      "font-family": {
+        "body": {
+          "$type": "fontFamily",
+          "$value": "{typography.font-family.sans}",
+          "$description": "Body text font family"
+        },
+        "heading": {
+          "$type": "fontFamily",
+          "$value": "{typography.font-family.sans}",
+          "$description": "Heading font family"
+        },
+        "code": {
+          "$type": "fontFamily",
+          "$value": "{typography.font-family.mono}",
+          "$description": "Code/monospace font family"
+        }
+      },
+      "font-size": {
+        "body-sm": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.sm}",
+          "$description": "Small body text size"
+        },
+        "body-base": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.base}",
+          "$description": "Base body text size"
+        },
+        "body-lg": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.lg}",
+          "$description": "Large body text size"
+        },
+        "heading-sm": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.xl}",
+          "$description": "Small heading size"
+        },
+        "heading-base": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.2xl}",
+          "$description": "Base heading size"
+        },
+        "heading-lg": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.3xl}",
+          "$description": "Large heading size"
+        },
+        "heading-xl": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.4xl}",
+          "$description": "Extra large heading size"
+        },
+        "display": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.5xl}",
+          "$description": "Display text size"
+        },
+        "caption": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.xs}",
+          "$description": "Caption/helper text size"
+        }
+      },
+      "font-weight": {
+        "body": {
+          "$type": "fontWeight",
+          "$value": "{typography.font-weight.regular}",
+          "$description": "Body text weight"
+        },
+        "body-strong": {
+          "$type": "fontWeight",
+          "$value": "{typography.font-weight.medium}",
+          "$description": "Emphasized body text weight"
+        },
+        "heading": {
+          "$type": "fontWeight",
+          "$value": "{typography.font-weight.semibold}",
+          "$description": "Heading weight"
+        },
+        "display": {
+          "$type": "fontWeight",
+          "$value": "{typography.font-weight.bold}",
+          "$description": "Display text weight"
+        }
+      },
+      "line-height": {
+        "body": {
+          "$type": "number",
+          "$value": "{typography.line-height.normal}",
+          "$description": "Body text line height"
+        },
+        "heading": {
+          "$type": "number",
+          "$value": "{typography.line-height.tight}",
+          "$description": "Heading line height"
+        },
+        "display": {
+          "$type": "number",
+          "$value": "{typography.line-height.none}",
+          "$description": "Display text line height"
+        }
+      },
+      "letter-spacing": {
+        "body": {
+          "$type": "dimension",
+          "$value": "{typography.letter-spacing.normal}",
+          "$description": "Body text letter spacing"
+        },
+        "heading": {
+          "$type": "dimension",
+          "$value": "{typography.letter-spacing.tight}",
+          "$description": "Heading letter spacing"
+        },
+        "display": {
+          "$type": "dimension",
+          "$value": "{typography.letter-spacing.tighter}",
+          "$description": "Display text letter spacing"
+        }
+      }
+    },
+    "spacing": {
+      "none": {
+        "$type": "dimension",
+        "$value": "{spacing.0}",
+        "$description": "No spacing"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "{spacing.1}",
+        "$description": "Extra small spacing"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{spacing.2}",
+        "$description": "Small spacing"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{spacing.4}",
+        "$description": "Medium spacing"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "{spacing.6}",
+        "$description": "Large spacing"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{spacing.8}",
+        "$description": "Extra large spacing"
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "{spacing.12}",
+        "$description": "2x large spacing"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "{spacing.16}",
+        "$description": "3x large spacing"
+      }
+    },
+    "radius": {
+      "none": {
+        "$type": "dimension",
+        "$value": "{radius.none}",
+        "$description": "No border radius"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{radius.sm}",
+        "$description": "Small radius"
+      },
+      "base": {
+        "$type": "dimension",
+        "$value": "{radius.base}",
+        "$description": "Default radius"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{radius.md}",
+        "$description": "Medium radius"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "{radius.lg}",
+        "$description": "Large radius"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{radius.xl}",
+        "$description": "Extra large radius"
+      },
+      "full": {
+        "$type": "dimension",
+        "$value": "{radius.full}",
+        "$description": "Full/pill radius"
+      }
+    },
+    "border": {
+      "width": {
+        "none": {
+          "$type": "dimension",
+          "$value": "{border.width.none}",
+          "$description": "No border"
+        },
+        "thin": {
+          "$type": "dimension",
+          "$value": "{border.width.thin}",
+          "$description": "Thin border"
+        },
+        "medium": {
+          "$type": "dimension",
+          "$value": "{border.width.medium}",
+          "$description": "Medium border"
+        },
+        "thick": {
+          "$type": "dimension",
+          "$value": "{border.width.thick}",
+          "$description": "Thick border"
+        }
+      }
+    },
+    "elevation": {
+      "none": {
+        "$type": "shadow",
+        "$value": "{elevation.none}",
+        "$description": "No elevation"
+      },
+      "low": {
+        "$type": "shadow",
+        "$value": "{elevation.sm}",
+        "$description": "Low elevation for subtle depth"
+      },
+      "medium": {
+        "$type": "shadow",
+        "$value": "{elevation.md}",
+        "$description": "Medium elevation for cards"
+      },
+      "high": {
+        "$type": "shadow",
+        "$value": "{elevation.lg}",
+        "$description": "High elevation for dropdowns"
+      },
+      "highest": {
+        "$type": "shadow",
+        "$value": "{elevation.xl}",
+        "$description": "Highest elevation for modals"
+      }
+    },
+    "opacity": {
+      "disabled": {
+        "$type": "number",
+        "$value": "{opacity.50}",
+        "$description": "Disabled state opacity"
+      },
+      "hover": {
+        "$type": "number",
+        "$value": "{opacity.80}",
+        "$description": "Hover state opacity"
+      },
+      "visible": {
+        "$type": "number",
+        "$value": "{opacity.100}",
+        "$description": "Fully visible"
+      },
+      "hidden": {
+        "$type": "number",
+        "$value": "{opacity.0}",
+        "$description": "Fully hidden"
+      }
+    }
+  },
+  "semantic/dark": {
+    "color": {
+      "background": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-1000}",
+          "$description": "Primary background color"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-900}",
+          "$description": "Secondary/subtle background color"
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-800}",
+          "$description": "Tertiary background color"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "Inverse background for contrast"
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{color.blue.blue-600}",
+          "$description": "Brand/primary action background"
+        },
+        "brand-subtle": {
+          "$type": "color",
+          "$value": "{color.blue.blue-900}",
+          "$description": "Subtle brand background"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.green.green-600}",
+          "$description": "Success state background"
+        },
+        "success-subtle": {
+          "$type": "color",
+          "$value": "{color.green.green-900}",
+          "$description": "Subtle success background"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{color.orange.orange-600}",
+          "$description": "Warning state background"
+        },
+        "warning-subtle": {
+          "$type": "color",
+          "$value": "{color.orange.orange-900}",
+          "$description": "Subtle warning background"
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{color.red.red-600}",
+          "$description": "Danger/error state background"
+        },
+        "danger-subtle": {
+          "$type": "color",
+          "$value": "{color.red.red-900}",
+          "$description": "Subtle danger background"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.gray.gray-800}",
+          "$description": "Disabled state background"
+        },
+        "overlay": {
+          "$type": "color",
+          "$value": "{color.black-alpha.black-alpha-700}",
+          "$description": "Overlay/modal backdrop"
+        }
+      },
+      "foreground": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "Primary text color - WCAG AA compliant"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-300}",
+          "$description": "Secondary text color - WCAG AA compliant"
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-400}",
+          "$description": "Tertiary/muted text - WCAG AA for large text"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{color.gray.gray-1000}",
+          "$description": "Inverse text for light backgrounds"
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{color.blue.blue-400}",
+          "$description": "Brand colored text - WCAG AA compliant"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.green.green-400}",
+          "$description": "Success text color - WCAG AA compliant"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{color.orange.orange-400}",
+          "$description": "Warning text color - WCAG AA compliant"
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{color.red.red-400}",
+          "$description": "Danger/error text - WCAG AA compliant"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.gray.gray-600}",
+          "$description": "Disabled text color"
+        },
+        "placeholder": {
+          "$type": "color",
+          "$value": "{color.gray.gray-500}",
+          "$description": "Placeholder text color"
+        },
+        "on-brand": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "Text on brand background"
+        },
+        "on-success": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "Text on success background"
+        },
+        "on-warning": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "Text on warning background"
+        },
+        "on-danger": {
+          "$type": "color",
+          "$value": "{color.white}",
+          "$description": "Text on danger background"
+        }
+      },
+      "border": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-700}",
+          "$description": "Primary border color"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-800}",
+          "$description": "Secondary/subtle border"
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "{color.blue.blue-500}",
+          "$description": "Focus ring color - WCAG compliant"
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{color.blue.blue-500}",
+          "$description": "Brand border color"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.green.green-500}",
+          "$description": "Success border color"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{color.orange.orange-500}",
+          "$description": "Warning border color"
+        },
+        "danger": {
+          "$type": "color",
+          "$value": "{color.red.red-500}",
+          "$description": "Danger border color"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.gray.gray-700}",
+          "$description": "Disabled border color"
+        }
+      },
+      "interactive": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.blue.blue-500}",
+          "$description": "Primary interactive color"
+        },
+        "primary-hover": {
+          "$type": "color",
+          "$value": "{color.blue.blue-400}",
+          "$description": "Primary interactive hover state"
+        },
+        "primary-active": {
+          "$type": "color",
+          "$value": "{color.blue.blue-300}",
+          "$description": "Primary interactive active state"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.gray.gray-400}",
+          "$description": "Secondary interactive color"
+        },
+        "secondary-hover": {
+          "$type": "color",
+          "$value": "{color.gray.gray-300}",
+          "$description": "Secondary interactive hover state"
+        },
+        "secondary-active": {
+          "$type": "color",
+          "$value": "{color.gray.gray-200}",
+          "$description": "Secondary interactive active state"
+        }
+      }
+    },
+    "typography": {
+      "font-family": {
+        "body": {
+          "$type": "fontFamily",
+          "$value": "{typography.font-family.sans}",
+          "$description": "Body text font family"
+        },
+        "heading": {
+          "$type": "fontFamily",
+          "$value": "{typography.font-family.sans}",
+          "$description": "Heading font family"
+        },
+        "code": {
+          "$type": "fontFamily",
+          "$value": "{typography.font-family.mono}",
+          "$description": "Code/monospace font family"
+        }
+      },
+      "font-size": {
+        "body-sm": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.sm}",
+          "$description": "Small body text size"
+        },
+        "body-base": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.base}",
+          "$description": "Base body text size"
+        },
+        "body-lg": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.lg}",
+          "$description": "Large body text size"
+        },
+        "heading-sm": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.xl}",
+          "$description": "Small heading size"
+        },
+        "heading-base": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.2xl}",
+          "$description": "Base heading size"
+        },
+        "heading-lg": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.3xl}",
+          "$description": "Large heading size"
+        },
+        "heading-xl": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.4xl}",
+          "$description": "Extra large heading size"
+        },
+        "display": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.5xl}",
+          "$description": "Display text size"
+        },
+        "caption": {
+          "$type": "dimension",
+          "$value": "{typography.font-size.xs}",
+          "$description": "Caption/helper text size"
+        }
+      },
+      "font-weight": {
+        "body": {
+          "$type": "fontWeight",
+          "$value": "{typography.font-weight.regular}",
+          "$description": "Body text weight"
+        },
+        "body-strong": {
+          "$type": "fontWeight",
+          "$value": "{typography.font-weight.medium}",
+          "$description": "Emphasized body text weight"
+        },
+        "heading": {
+          "$type": "fontWeight",
+          "$value": "{typography.font-weight.semibold}",
+          "$description": "Heading weight"
+        },
+        "display": {
+          "$type": "fontWeight",
+          "$value": "{typography.font-weight.bold}",
+          "$description": "Display text weight"
+        }
+      },
+      "line-height": {
+        "body": {
+          "$type": "number",
+          "$value": "{typography.line-height.normal}",
+          "$description": "Body text line height"
+        },
+        "heading": {
+          "$type": "number",
+          "$value": "{typography.line-height.tight}",
+          "$description": "Heading line height"
+        },
+        "display": {
+          "$type": "number",
+          "$value": "{typography.line-height.none}",
+          "$description": "Display text line height"
+        }
+      },
+      "letter-spacing": {
+        "body": {
+          "$type": "dimension",
+          "$value": "{typography.letter-spacing.normal}",
+          "$description": "Body text letter spacing"
+        },
+        "heading": {
+          "$type": "dimension",
+          "$value": "{typography.letter-spacing.tight}",
+          "$description": "Heading letter spacing"
+        },
+        "display": {
+          "$type": "dimension",
+          "$value": "{typography.letter-spacing.tighter}",
+          "$description": "Display text letter spacing"
+        }
+      }
+    },
+    "spacing": {
+      "none": {
+        "$type": "dimension",
+        "$value": "{spacing.0}",
+        "$description": "No spacing"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "{spacing.1}",
+        "$description": "Extra small spacing"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{spacing.2}",
+        "$description": "Small spacing"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{spacing.4}",
+        "$description": "Medium spacing"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "{spacing.6}",
+        "$description": "Large spacing"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{spacing.8}",
+        "$description": "Extra large spacing"
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "{spacing.12}",
+        "$description": "2x large spacing"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "{spacing.16}",
+        "$description": "3x large spacing"
+      }
+    },
+    "radius": {
+      "none": {
+        "$type": "dimension",
+        "$value": "{radius.none}",
+        "$description": "No border radius"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{radius.sm}",
+        "$description": "Small radius"
+      },
+      "base": {
+        "$type": "dimension",
+        "$value": "{radius.base}",
+        "$description": "Default radius"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{radius.md}",
+        "$description": "Medium radius"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "{radius.lg}",
+        "$description": "Large radius"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{radius.xl}",
+        "$description": "Extra large radius"
+      },
+      "full": {
+        "$type": "dimension",
+        "$value": "{radius.full}",
+        "$description": "Full/pill radius"
+      }
+    },
+    "border": {
+      "width": {
+        "none": {
+          "$type": "dimension",
+          "$value": "{border.width.none}",
+          "$description": "No border"
+        },
+        "thin": {
+          "$type": "dimension",
+          "$value": "{border.width.thin}",
+          "$description": "Thin border"
+        },
+        "medium": {
+          "$type": "dimension",
+          "$value": "{border.width.medium}",
+          "$description": "Medium border"
+        },
+        "thick": {
+          "$type": "dimension",
+          "$value": "{border.width.thick}",
+          "$description": "Thick border"
+        }
+      }
+    },
+    "elevation": {
+      "none": {
+        "$type": "shadow",
+        "$value": "{elevation.none}",
+        "$description": "No elevation"
+      },
+      "low": {
+        "$type": "shadow",
+        "$value": "{elevation.sm}",
+        "$description": "Low elevation for subtle depth"
+      },
+      "medium": {
+        "$type": "shadow",
+        "$value": "{elevation.md}",
+        "$description": "Medium elevation for cards"
+      },
+      "high": {
+        "$type": "shadow",
+        "$value": "{elevation.lg}",
+        "$description": "High elevation for dropdowns"
+      },
+      "highest": {
+        "$type": "shadow",
+        "$value": "{elevation.xl}",
+        "$description": "Highest elevation for modals"
+      }
+    },
+    "opacity": {
+      "disabled": {
+        "$type": "number",
+        "$value": "{opacity.50}",
+        "$description": "Disabled state opacity"
+      },
+      "hover": {
+        "$type": "number",
+        "$value": "{opacity.80}",
+        "$description": "Hover state opacity"
+      },
+      "visible": {
+        "$type": "number",
+        "$value": "{opacity.100}",
+        "$description": "Fully visible"
+      },
+      "hidden": {
+        "$type": "number",
+        "$value": "{opacity.0}",
+        "$description": "Fully hidden"
+      }
+    }
+  },
+  "component/button": {
+    "button": {
+      "primary": {
+        "background": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.background.brand}",
+            "$description": "Primary button background"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.interactive.primary-hover}",
+            "$description": "Primary button hover background"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.interactive.primary-active}",
+            "$description": "Primary button active background"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.background.disabled}",
+            "$description": "Primary button disabled background"
+          }
+        },
+        "foreground": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.foreground.on-brand}",
+            "$description": "Primary button text"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.foreground.disabled}",
+            "$description": "Primary button disabled text"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.border.brand}",
+            "$description": "Primary button border"
+          },
+          "focus": {
+            "$type": "color",
+            "$value": "{color.border.focus}",
+            "$description": "Primary button focus border"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.border.disabled}",
+            "$description": "Primary button disabled border"
+          }
+        }
+      },
+      "secondary": {
+        "background": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.background.primary}",
+            "$description": "Secondary button background"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.background.secondary}",
+            "$description": "Secondary button hover background"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.background.tertiary}",
+            "$description": "Secondary button active background"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.background.disabled}",
+            "$description": "Secondary button disabled background"
+          }
+        },
+        "foreground": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.foreground.primary}",
+            "$description": "Secondary button text"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.foreground.disabled}",
+            "$description": "Secondary button disabled text"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.border.primary}",
+            "$description": "Secondary button border"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.interactive.secondary-hover}",
+            "$description": "Secondary button hover border"
+          },
+          "focus": {
+            "$type": "color",
+            "$value": "{color.border.focus}",
+            "$description": "Secondary button focus border"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.border.disabled}",
+            "$description": "Secondary button disabled border"
+          }
+        }
+      },
+      "danger": {
+        "background": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.background.danger}",
+            "$description": "Danger button background"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.background.danger}",
+            "$description": "Danger button hover background"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.background.danger}",
+            "$description": "Danger button active background"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.background.disabled}",
+            "$description": "Danger button disabled background"
+          }
+        },
+        "foreground": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.foreground.on-danger}",
+            "$description": "Danger button text"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.foreground.disabled}",
+            "$description": "Danger button disabled text"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.border.danger}",
+            "$description": "Danger button border"
+          },
+          "focus": {
+            "$type": "color",
+            "$value": "{color.border.focus}",
+            "$description": "Danger button focus border"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.border.disabled}",
+            "$description": "Danger button disabled border"
+          }
+        }
+      },
+      "ghost": {
+        "background": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.background.primary}",
+            "$description": "Ghost button background - transparent"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.background.secondary}",
+            "$description": "Ghost button hover background"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.background.tertiary}",
+            "$description": "Ghost button active background"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.background.primary}",
+            "$description": "Ghost button disabled background"
+          }
+        },
+        "foreground": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.foreground.brand}",
+            "$description": "Ghost button text"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.foreground.disabled}",
+            "$description": "Ghost button disabled text"
+          }
+        },
+        "border": {
+          "focus": {
+            "$type": "color",
+            "$value": "{color.border.focus}",
+            "$description": "Ghost button focus border"
+          }
+        }
+      },
+      "size": {
+        "sm": {
+          "padding-x": {
+            "$type": "dimension",
+            "$value": "{spacing.sm}",
+            "$description": "Small button horizontal padding"
+          },
+          "padding-y": {
+            "$type": "dimension",
+            "$value": "{spacing.xs}",
+            "$description": "Small button vertical padding"
+          },
+          "font-size": {
+            "$type": "dimension",
+            "$value": "{typography.font-size.body-sm}",
+            "$description": "Small button font size"
+          },
+          "border-radius": {
+            "$type": "dimension",
+            "$value": "{radius.sm}",
+            "$description": "Small button border radius"
+          },
+          "min-height": {
+            "$type": "dimension",
+            "$value": "{size.8}",
+            "$description": "Small button minimum height"
+          },
+          "icon-size": {
+            "$type": "dimension",
+            "$value": "{icon.size.sm}",
+            "$description": "Small button icon size (16px)"
+          },
+          "gap": {
+            "$type": "dimension",
+            "$value": "{spacing.xs}",
+            "$description": "Small button gap between icon and text"
+          }
+        },
+        "md": {
+          "padding-x": {
+            "$type": "dimension",
+            "$value": "{spacing.md}",
+            "$description": "Medium button horizontal padding"
+          },
+          "padding-y": {
+            "$type": "dimension",
+            "$value": "{spacing.sm}",
+            "$description": "Medium button vertical padding"
+          },
+          "font-size": {
+            "$type": "dimension",
+            "$value": "{typography.font-size.body-base}",
+            "$description": "Medium button font size"
+          },
+          "border-radius": {
+            "$type": "dimension",
+            "$value": "{radius.md}",
+            "$description": "Medium button border radius"
+          },
+          "min-height": {
+            "$type": "dimension",
+            "$value": "{size.10}",
+            "$description": "Medium button minimum height"
+          },
+          "icon-size": {
+            "$type": "dimension",
+            "$value": "{icon.size.md}",
+            "$description": "Medium button icon size (20px)"
+          },
+          "gap": {
+            "$type": "dimension",
+            "$value": "{spacing.sm}",
+            "$description": "Medium button gap between icon and text"
+          }
+        },
+        "lg": {
+          "padding-x": {
+            "$type": "dimension",
+            "$value": "{spacing.lg}",
+            "$description": "Large button horizontal padding"
+          },
+          "padding-y": {
+            "$type": "dimension",
+            "$value": "{spacing.md}",
+            "$description": "Large button vertical padding"
+          },
+          "font-size": {
+            "$type": "dimension",
+            "$value": "{typography.font-size.body-lg}",
+            "$description": "Large button font size"
+          },
+          "border-radius": {
+            "$type": "dimension",
+            "$value": "{radius.lg}",
+            "$description": "Large button border radius"
+          },
+          "min-height": {
+            "$type": "dimension",
+            "$value": "{size.12}",
+            "$description": "Large button minimum height"
+          },
+          "icon-size": {
+            "$type": "dimension",
+            "$value": "{icon.size.lg}",
+            "$description": "Large button icon size (24px)"
+          },
+          "gap": {
+            "$type": "dimension",
+            "$value": "{spacing.sm}",
+            "$description": "Large button gap between icon and text"
+          }
+        }
+      },
+      "border-width": {
+        "$type": "dimension",
+        "$value": "{border.width.thin}",
+        "$description": "Button border width"
+      },
+      "font-weight": {
+        "$type": "fontWeight",
+        "$value": "{typography.font-weight.body-strong}",
+        "$description": "Button font weight"
+      }
+    }
+  },
+  "component/input": {
+    "input": {
+      "background": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.background.primary}",
+          "$description": "Input background"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.background.disabled}",
+          "$description": "Input disabled background"
+        }
+      },
+      "foreground": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.foreground.primary}",
+          "$description": "Input text color"
+        },
+        "placeholder": {
+          "$type": "color",
+          "$value": "{color.foreground.placeholder}",
+          "$description": "Input placeholder text"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.foreground.disabled}",
+          "$description": "Input disabled text"
+        }
+      },
+      "border": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.border.primary}",
+          "$description": "Input border"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.interactive.secondary-hover}",
+          "$description": "Input hover border"
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "{color.border.focus}",
+          "$description": "Input focus border"
+        },
+        "error": {
+          "$type": "color",
+          "$value": "{color.border.danger}",
+          "$description": "Input error border"
+        },
+        "success": {
+          "$type": "color",
+          "$value": "{color.border.success}",
+          "$description": "Input success border"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.border.disabled}",
+          "$description": "Input disabled border"
+        }
+      },
+      "size": {
+        "sm": {
+          "padding-x": {
+            "$type": "dimension",
+            "$value": "{spacing.sm}",
+            "$description": "Small input horizontal padding"
+          },
+          "padding-y": {
+            "$type": "dimension",
+            "$value": "{spacing.xs}",
+            "$description": "Small input vertical padding"
+          },
+          "font-size": {
+            "$type": "dimension",
+            "$value": "{typography.font-size.body-sm}",
+            "$description": "Small input font size"
+          },
+          "border-radius": {
+            "$type": "dimension",
+            "$value": "{radius.sm}",
+            "$description": "Small input border radius"
+          },
+          "min-height": {
+            "$type": "dimension",
+            "$value": "{size.8}",
+            "$description": "Small input minimum height"
+          }
+        },
+        "md": {
+          "padding-x": {
+            "$type": "dimension",
+            "$value": "{spacing.md}",
+            "$description": "Medium input horizontal padding"
+          },
+          "padding-y": {
+            "$type": "dimension",
+            "$value": "{spacing.sm}",
+            "$description": "Medium input vertical padding"
+          },
+          "font-size": {
+            "$type": "dimension",
+            "$value": "{typography.font-size.body-base}",
+            "$description": "Medium input font size"
+          },
+          "border-radius": {
+            "$type": "dimension",
+            "$value": "{radius.md}",
+            "$description": "Medium input border radius"
+          },
+          "min-height": {
+            "$type": "dimension",
+            "$value": "{size.10}",
+            "$description": "Medium input minimum height"
+          }
+        },
+        "lg": {
+          "padding-x": {
+            "$type": "dimension",
+            "$value": "{spacing.md}",
+            "$description": "Large input horizontal padding"
+          },
+          "padding-y": {
+            "$type": "dimension",
+            "$value": "{spacing.md}",
+            "$description": "Large input vertical padding"
+          },
+          "font-size": {
+            "$type": "dimension",
+            "$value": "{typography.font-size.body-lg}",
+            "$description": "Large input font size"
+          },
+          "border-radius": {
+            "$type": "dimension",
+            "$value": "{radius.lg}",
+            "$description": "Large input border radius"
+          },
+          "min-height": {
+            "$type": "dimension",
+            "$value": "{size.12}",
+            "$description": "Large input minimum height"
+          }
+        }
+      },
+      "border-width": {
+        "$type": "dimension",
+        "$value": "{border.width.thin}",
+        "$description": "Input border width"
+      }
+    }
+  },
+  "component/card": {
+    "card": {
+      "background": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.background.primary}",
+          "$description": "Card background"
+        },
+        "elevated": {
+          "$type": "color",
+          "$value": "{color.background.primary}",
+          "$description": "Elevated card background"
+        }
+      },
+      "border": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.border.secondary}",
+          "$description": "Card border"
+        }
+      },
+      "padding": {
+        "$type": "dimension",
+        "$value": "{spacing.lg}",
+        "$description": "Card padding"
+      },
+      "border-radius": {
+        "$type": "dimension",
+        "$value": "{radius.lg}",
+        "$description": "Card border radius"
+      },
+      "elevation": {
+        "default": {
+          "$type": "shadow",
+          "$value": "{elevation.none}",
+          "$description": "Default card elevation"
+        },
+        "elevated": {
+          "$type": "shadow",
+          "$value": "{elevation.medium}",
+          "$description": "Elevated card shadow"
+        },
+        "hover": {
+          "$type": "shadow",
+          "$value": "{elevation.high}",
+          "$description": "Card hover elevation"
+        }
+      }
+    }
+  },
+  "component/badge": {
+    "badge": {
+      "neutral": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.background.secondary}",
+          "$description": "Neutral badge background"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.foreground.secondary}",
+          "$description": "Neutral badge text"
+        }
+      },
+      "brand": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.background.brand-subtle}",
+          "$description": "Brand badge background"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.foreground.brand}",
+          "$description": "Brand badge text"
+        }
+      },
+      "success": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.background.success-subtle}",
+          "$description": "Success badge background"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.foreground.success}",
+          "$description": "Success badge text"
+        }
+      },
+      "warning": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.background.warning-subtle}",
+          "$description": "Warning badge background"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.foreground.warning}",
+          "$description": "Warning badge text"
+        }
+      },
+      "danger": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.background.danger-subtle}",
+          "$description": "Danger badge background"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.foreground.danger}",
+          "$description": "Danger badge text"
+        }
+      },
+      "padding-x": {
+        "$type": "dimension",
+        "$value": "{spacing.sm}",
+        "$description": "Badge horizontal padding"
+      },
+      "padding-y": {
+        "$type": "dimension",
+        "$value": "{spacing.xs}",
+        "$description": "Badge vertical padding"
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": "{typography.font-size.caption}",
+        "$description": "Badge font size"
+      },
+      "font-weight": {
+        "$type": "fontWeight",
+        "$value": "{typography.font-weight.body-strong}",
+        "$description": "Badge font weight"
+      },
+      "border-radius": {
+        "$type": "dimension",
+        "$value": "{radius.full}",
+        "$description": "Badge border radius - pill shape"
+      }
+    }
+  },
+  "component/link": {
+    "link": {
+      "foreground": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.foreground.brand}",
+          "$description": "Link text color"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.interactive.primary-hover}",
+          "$description": "Link hover text color"
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{color.interactive.primary-active}",
+          "$description": "Link active text color"
+        },
+        "visited": {
+          "$type": "color",
+          "$value": "{color.foreground.secondary}",
+          "$description": "Link visited text color"
+        }
+      }
+    }
+  },
+  "component/alert": {
+    "alert": {
+      "info": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.background.brand-subtle}",
+          "$description": "Info alert background"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.foreground.brand}",
+          "$description": "Info alert text"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{color.border.brand}",
+          "$description": "Info alert border"
+        }
+      },
+      "success": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.background.success-subtle}",
+          "$description": "Success alert background"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.foreground.success}",
+          "$description": "Success alert text"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{color.border.success}",
+          "$description": "Success alert border"
+        }
+      },
+      "warning": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.background.warning-subtle}",
+          "$description": "Warning alert background"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.foreground.warning}",
+          "$description": "Warning alert text"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{color.border.warning}",
+          "$description": "Warning alert border"
+        }
+      },
+      "danger": {
+        "background": {
+          "$type": "color",
+          "$value": "{color.background.danger-subtle}",
+          "$description": "Danger alert background"
+        },
+        "foreground": {
+          "$type": "color",
+          "$value": "{color.foreground.danger}",
+          "$description": "Danger alert text"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{color.border.danger}",
+          "$description": "Danger alert border"
+        }
+      },
+      "padding": {
+        "$type": "dimension",
+        "$value": "{spacing.md}",
+        "$description": "Alert padding"
+      },
+      "border-radius": {
+        "$type": "dimension",
+        "$value": "{radius.md}",
+        "$description": "Alert border radius"
+      },
+      "border-width": {
+        "$type": "dimension",
+        "$value": "{border.width.thin}",
+        "$description": "Alert border width"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global/color",
+      "global/typography",
+      "global/spacing",
+      "global/radius",
+      "global/border",
+      "global/opacity",
+      "global/elevation",
+      "global/size",
+      "global/icon",
+      "semantic/light",
+      "semantic/dark",
+      "component/button",
+      "component/input",
+      "component/card",
+      "component/badge",
+      "component/link",
+      "component/alert"
+    ]
+  }
+}

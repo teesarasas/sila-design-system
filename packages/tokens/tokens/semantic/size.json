@@ -1,32 +1,34 @@
 {
-  "semantic": {
-    "size": {
-      "action-height": {
+  "size": {
+    "interactive": {
+      "height": {
         "sm": {
-          "value": "{base.dimension.28}",
-          "type": "sizing"
+          "$type": "dimension",
+          "$value": "{size.32px}"
         },
-        "base": {
-          "value": "{base.dimension.36}",
-          "type": "sizing"
+        "md": {
+          "$type": "dimension",
+          "$value": "{size.40px}"
         },
         "lg": {
-          "value": "{base.dimension.44}",
-          "type": "sizing"
+          "$type": "dimension",
+          "$value": "{size.48px}"
         }
-      },
-      "action-icon": {
+      }
+    },
+    "status": {
+      "height": {
         "sm": {
-          "value": "round(( {base.font-size} * pow({base.type-scale}, -1))/2)*2",
-          "type": "sizing"
+          "$type": "dimension",
+          "$value": "{size.24px}"
         },
-        "base": {
-          "value": "{base.font-size}",
-          "type": "sizing"
+        "md": {
+          "$type": "dimension",
+          "$value": "{size.32px}"
         },
         "lg": {
-          "value": "round(({base.font-size}*pow({base.type-scale},1))/2)*2",
-          "type": "sizing"
+          "$type": "dimension",
+          "$value": "{size.40px}"
         }
       }
     }

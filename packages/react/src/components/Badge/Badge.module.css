@@ -1,0 +1,43 @@
+/* Badge Base Styles */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--semantic-typography-font-family-body);
+    font-weight: var(--component-badge-font-weight);
+    font-size: var(--component-badge-size-font-size);
+    line-height: var(--semantic-typography-line-height-body-sm);
+    height: var(--component-badge-size-height);
+    padding-inline: var(--component-badge-spacing-padding-x);
+    border-radius: var(--component-badge-border-radius);
+}
+
+/* Variant: Info */
+.info {
+    background-color: var(--component-badge-info-background);
+    color: var(--component-badge-info-foreground);
+}
+
+/* Variant: Success */
+.success {
+    background-color: var(--component-badge-success-background);
+    color: var(--component-badge-success-foreground);
+}
+
+/* Variant: Warning */
+.warning {
+    background-color: var(--component-badge-warning-background);
+    color: var(--component-badge-warning-foreground);
+}
+
+/* Variant: Danger */
+.danger {
+    background-color: var(--component-badge-danger-background);
+    color: var(--component-badge-danger-foreground);
+}
+
+/* Variant: Neutral */
+.neutral {
+    background-color: var(--component-badge-neutral-background);
+    color: var(--component-badge-neutral-foreground);
+}

@@ -1,0 +1,213 @@
+/* IconButton Base Styles */
+.iconButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--component-icon-button-border-radius);
+    border-width: var(--component-icon-button-border-width);
+    border-style: solid;
+    cursor: pointer;
+    transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;
+    padding: 0;
+    user-select: none;
+    flex-shrink: 0;
+}
+
+.iconButton:focus-visible {
+    outline: 2px solid var(--semantic-color-border-focus);
+    outline-offset: 2px;
+}
+
+/* Size Variants */
+.sm {
+    height: var(--component-icon-button-size-sm-height);
+    width: var(--component-icon-button-size-sm-width);
+    font-size: var(--component-icon-button-size-sm-icon-size);
+}
+
+.md {
+    height: var(--component-icon-button-size-md-height);
+    width: var(--component-icon-button-size-md-width);
+    font-size: var(--component-icon-button-size-md-icon-size);
+}
+
+.lg {
+    height: var(--component-icon-button-size-lg-height);
+    width: var(--component-icon-button-size-lg-width);
+    font-size: var(--component-icon-button-size-lg-icon-size);
+}
+
+/* Default Variant */
+.default {
+    background-color: var(--component-icon-button-default-background-default);
+    color: var(--component-icon-button-default-foreground-default);
+    border-color: var(--component-icon-button-default-border-default);
+}
+
+.default:hover:not(:disabled) {
+    background-color: var(--component-icon-button-default-background-hover);
+    border-color: var(--component-icon-button-default-border-hover);
+}
+
+.default:active:not(:disabled) {
+    background-color: var(--component-icon-button-default-background-active);
+    border-color: var(--component-icon-button-default-border-active);
+}
+
+.default:disabled {
+    background-color: var(--component-icon-button-default-background-disabled);
+    color: var(--component-icon-button-default-foreground-disabled);
+    border-color: var(--component-icon-button-default-border-disabled);
+    cursor: not-allowed;
+}
+
+/* Primary Variant */
+.primary {
+    background-color: var(--component-icon-button-primary-background-default);
+    color: var(--component-icon-button-primary-foreground-default);
+    border-color: var(--component-icon-button-primary-border-default);
+}
+
+.primary:hover:not(:disabled) {
+    background-color: var(--component-icon-button-primary-background-hover);
+    border-color: var(--component-icon-button-primary-border-hover);
+}
+
+.primary:active:not(:disabled) {
+    background-color: var(--component-icon-button-primary-background-active);
+    border-color: var(--component-icon-button-primary-border-active);
+}
+
+.primary:disabled {
+    background-color: var(--component-icon-button-primary-background-disabled);
+    color: var(--component-icon-button-primary-foreground-disabled);
+    border-color: var(--component-icon-button-primary-border-disabled);
+    cursor: not-allowed;
+}
+
+/* Secondary Variant */
+.secondary {
+    background-color: var(--component-icon-button-secondary-background-default);
+    color: var(--component-icon-button-secondary-foreground-default);
+    border-color: var(--component-icon-button-secondary-border-default);
+}
+
+.secondary:hover:not(:disabled) {
+    background-color: var(--component-icon-button-secondary-background-hover);
+    border-color: var(--component-icon-button-secondary-border-hover);
+}
+
+.secondary:active:not(:disabled) {
+    background-color: var(--component-icon-button-secondary-background-active);
+    border-color: var(--component-icon-button-secondary-border-active);
+}
+
+.secondary:disabled {
+    background-color: var(--component-icon-button-secondary-background-disabled);
+    color: var(--component-icon-button-secondary-foreground-disabled);
+    border-color: var(--component-icon-button-secondary-border-disabled);
+    cursor: not-allowed;
+}
+
+/* Tertiary Variant */
+.tertiary {
+    background-color: var(--component-icon-button-tertiary-background-default);
+    color: var(--component-icon-button-tertiary-foreground-default);
+    border-color: var(--component-icon-button-tertiary-border-default);
+}
+
+.tertiary:hover:not(:disabled) {
+    background-color: var(--component-icon-button-tertiary-background-hover);
+    border-color: var(--component-icon-button-tertiary-border-hover);
+}
+
+.tertiary:active:not(:disabled) {
+    background-color: var(--component-icon-button-tertiary-background-active);
+    border-color: var(--component-icon-button-tertiary-border-active);
+}
+
+.tertiary:disabled {
+    background-color: var(--component-icon-button-tertiary-background-disabled);
+    color: var(--component-icon-button-tertiary-foreground-disabled);
+    border-color: var(--component-icon-button-tertiary-border-disabled);
+    cursor: not-allowed;
+}
+
+/* Icon Styles */
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.sm .icon {
+    width: var(--component-icon-button-size-sm-icon-size);
+    height: var(--component-icon-button-size-sm-icon-size);
+}
+
+.md .icon {
+    width: var(--component-icon-button-size-md-icon-size);
+    height: var(--component-icon-button-size-md-icon-size);
+}
+
+.lg .icon {
+    width: var(--component-icon-button-size-lg-icon-size);
+    height: var(--component-icon-button-size-lg-icon-size);
+}
+
+/* Loading State */
+.loading {
+    position: relative;
+    color: transparent !important;
+    pointer-events: none;
+}
+
+.loading .icon {
+    visibility: hidden;
+}
+
+.loading::after {
+    content: '';
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    border: 2px solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+}
+
+.default.loading::after {
+    border-color: var(--component-icon-button-default-foreground-default);
+    border-right-color: transparent;
+}
+
+.primary.loading::after {
+    border-color: var(--component-icon-button-primary-foreground-default);
+    border-right-color: transparent;
+}
+
+.secondary.loading::after {
+    border-color: var(--component-icon-button-secondary-foreground-default);
+    border-right-color: transparent;
+}
+
+.tertiary.loading::after {
+    border-color: var(--component-icon-button-tertiary-foreground-default);
+    border-right-color: transparent;
+}
+
+.ghost.loading::after {
+    border-color: var(--component-icon-button-ghost-foreground-default);
+    border-right-color: transparent;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
