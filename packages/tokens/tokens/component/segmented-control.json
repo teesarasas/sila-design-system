@@ -1,0 +1,30 @@
+{
+  "semented-control": {
+    "border-radius": {
+      "value": "{border-radius.xl}",
+      "type": "borderRadius"
+    }
+  },
+  "segmented-control": {
+    "background": {
+      "defaullt": {
+        "value": "{color.background.tertiary}",
+        "type": "color"
+      }
+    },
+    "spacing": {
+      "padding-x": {
+        "value": "{spacing.xs}",
+        "type": "spacing"
+      },
+      "padding-y": {
+        "value": "{spacing.xs}",
+        "type": "spacing"
+      },
+      "gap": {
+        "value": "{spacing.sm}",
+        "type": "spacing"
+      }
+    }
+  }
+}

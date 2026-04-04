@@ -2,39 +2,39 @@
   "icon": {
     "size": {
       "xs": {
-        "$type": "dimension",
-        "$value": "{size.12px}",
-        "$description": "12px - Extra small icons (inline with small text)"
+        "value": "{size.12px}",
+        "description": "12px - Extra small icons (inline with small text)",
+        "type": "dimension"
       },
       "sm": {
-        "$type": "dimension",
-        "$value": "{size.16px}",
-        "$description": "16px - Small icons (inline with body text)"
+        "value": "{size.16px}",
+        "description": "16px - Small icons (inline with body text)",
+        "type": "dimension"
       },
       "md": {
-        "$type": "dimension",
-        "$value": "{size.20px}",
-        "$description": "20px - Medium icons (default for buttons)"
+        "value": "{size.20px}",
+        "description": "20px - Medium icons (default for buttons)",
+        "type": "dimension"
       },
       "lg": {
-        "$type": "dimension",
-        "$value": "{size.24px}",
-        "$description": "24px - Large icons (navigation, actions)"
+        "value": "{size.24px}",
+        "description": "24px - Large icons (navigation, actions)",
+        "type": "dimension"
       },
       "xl": {
-        "$type": "dimension",
-        "$value": "{size.32px}",
-        "$description": "32px - Extra large icons (feature icons)"
+        "value": "{size.32px}",
+        "description": "32px - Extra large icons (feature icons)",
+        "type": "dimension"
       },
       "2xl": {
-        "$type": "dimension",
-        "$value": "{size.40px}",
-        "$description": "40px - 2x large icons (hero sections)"
+        "value": "{size.40px}",
+        "description": "40px - 2x large icons (hero sections)",
+        "type": "dimension"
       },
       "3xl": {
-        "$type": "dimension",
-        "$value": "{size.48px}",
-        "$description": "48px - 3x large icons (illustrations)"
+        "value": "{size.48px}",
+        "description": "48px - 3x large icons (illustrations)",
+        "type": "dimension"
       }
     }
   }

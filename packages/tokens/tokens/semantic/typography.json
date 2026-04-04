@@ -2,152 +2,152 @@
   "typography": {
     "font-family": {
       "body": {
-        "$type": "fontFamily",
-        "$value": "{typography.font-family.sans}",
-        "$description": "Body text font family"
+        "value": "{typography.font-family.sans}",
+        "description": "Body text font family",
+        "type": "fontFamily"
       },
       "heading": {
-        "$type": "fontFamily",
-        "$value": "{typography.font-family.sans}",
-        "$description": "Heading font family"
+        "value": "{typography.font-family.sans}",
+        "description": "Heading font family",
+        "type": "fontFamily"
       },
       "code": {
-        "$type": "fontFamily",
-        "$value": "{typography.font-family.mono}",
-        "$description": "Code/monospace font family"
+        "value": "{typography.font-family.mono}",
+        "description": "Code/monospace font family",
+        "type": "fontFamily"
       }
     },
     "font-size": {
       "caption": {
-        "$type": "fontSizes",
-        "$value": "{typography.font-size.xs}",
-        "$description": "Caption/helper text size"
+        "value": "{typography.font-size.xs}",
+        "description": "Caption/helper text size",
+        "type": "fontSizes"
       },
       "body-sm": {
-        "$type": "fontSizes",
-        "$value": "{typography.font-size.sm}",
-        "$description": "Small body text size"
+        "value": "{typography.font-size.sm}",
+        "description": "Small body text size",
+        "type": "fontSizes"
       },
       "body-base": {
-        "$type": "fontSizes",
-        "$value": "{typography.font-size.base}",
-        "$description": "Base body text size"
+        "value": "{typography.font-size.base}",
+        "description": "Base body text size",
+        "type": "fontSizes"
       },
       "body-lg": {
-        "$type": "fontSizes",
-        "$value": "{typography.font-size.lg}",
-        "$description": "Large body text size"
+        "value": "{typography.font-size.lg}",
+        "description": "Large body text size",
+        "type": "fontSizes"
       },
       "heading-sm": {
-        "$type": "fontSizes",
-        "$value": "{typography.font-size.xl}",
-        "$description": "Small heading size"
+        "value": "{typography.font-size.xl}",
+        "description": "Small heading size",
+        "type": "fontSizes"
       },
       "heading-base": {
-        "$type": "fontSizes",
-        "$value": "{typography.font-size.2xl}",
-        "$description": "Base heading size"
+        "value": "{typography.font-size.2xl}",
+        "description": "Base heading size",
+        "type": "fontSizes"
       },
       "heading-lg": {
-        "$type": "fontSizes",
-        "$value": "{typography.font-size.3xl}",
-        "$description": "Large heading size"
+        "value": "{typography.font-size.3xl}",
+        "description": "Large heading size",
+        "type": "fontSizes"
       },
       "heading-xl": {
-        "$type": "fontSizes",
-        "$value": "{typography.font-size.4xl}",
-        "$description": "Extra large heading size"
+        "value": "{typography.font-size.4xl}",
+        "description": "Extra large heading size",
+        "type": "fontSizes"
       },
       "display": {
-        "$type": "fontSizes",
-        "$value": "{typography.font-size.5xl}",
-        "$description": "Display text size"
+        "value": "{typography.font-size.5xl}",
+        "description": "Display text size",
+        "type": "fontSizes"
       }
     },
     "font-weight": {
       "body": {
-        "$type": "fontWeights",
-        "$value": "{typography.font-weight.regular}",
-        "$description": "Body text weight"
+        "value": "{typography.font-weight.regular}",
+        "description": "Body text weight",
+        "type": "fontWeights"
       },
       "body-strong": {
-        "$type": "fontWeights",
-        "$value": "{typography.font-weight.medium}",
-        "$description": "Emphasized body text weight"
+        "value": "{typography.font-weight.medium}",
+        "description": "Emphasized body text weight",
+        "type": "fontWeights"
       },
       "heading": {
-        "$type": "fontWeights",
-        "$value": "{typography.font-weight.semibold}",
-        "$description": "Heading weight"
+        "value": "{typography.font-weight.semibold}",
+        "description": "Heading weight",
+        "type": "fontWeights"
       },
       "display": {
-        "$type": "fontWeights",
-        "$value": "{typography.font-weight.bold}",
-        "$description": "Display text weight"
+        "value": "{typography.font-weight.bold}",
+        "description": "Display text weight",
+        "type": "fontWeights"
       }
     },
     "line-height": {
       "caption": {
-        "$type": "number",
-        "$value": "1.25rem",
-        "$description": "Body text line height"
+        "value": "1.25rem",
+        "description": "Body text line height",
+        "type": "lineHeights"
       },
       "body-sm": {
-        "$type": "number",
-        "$value": "1.25rem",
-        "$description": "Body text line height"
+        "value": "1.25rem",
+        "description": "Body text line height",
+        "type": "lineHeights"
       },
       "body-base": {
-        "$type": "number",
-        "$value": "1.5rem",
-        "$description": "Body text line height"
+        "value": "1.5rem",
+        "description": "Body text line height",
+        "type": "lineHeights"
       },
       "body-lg": {
-        "$type": "number",
-        "$value": "1.75rem",
-        "$description": "Body text line height"
+        "value": "1.75rem",
+        "description": "Body text line height",
+        "type": "lineHeights"
       },
       "heading-sm": {
-        "$type": "number",
-        "$value": "1.5rem",
-        "$description": "Heading line height"
+        "value": "1.5rem",
+        "description": "Heading line height",
+        "type": "lineHeights"
       },
       "heading-base": {
-        "$type": "number",
-        "$value": "2rem",
-        "$description": "Heading line height"
+        "value": "2rem",
+        "description": "Heading line height",
+        "type": "lineHeights"
       },
       "heading-lg": {
-        "$type": "number",
-        "$value": "2.5rem",
-        "$description": "Heading line height"
+        "value": "2.5rem",
+        "description": "Heading line height",
+        "type": "lineHeights"
       },
       "heading-xl": {
-        "$type": "number",
-        "$value": "3rem",
-        "$description": "Heading line height"
+        "value": "3rem",
+        "description": "Heading line height",
+        "type": "lineHeights"
       },
       "display": {
-        "$type": "number",
-        "$value": "3.75rem",
-        "$description": "Display text line height"
+        "value": "3.75rem",
+        "description": "Display text line height",
+        "type": "lineHeights"
       }
     },
     "letter-spacing": {
       "body": {
-        "$type": "letterSpacing",
-        "$value": "{typography.letter-spacing.normal}",
-        "$description": "Body text letter spacing"
+        "value": "{typography.letter-spacing.normal}",
+        "description": "Body text letter spacing",
+        "type": "letterSpacing"
       },
       "heading": {
-        "$type": "letterSpacing",
-        "$value": "{typography.letter-spacing.tight}",
-        "$description": "Heading letter spacing"
+        "value": "{typography.letter-spacing.tight}",
+        "description": "Heading letter spacing",
+        "type": "letterSpacing"
       },
       "display": {
-        "$type": "letterSpacing",
-        "$value": "{typography.letter-spacing.tighter}",
-        "$description": "Display text letter spacing"
+        "value": "{typography.letter-spacing.tighter}",
+        "description": "Display text letter spacing",
+        "type": "letterSpacing"
       }
     }
   }

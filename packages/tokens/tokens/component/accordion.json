@@ -1,0 +1,20 @@
+{
+  "accordion": {
+    "background": {
+      "value": "{color.background.primary}",
+      "type": "color"
+    },
+    "border": {
+      "value": "{color.border.secondary}",
+      "type": "color"
+    },
+    "border-radius": {
+      "value": "{border-radius.2xl}",
+      "type": "borderRadius"
+    },
+    "border-width": {
+      "value": "{border-width.thin}",
+      "type": "borderWidth"
+    }
+  }
+}

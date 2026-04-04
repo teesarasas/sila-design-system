@@ -2,24 +2,24 @@
   "border": {
     "width": {
       "0px": {
-        "$type": "borderWidth",
-        "$value": "0",
-        "$description": "No border"
+        "value": "0",
+        "description": "No border",
+        "type": "borderWidth"
       },
       "1px": {
-        "$type": "borderWidth",
-        "$value": "1px",
-        "$description": "Thin border"
+        "value": "1px",
+        "description": "Thin border",
+        "type": "borderWidth"
       },
       "2px": {
-        "$type": "borderWidth",
-        "$value": "2px",
-        "$description": "Medium border"
+        "value": "2px",
+        "description": "Medium border",
+        "type": "borderWidth"
       },
       "4px": {
-        "$type": "borderWidth",
-        "$value": "4px",
-        "$description": "Thick border"
+        "value": "4px",
+        "description": "Thick border",
+        "type": "borderWidth"
       }
     }
   }

@@ -1,0 +1,24 @@
+{
+  "aspect-ratio": {
+    "1-1": {
+      "value": "1/1",
+      "type": "number"
+    },
+    "16-9": {
+      "value": "16/9",
+      "type": "number"
+    },
+    "4-3": {
+      "value": "4/3",
+      "type": "number"
+    },
+    "3-4": {
+      "value": "3/4",
+      "type": "number"
+    },
+    "21-9": {
+      "value": "21/9",
+      "type": "number"
+    }
+  }
+}

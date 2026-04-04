@@ -1,0 +1,30 @@
+{
+  "floating-menu": {
+    "border-radius": {
+      "value": "{border-radius.2xl}",
+      "type": "borderRadius"
+    },
+    "background": {
+      "default": {
+        "value": "{color.background.primary}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{color.border.secondary}",
+        "type": "color"
+      }
+    },
+    "spacing": {
+      "padding-x": {
+        "value": "{spacing.sm}",
+        "type": "spacing"
+      },
+      "gap": {
+        "value": "{spacing.sm}",
+        "type": "spacing"
+      }
+    }
+  }
+}

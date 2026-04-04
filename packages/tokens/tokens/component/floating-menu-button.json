@@ -1,0 +1,69 @@
+{
+  "floating-menu-button": {
+    "foreground": {
+      "default": {
+        "value": "{color.foreground.primary}",
+        "type": "color"
+      },
+      "indicator": {
+        "selected-active": {
+          "value": "{color.foreground.indicator.selected}",
+          "type": "color"
+        },
+        "selected-inactive": {
+          "value": "{color.foreground.tertiary}",
+          "type": "color"
+        }
+      }
+    },
+    "background": {
+      "default": {
+        "value": "{color.background.transparent}",
+        "description": "Ghost button background - transparent",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{color.background.secondary}",
+        "description": "Ghost button hover background",
+        "type": "color"
+      },
+      "active": {
+        "value": "{color.background.tertiary}",
+        "description": "Ghost button active background",
+        "type": "color"
+      },
+      "indicator": {
+        "selected-active": {
+          "value": "{color.background.tertiary}",
+          "type": "color",
+          "description": "Ghost button active background"
+        },
+        "selected-inactive": {
+          "value": "{color.background.transparent}",
+          "type": "color",
+          "description": "Ghost button background - transparent"
+        }
+      }
+    },
+    "indicator": {
+      "border-radius": {
+        "value": "{border-radius.sm}",
+        "type": "borderRadius"
+      },
+      "width": {
+        "selected-active": {
+          "value": "{size.16px}",
+          "type": "sizing"
+        },
+        "selected-inactive": {
+          "value": "{size.8px}",
+          "type": "sizing"
+        }
+      }
+    },
+    "border-radius": {
+      "value": "{border-radius.lg}",
+      "type": "borderRadius"
+    }
+  }
+}

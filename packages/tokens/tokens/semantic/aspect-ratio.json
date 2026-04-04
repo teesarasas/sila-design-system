@@ -1,0 +1,24 @@
+{
+  "aspect-ratio": {
+    "square": {
+      "value": "{aspect-ratio.1-1}",
+      "type": "number"
+    },
+    "hero": {
+      "value": "{aspect-ratio.16-9}",
+      "type": "number"
+    },
+    "landscape": {
+      "value": "{aspect-ratio.4-3}",
+      "type": "number"
+    },
+    "portrait": {
+      "value": "{aspect-ratio.3-4}",
+      "type": "number"
+    },
+    "cinematic": {
+      "value": "{aspect-ratio.21-9}",
+      "type": "number"
+    }
+  }
+}

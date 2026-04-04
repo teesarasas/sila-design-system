@@ -1,63 +1,66 @@
 {
-  "radius": {
+  "border-radius": {
     "none": {
-      "$type": "borderRadius",
-      "$value": "{radius.0}",
-      "$description": "No border radius"
+      "value": "{radius.0}",
+      "description": "No border radius",
+      "type": "borderRadius"
     },
     "xs": {
-      "$type": "borderRadius",
-      "$value": "{radius.2px}",
-      "$description": "Small radius"
+      "value": "{radius.2px}",
+      "description": "Small radius",
+      "type": "borderRadius"
     },
     "sm": {
-      "$type": "borderRadius",
-      "$value": "{radius.4px}",
-      "$description": "Default radius"
+      "value": "{radius.4px}",
+      "description": "Default radius",
+      "type": "borderRadius"
     },
     "md": {
-      "$type": "borderRadius",
-      "$value": "{radius.6px}",
-      "$description": "Medium radius"
+      "value": "{radius.6px}",
+      "description": "Medium radius",
+      "type": "borderRadius"
     },
     "lg": {
-      "$type": "borderRadius",
-      "$value": "{radius.8px}",
-      "$description": "Large radius"
+      "value": "{radius.8px}",
+      "description": "Large radius",
+      "type": "borderRadius"
     },
     "xl": {
-      "$type": "borderRadius",
-      "$value": "{radius.12px}",
-      "$description": "Extra large radius"
+      "value": "{radius.12px}",
+      "description": "Extra large radius",
+      "type": "borderRadius"
+    },
+    "2xl": {
+      "value": "{radius.16px}",
+      "type": "borderRadius",
+      "description": "Extra large radius"
     },
     "full": {
-      "$type": "borderRadius",
-      "$value": "{radius.round}",
-      "$description": "Full/pill radius"
+      "value": "{radius.round}",
+      "description": "Full/pill radius",
+      "type": "borderRadius"
     }
   },
-  "border": {
-    "width": {
-      "none": {
-        "$type": "borderWidth",
-        "$value": "{border.width.0px}",
-        "$description": "No border"
-      },
-      "thin": {
-        "$type": "borderWidth",
-        "$value": "{border.width.1px}",
-        "$description": "Thin border"
-      },
-      "medium": {
-        "$type": "borderWidth",
-        "$value": "{border.width.2px}",
-        "$description": "Medium border"
-      },
-      "thick": {
-        "$type": "borderWidth",
-        "$value": "{border.width.4px}",
-        "$description": "Thick border"
-      }
+  "border-width": {
+    "none": {
+      "value": "{border.width.0px}",
+      "description": "No border",
+      "type": "borderWidth"
+    },
+    "thin": {
+      "value": "{border.width.1px}",
+      "description": "Thin border",
+      "type": "borderWidth"
+    },
+    "medium": {
+      "value": "{border.width.2px}",
+      "description": "Medium border",
+      "type": "borderWidth"
+    },
+    "thick": {
+      "value": "{border.width.4px}",
+      "description": "Thick border",
+      "type": "borderWidth"
     }
   }
 }

@@ -3,32 +3,32 @@
     "interactive": {
       "height": {
         "sm": {
-          "$type": "dimension",
-          "$value": "{size.32px}"
+          "value": "{size.32px}",
+          "type": "dimension"
         },
         "md": {
-          "$type": "dimension",
-          "$value": "{size.40px}"
+          "value": "{size.40px}",
+          "type": "dimension"
         },
         "lg": {
-          "$type": "dimension",
-          "$value": "{size.48px}"
+          "value": "{size.48px}",
+          "type": "dimension"
         }
       }
     },
     "status": {
       "height": {
         "sm": {
-          "$type": "dimension",
-          "$value": "{size.24px}"
+          "value": "{size.24px}",
+          "type": "dimension"
         },
         "md": {
-          "$type": "dimension",
-          "$value": "{size.32px}"
+          "value": "{size.32px}",
+          "type": "dimension"
         },
         "lg": {
-          "$type": "dimension",
-          "$value": "{size.40px}"
+          "value": "{size.40px}",
+          "type": "dimension"
         }
       }
     }
