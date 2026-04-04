@@ -1,24 +1,24 @@
 {
   "elevation": {
     "low": {
-      "$type": "shadow",
-      "$value": "{elevation.sm}",
-      "$description": "Low elevation for subtle depth"
+      "value": "{elevation.sm}",
+      "description": "Low elevation for subtle depth",
+      "type": "shadow"
     },
     "medium": {
-      "$type": "shadow",
-      "$value": "{elevation.md}",
-      "$description": "Medium elevation for cards"
+      "value": "{elevation.md}",
+      "description": "Medium elevation for cards",
+      "type": "shadow"
     },
     "high": {
-      "$type": "shadow",
-      "$value": "{elevation.lg}",
-      "$description": "High elevation for dropdowns"
+      "value": "{elevation.lg}",
+      "description": "High elevation for dropdowns",
+      "type": "shadow"
     },
     "highest": {
-      "$type": "shadow",
-      "$value": "{elevation.xl}",
-      "$description": "Highest elevation for modals"
+      "value": "{elevation.xl}",
+      "description": "Highest elevation for modals",
+      "type": "shadow"
     }
   }
 }

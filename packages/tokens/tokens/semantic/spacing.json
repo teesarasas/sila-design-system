@@ -1,44 +1,44 @@
 {
   "spacing": {
     "none": {
-      "$type": "dimension",
-      "$value": "{spacing.0}",
-      "$description": "No spacing"
+      "value": "{spacing.0}",
+      "description": "No spacing",
+      "type": "dimension"
     },
     "xs": {
-      "$type": "dimension",
-      "$value": "{spacing.4px}",
-      "$description": "Extra small spacing"
+      "value": "{spacing.4px}",
+      "description": "Extra small spacing",
+      "type": "dimension"
     },
     "sm": {
-      "$type": "dimension",
-      "$value": "{spacing.8px}",
-      "$description": "Small spacing"
+      "value": "{spacing.8px}",
+      "description": "Small spacing",
+      "type": "dimension"
     },
     "md": {
-      "$type": "dimension",
-      "$value": "{spacing.12px}",
-      "$description": "Medium spacing"
+      "value": "{spacing.12px}",
+      "description": "Medium spacing",
+      "type": "dimension"
     },
     "lg": {
-      "$type": "dimension",
-      "$value": "{spacing.16px}",
-      "$description": "Large spacing"
+      "value": "{spacing.16px}",
+      "description": "Large spacing",
+      "type": "dimension"
     },
     "xl": {
-      "$type": "dimension",
-      "$value": "{spacing.24px}",
-      "$description": "Extra large spacing"
+      "value": "{spacing.24px}",
+      "description": "Extra large spacing",
+      "type": "dimension"
     },
     "2xl": {
-      "$type": "dimension",
-      "$value": "{spacing.32px}",
-      "$description": "2x large spacing"
+      "value": "{spacing.32px}",
+      "description": "2x large spacing",
+      "type": "dimension"
     },
     "3xl": {
-      "$type": "dimension",
-      "$value": "{spacing.48px}",
-      "$description": "3x large spacing"
+      "value": "{spacing.48px}",
+      "description": "3x large spacing",
+      "type": "dimension"
     }
   }
 }

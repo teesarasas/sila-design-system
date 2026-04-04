@@ -1,84 +1,84 @@
 {
   "size": {
     "0": {
-      "$type": "dimension",
-      "$value": "0",
-      "$description": "No size"
+      "value": "0",
+      "description": "No size",
+      "type": "dimension"
     },
     "4px": {
-      "$type": "dimension",
-      "$value": "0.25rem",
-      "$description": "4px"
+      "value": "0.25rem",
+      "description": "4px",
+      "type": "dimension"
     },
     "8px": {
-      "$type": "dimension",
-      "$value": "0.5rem",
-      "$description": "8px"
+      "value": "0.5rem",
+      "description": "8px",
+      "type": "dimension"
     },
     "12px": {
-      "$type": "dimension",
-      "$value": "0.75rem",
-      "$description": "12px"
+      "value": "0.75rem",
+      "description": "12px",
+      "type": "dimension"
     },
     "16px": {
-      "$type": "dimension",
-      "$value": "1rem",
-      "$description": "16px"
+      "value": "1rem",
+      "description": "16px",
+      "type": "dimension"
     },
     "20px": {
-      "$type": "dimension",
-      "$value": "1.25rem",
-      "$description": "20px"
+      "value": "1.25rem",
+      "description": "20px",
+      "type": "dimension"
     },
     "24px": {
-      "$type": "dimension",
-      "$value": "1.5rem",
-      "$description": "24px"
+      "value": "1.5rem",
+      "description": "24px",
+      "type": "dimension"
     },
     "32px": {
-      "$type": "dimension",
-      "$value": "2rem",
-      "$description": "32px"
+      "value": "2rem",
+      "description": "32px",
+      "type": "dimension"
     },
     "40px": {
-      "$type": "dimension",
-      "$value": "2.5rem",
-      "$description": "40px"
+      "value": "2.5rem",
+      "description": "40px",
+      "type": "dimension"
     },
     "48px": {
-      "$type": "dimension",
-      "$value": "3rem",
-      "$description": "48px"
+      "value": "3rem",
+      "description": "48px",
+      "type": "dimension"
     },
     "64px": {
-      "$type": "dimension",
-      "$value": "4rem",
-      "$description": "64px"
+      "value": "4rem",
+      "description": "64px",
+      "type": "dimension"
     },
     "80px": {
-      "$type": "dimension",
-      "$value": "5rem",
-      "$description": "80px"
+      "value": "5rem",
+      "description": "80px",
+      "type": "dimension"
     },
     "96px": {
-      "$type": "dimension",
-      "$value": "6rem",
-      "$description": "96px"
+      "value": "6rem",
+      "description": "96px",
+      "type": "dimension"
     },
     "128px": {
-      "$type": "dimension",
-      "$value": "8rem",
-      "$description": "128px"
+      "value": "8rem",
+      "description": "128px",
+      "type": "dimension"
     },
     "160px": {
-      "$type": "dimension",
-      "$value": "10rem",
-      "$description": "160px"
+      "value": "10rem",
+      "description": "160px",
+      "type": "dimension"
     },
     "full": {
-      "$type": "dimension",
-      "$value": "100%",
-      "$description": "Full width/height"
+      "value": "100%",
+      "description": "Full width/height",
+      "type": "dimension"
     }
   }
 }

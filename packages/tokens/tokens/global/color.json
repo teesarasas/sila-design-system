@@ -1,687 +1,791 @@
 {
   "color": {
     "white": {
-      "$type": "color",
-      "$value": "#ffffff"
+      "value": "#ffffff",
+      "type": "color"
     },
     "black": {
-      "$type": "color",
-      "$value": "#000000"
+      "value": "#000000",
+      "type": "color"
     },
     "white-alpha": {
       "white-alpha-100": {
-        "$type": "color",
-        "$value": "#ffffff1a",
-        "$description": "White 10%"
+        "value": "#ffffff1a",
+        "description": "White 10%",
+        "type": "color"
       },
       "white-alpha-200": {
-        "$type": "color",
-        "$value": "#ffffff33",
-        "$description": "White 20%"
+        "value": "#ffffff33",
+        "description": "White 20%",
+        "type": "color"
       },
       "white-alpha-300": {
-        "$type": "color",
-        "$value": "#ffffff4d",
-        "$description": "White 30%"
+        "value": "#ffffff4d",
+        "description": "White 30%",
+        "type": "color"
       },
       "white-alpha-400": {
-        "$type": "color",
-        "$value": "#ffffff66",
-        "$description": "White 40%"
+        "value": "#ffffff66",
+        "description": "White 40%",
+        "type": "color"
       },
       "white-alpha-500": {
-        "$type": "color",
-        "$value": "#ffffff80",
-        "$description": "White 50% (Medium)"
+        "value": "#ffffff80",
+        "description": "White 50% (Medium)",
+        "type": "color"
       },
       "white-alpha-600": {
-        "$type": "color",
-        "$value": "#ffffff99",
-        "$description": "White 60%"
+        "value": "#ffffff99",
+        "description": "White 60%",
+        "type": "color"
       },
       "white-alpha-700": {
-        "$type": "color",
-        "$value": "#ffffffb3",
-        "$description": "White 70%"
+        "value": "#ffffffb3",
+        "description": "White 70%",
+        "type": "color"
       },
       "white-alpha-800": {
-        "$type": "color",
-        "$value": "#ffffffcc",
-        "$description": "White 80%"
+        "value": "#ffffffcc",
+        "description": "White 80%",
+        "type": "color"
       },
       "white-alpha-900": {
-        "$type": "color",
-        "$value": "#ffffffe6",
-        "$description": "White 90%"
+        "value": "#ffffffe6",
+        "description": "White 90%",
+        "type": "color"
       },
       "white-alpha-1000": {
-        "$type": "color",
-        "$value": "#ffffff00",
-        "$description": "transparent"
+        "value": "#ffffff00",
+        "description": "transparent",
+        "type": "color"
       }
     },
     "black-alpha": {
       "black-alpha-100": {
-        "$type": "color",
-        "$value": "#0000001a",
-        "$description": "Black 10%"
+        "value": "#0000001a",
+        "description": "Black 10%",
+        "type": "color"
       },
       "black-alpha-200": {
-        "$type": "color",
-        "$value": "#00000033",
-        "$description": "Black 20%"
+        "value": "#00000033",
+        "description": "Black 20%",
+        "type": "color"
       },
       "black-alpha-300": {
-        "$type": "color",
-        "$value": "#0000004d",
-        "$description": "Black 30%"
+        "value": "#0000004d",
+        "description": "Black 30%",
+        "type": "color"
       },
       "black-alpha-400": {
-        "$type": "color",
-        "$value": "#00000066",
-        "$description": "Black 40%"
+        "value": "#00000066",
+        "description": "Black 40%",
+        "type": "color"
       },
       "black-alpha-500": {
-        "$type": "color",
-        "$value": "#00000080",
-        "$description": "Black 50% (Medium)"
+        "value": "#00000080",
+        "description": "Black 50% (Medium)",
+        "type": "color"
       },
       "black-alpha-600": {
-        "$type": "color",
-        "$value": "#00000099",
-        "$description": "Black 60%"
+        "value": "#00000099",
+        "description": "Black 60%",
+        "type": "color"
       },
       "black-alpha-700": {
-        "$type": "color",
-        "$value": "#000000b3",
-        "$description": "Black 70%"
+        "value": "#000000b3",
+        "description": "Black 70%",
+        "type": "color"
       },
       "black-alpha-800": {
-        "$type": "color",
-        "$value": "#000000cc",
-        "$description": "Black 80%"
+        "value": "#000000cc",
+        "description": "Black 80%",
+        "type": "color"
       },
       "black-alpha-900": {
-        "$type": "color",
-        "$value": "#000000e6",
-        "$description": "Black 90%"
+        "value": "#000000e6",
+        "description": "Black 90%",
+        "type": "color"
       },
       "black-alpha-1000": {
-        "$type": "color",
-        "$value": "#00000000",
-        "$description": "transparent"
+        "value": "#00000000",
+        "description": "transparent",
+        "type": "color"
       }
     },
     "gray": {
       "gray-100": {
-        "$type": "color",
-        "$value": "#f7f7f7",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff"
+        "value": "#f7f7f7",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff",
+        "type": "color"
       },
       "gray-200": {
-        "$type": "color",
-        "$value": "#dddddd",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff"
+        "value": "#dddddd",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff",
+        "type": "color"
       },
       "gray-300": {
-        "$type": "color",
-        "$value": "#c4c4c4",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff"
+        "value": "#c4c4c4",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff",
+        "type": "color"
       },
       "gray-400": {
-        "$type": "color",
-        "$value": "#ababab",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff"
+        "value": "#ababab",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff",
+        "type": "color"
       },
       "gray-500": {
-        "$type": "color",
-        "$value": "#939393",
-        "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff"
+        "value": "#939393",
+        "description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff",
+        "type": "color"
       },
       "gray-600": {
-        "$type": "color",
-        "$value": "#7c7c7c",
-        "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff"
+        "value": "#7c7c7c",
+        "description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff",
+        "type": "color"
       },
       "gray-700": {
-        "$type": "color",
-        "$value": "#656565",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff"
+        "value": "#656565",
+        "description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff",
+        "type": "color"
       },
       "gray-800": {
-        "$type": "color",
-        "$value": "#4f4f4f",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff"
+        "value": "#4f4f4f",
+        "description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff",
+        "type": "color"
       },
       "gray-900": {
-        "$type": "color",
-        "$value": "#3b3b3b",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff"
+        "value": "#3b3b3b",
+        "description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff",
+        "type": "color"
       },
       "gray-1000": {
-        "$type": "color",
-        "$value": "#272727",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff"
+        "value": "#272727",
+        "description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff",
+        "type": "color"
       }
     },
     "blue": {
       "blue-100": {
-        "$type": "color",
-        "$value": "#f4f8fe",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff"
+        "value": "#f4f8fe",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff",
+        "type": "color"
       },
       "blue-200": {
-        "$type": "color",
-        "$value": "#ceddf9",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff"
+        "value": "#ceddf9",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff",
+        "type": "color"
       },
       "blue-300": {
-        "$type": "color",
-        "$value": "#acc5f4",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff"
+        "value": "#acc5f4",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff",
+        "type": "color"
       },
       "blue-400": {
-        "$type": "color",
-        "$value": "#89abed",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff"
+        "value": "#89abed",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff",
+        "type": "color"
       },
       "blue-500": {
-        "$type": "color",
-        "$value": "#6792e6",
-        "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff"
+        "value": "#6792e6",
+        "description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff",
+        "type": "color"
       },
       "blue-600": {
-        "$type": "color",
-        "$value": "#4778de",
-        "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff"
+        "value": "#4778de",
+        "description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff",
+        "type": "color"
       },
       "blue-700": {
-        "$type": "color",
-        "$value": "#255cd5",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff"
+        "value": "#255cd5",
+        "description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff",
+        "type": "color"
       },
       "blue-800": {
-        "$type": "color",
-        "$value": "#0340c7",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff"
+        "value": "#0340c7",
+        "description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff",
+        "type": "color"
       },
       "blue-900": {
-        "$type": "color",
-        "$value": "#0025ae",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff"
+        "value": "#0025ae",
+        "description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff",
+        "type": "color"
       },
       "blue-1000": {
-        "$type": "color",
-        "$value": "#000090",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff"
+        "value": "#000090",
+        "description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff",
+        "type": "color"
       }
     },
     "orange": {
       "orange-100": {
-        "$type": "color",
-        "$value": "#fbf5f4",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff"
+        "value": "#fbf5f4",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff",
+        "type": "color"
       },
       "orange-200": {
-        "$type": "color",
-        "$value": "#f1d6d3",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff"
+        "value": "#f1d6d3",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff",
+        "type": "color"
       },
       "orange-300": {
-        "$type": "color",
-        "$value": "#e7bab5",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff"
+        "value": "#e7bab5",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff",
+        "type": "color"
       },
       "orange-400": {
-        "$type": "color",
-        "$value": "#db9b93",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff"
+        "value": "#db9b93",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff",
+        "type": "color"
       },
       "orange-500": {
-        "$type": "color",
-        "$value": "#d17c72",
-        "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff"
+        "value": "#d17c72",
+        "description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff",
+        "type": "color"
       },
       "orange-600": {
-        "$type": "color",
-        "$value": "#c55c50",
-        "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff"
+        "value": "#c55c50",
+        "description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff",
+        "type": "color"
       },
       "orange-700": {
-        "$type": "color",
-        "$value": "#b83627",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff"
+        "value": "#b83627",
+        "description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff",
+        "type": "color"
       },
       "orange-800": {
-        "$type": "color",
-        "$value": "#9f1100",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff"
+        "value": "#9f1100",
+        "description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff",
+        "type": "color"
       },
       "orange-900": {
-        "$type": "color",
-        "$value": "#790d00",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff"
+        "value": "#790d00",
+        "description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff",
+        "type": "color"
       },
       "orange-1000": {
-        "$type": "color",
-        "$value": "#520900",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff"
+        "value": "#520900",
+        "description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff",
+        "type": "color"
       }
     },
     "green": {
       "green-100": {
-        "$type": "color",
-        "$value": "#f5f8f6",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff"
+        "value": "#f5f8f6",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff",
+        "type": "color"
       },
       "green-200": {
-        "$type": "color",
-        "$value": "#d1e1d7",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff"
+        "value": "#d1e1d7",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff",
+        "type": "color"
       },
       "green-300": {
-        "$type": "color",
-        "$value": "#afcbb9",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff"
+        "value": "#afcbb9",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff",
+        "type": "color"
       },
       "green-400": {
-        "$type": "color",
-        "$value": "#8bb49b",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff"
+        "value": "#8bb49b",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff",
+        "type": "color"
       },
       "green-500": {
-        "$type": "color",
-        "$value": "#6a9e7e",
-        "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff"
+        "value": "#6a9e7e",
+        "description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff",
+        "type": "color"
       },
       "green-600": {
-        "$type": "color",
-        "$value": "#498961",
-        "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff"
+        "value": "#498961",
+        "description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff",
+        "type": "color"
       },
       "green-700": {
-        "$type": "color",
-        "$value": "#267243",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff"
+        "value": "#267243",
+        "description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff",
+        "type": "color"
       },
       "green-800": {
-        "$type": "color",
-        "$value": "#0c5c2a",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff"
+        "value": "#0c5c2a",
+        "description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff",
+        "type": "color"
       },
       "green-900": {
-        "$type": "color",
-        "$value": "#09441f",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff"
+        "value": "#09441f",
+        "description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff",
+        "type": "color"
       },
       "green-1000": {
-        "$type": "color",
-        "$value": "#062d15",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff"
+        "value": "#062d15",
+        "description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff",
+        "type": "color"
       }
     },
     "red": {
       "red-100": {
-        "$type": "color",
-        "$value": "#fbf6f6",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff"
+        "value": "#fbf6f6",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.07:1 against #ffffff",
+        "type": "color"
       },
       "red-200": {
-        "$type": "color",
-        "$value": "#ecd8d8",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff"
+        "value": "#ecd8d8",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.36:1 against #ffffff",
+        "type": "color"
       },
       "red-300": {
-        "$type": "color",
-        "$value": "#dfbcbc",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff"
+        "value": "#dfbcbc",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 1.74:1 against #ffffff",
+        "type": "color"
       },
       "red-400": {
-        "$type": "color",
-        "$value": "#d19e9e",
-        "$description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff"
+        "value": "#d19e9e",
+        "description": "Do not use for UI elements or text. WCAG 2.x contrast is 2.3:1 against #ffffff",
+        "type": "color"
       },
       "red-500": {
-        "$type": "color",
-        "$value": "#c48181",
-        "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff"
+        "value": "#c48181",
+        "description": "Can be used for UI elements or large text. WCAG 2.x contrast is 3.07:1 against #ffffff",
+        "type": "color"
       },
       "red-600": {
-        "$type": "color",
-        "$value": "#b66565",
-        "$description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff"
+        "value": "#b66565",
+        "description": "Can be used for UI elements or large text. WCAG 2.x contrast is 4.17:1 against #ffffff",
+        "type": "color"
       },
       "red-700": {
-        "$type": "color",
-        "$value": "#a84545",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff"
+        "value": "#a84545",
+        "description": "Can be used for small text. WCAG 2.x contrast is 5.83:1 against #ffffff",
+        "type": "color"
       },
       "red-800": {
-        "$type": "color",
-        "$value": "#902a2a",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff"
+        "value": "#902a2a",
+        "description": "Can be used for small text. WCAG 2.x contrast is 8.19:1 against #ffffff",
+        "type": "color"
       },
       "red-900": {
-        "$type": "color",
-        "$value": "#6d1f1f",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff"
+        "value": "#6d1f1f",
+        "description": "Can be used for small text. WCAG 2.x contrast is 11.2:1 against #ffffff",
+        "type": "color"
       },
       "red-1000": {
-        "$type": "color",
-        "$value": "#491515",
-        "$description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff"
+        "value": "#491515",
+        "description": "Can be used for small text. WCAG 2.x contrast is 14.94:1 against #ffffff",
+        "type": "color"
       }
     },
     "yellow": {
       "yellow-100": {
-        "$type": "color",
-        "$value": "#fdf7e5",
-        "$description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.07:1 against background #ffffff"
+        "value": "#fdf7e5",
+        "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.07:1 against background #ffffff",
+        "type": "color"
       },
       "yellow-200": {
-        "$type": "color",
-        "$value": "#f8db88",
-        "$description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.36:1 against background #ffffff"
+        "value": "#f8db88",
+        "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.36:1 against background #ffffff",
+        "type": "color"
       },
       "yellow-300": {
-        "$type": "color",
-        "$value": "#f2bc25",
-        "$description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.74:1 against background #ffffff"
+        "value": "#f2bc25",
+        "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.74:1 against background #ffffff",
+        "type": "color"
       },
       "yellow-400": {
-        "$type": "color",
-        "$value": "#dba100",
-        "$description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.3:1 against background #ffffff"
+        "value": "#dba100",
+        "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.3:1 against background #ffffff",
+        "type": "color"
       },
       "yellow-500": {
-        "$type": "color",
-        "$value": "#bc8b00",
-        "$description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.07:1 against background #ffffff"
+        "value": "#bc8b00",
+        "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.07:1 against background #ffffff",
+        "type": "color"
       },
       "yellow-600": {
-        "$type": "color",
-        "$value": "#9f7500",
-        "$description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 4.17:1 against background #ffffff"
+        "value": "#9f7500",
+        "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 4.17:1 against background #ffffff",
+        "type": "color"
       },
       "yellow-700": {
-        "$type": "color",
-        "$value": "#815f00",
-        "$description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 5.83:1 against background #ffffff"
+        "value": "#815f00",
+        "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 5.83:1 against background #ffffff",
+        "type": "color"
       },
       "yellow-800": {
-        "$type": "color",
-        "$value": "#654b00",
-        "$description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 8.19:1 against background #ffffff"
+        "value": "#654b00",
+        "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 8.19:1 against background #ffffff",
+        "type": "color"
       },
       "yellow-900": {
-        "$type": "color",
-        "$value": "#4c3800",
-        "$description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 11.2:1 against background #ffffff"
+        "value": "#4c3800",
+        "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 11.2:1 against background #ffffff",
+        "type": "color"
       },
       "yellow-1000": {
-        "$type": "color",
-        "$value": "#332500",
-        "$description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 14.94:1 against background #ffffff"
+        "value": "#332500",
+        "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 14.94:1 against background #ffffff",
+        "type": "color"
+      }
+    },
+    "aqua": {
+      "aqua-100": {
+        "value": "#eef9ff",
+        "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.07:1 against background #ffffff",
+        "type": "color"
+      },
+      "aqua-200": {
+        "value": "#b1e3ff",
+        "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.36:1 against background #ffffff",
+        "type": "color"
+      },
+      "aqua-300": {
+        "value": "#76ceff",
+        "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.74:1 against background #ffffff",
+        "type": "color"
+      },
+      "aqua-400": {
+        "value": "#3cb5f1",
+        "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.3:1 against background #ffffff",
+        "type": "color"
+      },
+      "aqua-500": {
+        "value": "#149dd8",
+        "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.07:1 against background #ffffff",
+        "type": "color"
+      },
+      "aqua-600": {
+        "value": "#0084bd",
+        "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 4.17:1 against background #ffffff",
+        "type": "color"
+      },
+      "aqua-700": {
+        "value": "#006aa3",
+        "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 5.83:1 against background #ffffff",
+        "type": "color"
+      },
+      "aqua-800": {
+        "value": "#005288",
+        "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 8.19:1 against background #ffffff",
+        "type": "color"
+      },
+      "aqua-900": {
+        "value": "#003c71",
+        "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 11.2:1 against background #ffffff",
+        "type": "color"
+      },
+      "aqua-1000": {
+        "value": "#002459",
+        "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 14.94:1 against background #ffffff",
+        "type": "color"
       }
     },
     "blue-alpha": {
       "blue-alpha-100": {
-        "$type": "color",
-        "$value": "#6792e61a",
-        "$description": "Blue 500 with 10% opacity."
+        "value": "#6792e61a",
+        "description": "Blue 500 with 10% opacity.",
+        "type": "color"
       },
       "blue-alpha-200": {
-        "$type": "color",
-        "$value": "#6792e633",
-        "$description": "Blue 500 with 20% opacity."
+        "value": "#6792e633",
+        "description": "Blue 500 with 20% opacity.",
+        "type": "color"
       },
       "blue-alpha-300": {
-        "$type": "color",
-        "$value": "#6792e64d",
-        "$description": "Blue 500 with 30% opacity."
+        "value": "#6792e64d",
+        "description": "Blue 500 with 30% opacity.",
+        "type": "color"
       },
       "blue-alpha-400": {
-        "$type": "color",
-        "$value": "#6792e666",
-        "$description": "Blue 500 with 40% opacity."
+        "value": "#6792e666",
+        "description": "Blue 500 with 40% opacity.",
+        "type": "color"
       },
       "blue-alpha-500": {
-        "$type": "color",
-        "$value": "#6792e680",
-        "$description": "Blue 500 with 50% opacity."
+        "value": "#6792e680",
+        "description": "Blue 500 with 50% opacity.",
+        "type": "color"
       },
       "blue-alpha-600": {
-        "$type": "color",
-        "$value": "#6792e699",
-        "$description": "Blue 500 with 60% opacity."
+        "value": "#6792e699",
+        "description": "Blue 500 with 60% opacity.",
+        "type": "color"
       },
       "blue-alpha-700": {
-        "$type": "color",
-        "$value": "#6792e6b3",
-        "$description": "Blue 500 with 70% opacity."
+        "value": "#6792e6b3",
+        "description": "Blue 500 with 70% opacity.",
+        "type": "color"
       },
       "blue-alpha-800": {
-        "$type": "color",
-        "$value": "#6792e6cc",
-        "$description": "Blue 500 with 80% opacity."
+        "value": "#6792e6cc",
+        "description": "Blue 500 with 80% opacity.",
+        "type": "color"
       },
       "blue-alpha-900": {
-        "$type": "color",
-        "$value": "#6792e6e6",
-        "$description": "Blue 500 with 90% opacity."
+        "value": "#6792e6e6",
+        "description": "Blue 500 with 90% opacity.",
+        "type": "color"
       },
       "blue-alpha-1000": {
-        "$type": "color",
-        "$value": "#6792e600",
-        "$description": "Fully transparent Blue."
+        "value": "#6792e600",
+        "description": "Fully transparent Blue.",
+        "type": "color"
       }
     },
     "orange-alpha": {
       "orange-alpha-100": {
-        "$type": "color",
-        "$value": "#d17c721a",
-        "$description": "Orange 500 with 10% opacity."
+        "value": "#d17c721a",
+        "description": "Orange 500 with 10% opacity.",
+        "type": "color"
       },
       "orange-alpha-200": {
-        "$type": "color",
-        "$value": "#d17c7233",
-        "$description": "Orange 500 with 20% opacity."
+        "value": "#d17c7233",
+        "description": "Orange 500 with 20% opacity.",
+        "type": "color"
       },
       "orange-alpha-300": {
-        "$type": "color",
-        "$value": "#d17c724d",
-        "$description": "Orange 500 with 30% opacity."
+        "value": "#d17c724d",
+        "description": "Orange 500 with 30% opacity.",
+        "type": "color"
       },
       "orange-alpha-400": {
-        "$type": "color",
-        "$value": "#d17c7266",
-        "$description": "Orange 500 with 40% opacity."
+        "value": "#d17c7266",
+        "description": "Orange 500 with 40% opacity.",
+        "type": "color"
       },
       "orange-alpha-500": {
-        "$type": "color",
-        "$value": "#d17c7280",
-        "$description": "Orange 500 with 50% opacity."
+        "value": "#d17c7280",
+        "description": "Orange 500 with 50% opacity.",
+        "type": "color"
       },
       "orange-alpha-600": {
-        "$type": "color",
-        "$value": "#d17c7299",
-        "$description": "Orange 500 with 60% opacity."
+        "value": "#d17c7299",
+        "description": "Orange 500 with 60% opacity.",
+        "type": "color"
       },
       "orange-alpha-700": {
-        "$type": "color",
-        "$value": "#d17c72b3",
-        "$description": "Orange 500 with 70% opacity."
+        "value": "#d17c72b3",
+        "description": "Orange 500 with 70% opacity.",
+        "type": "color"
       },
       "orange-alpha-800": {
-        "$type": "color",
-        "$value": "#d17c72cc",
-        "$description": "Orange 500 with 80% opacity."
+        "value": "#d17c72cc",
+        "description": "Orange 500 with 80% opacity.",
+        "type": "color"
       },
       "orange-alpha-900": {
-        "$type": "color",
-        "$value": "#d17c72e6",
-        "$description": "Orange 500 with 90% opacity."
+        "value": "#d17c72e6",
+        "description": "Orange 500 with 90% opacity.",
+        "type": "color"
       },
       "orange-alpha-1000": {
-        "$type": "color",
-        "$value": "#d17c7200",
-        "$description": "Fully transparent Orange."
+        "value": "#d17c7200",
+        "description": "Fully transparent Orange.",
+        "type": "color"
       }
     },
     "green-alpha": {
       "green-alpha-100": {
-        "$type": "color",
-        "$value": "#6a9e7e1a",
-        "$description": "Green 500 with 10% opacity."
+        "value": "#6a9e7e1a",
+        "description": "Green 500 with 10% opacity.",
+        "type": "color"
       },
       "green-alpha-200": {
-        "$type": "color",
-        "$value": "#6a9e7e33",
-        "$description": "Green 500 with 20% opacity."
+        "value": "#6a9e7e33",
+        "description": "Green 500 with 20% opacity.",
+        "type": "color"
       },
       "green-alpha-300": {
-        "$type": "color",
-        "$value": "#6a9e7e4d",
-        "$description": "Green 500 with 30% opacity."
+        "value": "#6a9e7e4d",
+        "description": "Green 500 with 30% opacity.",
+        "type": "color"
       },
       "green-alpha-400": {
-        "$type": "color",
-        "$value": "#6a9e7e66",
-        "$description": "Green 500 with 40% opacity."
+        "value": "#6a9e7e66",
+        "description": "Green 500 with 40% opacity.",
+        "type": "color"
       },
       "green-alpha-500": {
-        "$type": "color",
-        "$value": "#6a9e7e80",
-        "$description": "Green 500 with 50% opacity."
+        "value": "#6a9e7e80",
+        "description": "Green 500 with 50% opacity.",
+        "type": "color"
       },
       "green-alpha-600": {
-        "$type": "color",
-        "$value": "#6a9e7e99",
-        "$description": "Green 500 with 60% opacity."
+        "value": "#6a9e7e99",
+        "description": "Green 500 with 60% opacity.",
+        "type": "color"
       },
       "green-alpha-700": {
-        "$type": "color",
-        "$value": "#6a9e7eb3",
-        "$description": "Green 500 with 70% opacity."
+        "value": "#6a9e7eb3",
+        "description": "Green 500 with 70% opacity.",
+        "type": "color"
       },
       "green-alpha-800": {
-        "$type": "color",
-        "$value": "#6a9e7ecc",
-        "$description": "Green 500 with 80% opacity."
+        "value": "#6a9e7ecc",
+        "description": "Green 500 with 80% opacity.",
+        "type": "color"
       },
       "green-alpha-900": {
-        "$type": "color",
-        "$value": "#6a9e7ee6",
-        "$description": "Green 500 with 90% opacity."
+        "value": "#6a9e7ee6",
+        "description": "Green 500 with 90% opacity.",
+        "type": "color"
       },
       "green-alpha-1000": {
-        "$type": "color",
-        "$value": "#6a9e7e00",
-        "$description": "Fully transparent Green."
+        "value": "#6a9e7e00",
+        "description": "Fully transparent Green.",
+        "type": "color"
       }
     },
     "red-alpha": {
       "red-alpha-100": {
-        "$type": "color",
-        "$value": "#c481811a",
-        "$description": "Red 500 with 10% opacity."
+        "value": "#c481811a",
+        "description": "Red 500 with 10% opacity.",
+        "type": "color"
       },
       "red-alpha-200": {
-        "$type": "color",
-        "$value": "#c4818133",
-        "$description": "Red 500 with 20% opacity."
+        "value": "#c4818133",
+        "description": "Red 500 with 20% opacity.",
+        "type": "color"
       },
       "red-alpha-300": {
-        "$type": "color",
-        "$value": "#c481814d",
-        "$description": "Red 500 with 30% opacity."
+        "value": "#c481814d",
+        "description": "Red 500 with 30% opacity.",
+        "type": "color"
       },
       "red-alpha-400": {
-        "$type": "color",
-        "$value": "#c4818166",
-        "$description": "Red 500 with 40% opacity."
+        "value": "#c4818166",
+        "description": "Red 500 with 40% opacity.",
+        "type": "color"
       },
       "red-alpha-500": {
-        "$type": "color",
-        "$value": "#c4818180",
-        "$description": "Red 500 with 50% opacity."
+        "value": "#c4818180",
+        "description": "Red 500 with 50% opacity.",
+        "type": "color"
       },
       "red-alpha-600": {
-        "$type": "color",
-        "$value": "#c4818199",
-        "$description": "Red 500 with 60% opacity."
+        "value": "#c4818199",
+        "description": "Red 500 with 60% opacity.",
+        "type": "color"
       },
       "red-alpha-700": {
-        "$type": "color",
-        "$value": "#c48181b3",
-        "$description": "Red 500 with 70% opacity."
+        "value": "#c48181b3",
+        "description": "Red 500 with 70% opacity.",
+        "type": "color"
       },
       "red-alpha-800": {
-        "$type": "color",
-        "$value": "#c48181cc",
-        "$description": "Red 500 with 80% opacity."
+        "value": "#c48181cc",
+        "description": "Red 500 with 80% opacity.",
+        "type": "color"
       },
       "red-alpha-900": {
-        "$type": "color",
-        "$value": "#c48181e6",
-        "$description": "Red 500 with 90% opacity."
+        "value": "#c48181e6",
+        "description": "Red 500 with 90% opacity.",
+        "type": "color"
       },
       "red-alpha-1000": {
-        "$type": "color",
-        "$value": "#c4818100",
-        "$description": "Fully transparent Red."
+        "value": "#c4818100",
+        "description": "Fully transparent Red.",
+        "type": "color"
       }
     },
     "yellow-alpha": {
       "yellow-alpha-100": {
-        "$type": "color",
-        "$value": "#bc8b001a",
-        "$description": "Yellow 500 with 10% opacity."
+        "value": "#bc8b001a",
+        "description": "Yellow 500 with 10% opacity.",
+        "type": "color"
       },
       "yellow-alpha-200": {
-        "$type": "color",
-        "$value": "#bc8b0033",
-        "$description": "Yellow 500 with 20% opacity."
+        "value": "#bc8b0033",
+        "description": "Yellow 500 with 20% opacity.",
+        "type": "color"
       },
       "yellow-alpha-300": {
-        "$type": "color",
-        "$value": "#bc8b004d",
-        "$description": "Yellow 500 with 30% opacity."
+        "value": "#bc8b004d",
+        "description": "Yellow 500 with 30% opacity.",
+        "type": "color"
       },
       "yellow-alpha-400": {
-        "$type": "color",
-        "$value": "#bc8b0066",
-        "$description": "Yellow 500 with 40% opacity."
+        "value": "#bc8b0066",
+        "description": "Yellow 500 with 40% opacity.",
+        "type": "color"
       },
       "yellow-alpha-500": {
-        "$type": "color",
-        "$value": "#bc8b0080",
-        "$description": "Yellow 500 with 50% opacity."
+        "value": "#bc8b0080",
+        "description": "Yellow 500 with 50% opacity.",
+        "type": "color"
       },
       "yellow-alpha-600": {
-        "$type": "color",
-        "$value": "#bc8b0099",
-        "$description": "Yellow 500 with 60% opacity."
+        "value": "#bc8b0099",
+        "description": "Yellow 500 with 60% opacity.",
+        "type": "color"
       },
       "yellow-alpha-700": {
-        "$type": "color",
-        "$value": "#bc8b00b3",
-        "$description": "Yellow 500 with 70% opacity."
+        "value": "#bc8b00b3",
+        "description": "Yellow 500 with 70% opacity.",
+        "type": "color"
       },
       "yellow-alpha-800": {
-        "$type": "color",
-        "$value": "#bc8b00cc",
-        "$description": "Yellow 500 with 80% opacity."
+        "value": "#bc8b00cc",
+        "description": "Yellow 500 with 80% opacity.",
+        "type": "color"
       },
       "yellow-alpha-900": {
-        "$type": "color",
-        "$value": "#bc8b00e6",
-        "$description": "Yellow 500 with 90% opacity."
+        "value": "#bc8b00e6",
+        "description": "Yellow 500 with 90% opacity.",
+        "type": "color"
       },
       "yellow-alpha-1000": {
-        "$type": "color",
-        "$value": "#bc8b0000",
-        "$description": "Fully transparent Yellow."
+        "value": "#bc8b0000",
+        "description": "Fully transparent Yellow.",
+        "type": "color"
+      }
+    },
+    "aqua-alpha": {
+      "aqua-alpha-100": {
+        "value": "#149dd81a",
+        "description": "Aqua 500 with 10% opacity.",
+        "type": "color"
+      },
+      "aqua-alpha-200": {
+        "value": "#149dd833",
+        "description": "Aqua 500 with 20% opacity.",
+        "type": "color"
+      },
+      "aqua-alpha-300": {
+        "value": "#149dd84d",
+        "description": "Aqua 500 with 30% opacity.",
+        "type": "color"
+      },
+      "aqua-alpha-400": {
+        "value": "#149dd866",
+        "description": "Aqua 500 with 40% opacity.",
+        "type": "color"
+      },
+      "aqua-alpha-500": {
+        "value": "#149dd880",
+        "description": "Aqua 500 with 50% opacity.",
+        "type": "color"
+      },
+      "aqua-alpha-600": {
+        "value": "#149dd899",
+        "description": "Aqua 500 with 60% opacity.",
+        "type": "color"
+      },
+      "aqua-alpha-700": {
+        "value": "#149dd8b3",
+        "description": "Aqua 500 with 70% opacity.",
+        "type": "color"
+      },
+      "aqua-alpha-800": {
+        "value": "#149dd8cc",
+        "description": "Aqua 500 with 80% opacity.",
+        "type": "color"
+      },
+      "aqua-alpha-900": {
+        "value": "#149dd8e6",
+        "description": "Aqua 500 with 90% opacity.",
+        "type": "color"
+      },
+      "aqua-alpha-1000": {
+        "value": "#149dd800",
+        "description": "Fully transparent Aqua.",
+        "type": "color"
       }
     }
   }

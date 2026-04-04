@@ -2,301 +2,307 @@
   "color": {
     "background": {
       "primary": {
-        "$type": "color",
-        "$value": "{color.white}",
-        "$description": "Primary background color"
+        "value": "{color.white}",
+        "description": "Primary background color",
+        "type": "color"
       },
       "secondary": {
-        "$type": "color",
-        "$value": "{color.gray.gray-100}",
-        "$description": "Secondary/subtle background color"
+        "value": "{color.gray.gray-100}",
+        "description": "Secondary/subtle background color",
+        "type": "color"
       },
       "tertiary": {
-        "$type": "color",
-        "$value": "{color.gray.gray-200}",
-        "$description": "Tertiary background color"
+        "value": "{color.gray.gray-200}",
+        "description": "Tertiary background color",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{color.gray.gray-1000}",
-        "$description": "Inverse background for contrast"
+        "value": "{color.gray.gray-1000}",
+        "description": "Inverse background for contrast",
+        "type": "color"
       },
       "brand": {
-        "$type": "color",
-        "$value": "{color.blue.blue-700}",
-        "$description": "Brand/primary action background"
+        "value": "{color.blue.blue-700}",
+        "description": "Brand/primary action background",
+        "type": "color"
       },
       "brand-subtle": {
-        "$type": "color",
-        "$value": "{color.blue.blue-100}",
-        "$description": "Subtle brand background"
+        "value": "{color.blue.blue-100}",
+        "description": "Subtle brand background",
+        "type": "color"
       },
       "success": {
-        "$type": "color",
-        "$value": "{color.green.green-700}",
-        "$description": "Success state background"
+        "value": "{color.green.green-700}",
+        "description": "Success state background",
+        "type": "color"
       },
       "success-subtle": {
-        "$type": "color",
-        "$value": "{color.green.green-100}",
-        "$description": "Subtle success background"
+        "value": "{color.green.green-100}",
+        "description": "Subtle success background",
+        "type": "color"
       },
       "warning": {
-        "$type": "color",
-        "$value": "{color.yellow.yellow-700}",
-        "$description": "Warning state background"
+        "value": "{color.yellow.yellow-700}",
+        "description": "Warning state background",
+        "type": "color"
       },
       "warning-subtle": {
-        "$type": "color",
-        "$value": "{color.yellow.yellow-100}",
-        "$description": "Subtle warning background"
+        "value": "{color.yellow.yellow-100}",
+        "description": "Subtle warning background",
+        "type": "color"
       },
       "danger": {
-        "$type": "color",
-        "$value": "{color.red.red-700}",
-        "$description": "Danger/error state background"
+        "value": "{color.red.red-700}",
+        "description": "Danger/error state background",
+        "type": "color"
       },
       "danger-subtle": {
-        "$type": "color",
-        "$value": "{color.red.red-100}",
-        "$description": "Subtle danger background"
+        "value": "{color.red.red-100}",
+        "description": "Subtle danger background",
+        "type": "color"
       },
       "disabled": {
-        "$type": "color",
-        "$value": "{color.gray.gray-200}",
-        "$description": "Disabled state background"
+        "value": "{color.gray.gray-200}",
+        "description": "Disabled state background",
+        "type": "color"
       },
       "overlay": {
-        "$type": "color",
-        "$value": "{color.black-alpha.black-alpha-500}",
-        "$description": "Overlay/modal backdrop"
+        "value": "{color.black-alpha.black-alpha-500}",
+        "description": "Overlay/modal backdrop",
+        "type": "color"
       },
       "transparent": {
-        "$type": "color",
-        "$value": "{color.white-alpha.white-alpha-1000}"
+        "value": "{color.white-alpha.white-alpha-1000}",
+        "type": "color"
       },
       "interactive": {
         "primary": {
-          "$type": "color",
-          "$value": "{color.blue.blue-700}",
-          "$description": "Primary interactive color"
+          "value": "{color.blue.blue-700}",
+          "description": "Primary interactive color",
+          "type": "color"
         },
         "primary-hover": {
-          "$type": "color",
-          "$value": "{color.blue.blue-800}",
-          "$description": "Primary interactive hover state"
+          "value": "{color.blue.blue-800}",
+          "description": "Primary interactive hover state",
+          "type": "color"
         },
         "primary-active": {
-          "$type": "color",
-          "$value": "{color.blue.blue-900}",
-          "$description": "Primary interactive active state"
+          "value": "{color.blue.blue-900}",
+          "description": "Primary interactive active state",
+          "type": "color"
         },
         "secondary": {
-          "$type": "color",
-          "$value": "{color.gray.gray-100}",
-          "$description": "Secondary interactive color"
+          "value": "{color.gray.gray-100}",
+          "description": "Secondary interactive color",
+          "type": "color"
         },
         "secondary-hover": {
-          "$type": "color",
-          "$value": "{color.gray.gray-200}",
-          "$description": "Secondary interactive hover state"
+          "value": "{color.gray.gray-200}",
+          "description": "Secondary interactive hover state",
+          "type": "color"
         },
         "secondary-active": {
-          "$type": "color",
-          "$value": "{color.gray.gray-300}",
-          "$description": "Secondary interactive active state"
+          "value": "{color.gray.gray-300}",
+          "description": "Secondary interactive active state",
+          "type": "color"
         }
       },
       "status": {
         "info": {
-          "$type": "color",
-          "$value": "{color.blue.blue-100}",
-          "$description": "Primary interactive color"
+          "value": "{color.blue.blue-100}",
+          "description": "Primary interactive color",
+          "type": "color"
         },
         "success": {
-          "$type": "color",
-          "$value": "{color.green.green-100}",
-          "$description": "Primary interactive hover state"
+          "value": "{color.green.green-100}",
+          "description": "Primary interactive hover state",
+          "type": "color"
         },
         "warning": {
-          "$type": "color",
-          "$value": "{color.yellow.yellow-100}",
-          "$description": "Primary interactive active state"
+          "value": "{color.yellow.yellow-100}",
+          "description": "Primary interactive active state",
+          "type": "color"
         },
         "danger": {
-          "$type": "color",
-          "$value": "{color.red.red-100}",
-          "$description": "Secondary interactive color"
+          "value": "{color.red.red-100}",
+          "description": "Secondary interactive color",
+          "type": "color"
         },
         "neutral": {
-          "$type": "color",
-          "$value": "{color.gray.gray-100}",
-          "$description": "Secondary interactive hover state"
+          "value": "{color.gray.gray-100}",
+          "description": "Secondary interactive hover state",
+          "type": "color"
         }
       }
     },
     "foreground": {
       "primary": {
-        "$type": "color",
-        "$value": "{color.gray.gray-900}",
-        "$description": "Primary text color - WCAG AA compliant"
+        "value": "{color.gray.gray-900}",
+        "description": "Primary text color - WCAG AA compliant",
+        "type": "color"
       },
       "secondary": {
-        "$type": "color",
-        "$value": "{color.gray.gray-700}",
-        "$description": "Secondary text color - WCAG AA compliant"
+        "value": "{color.gray.gray-700}",
+        "description": "Secondary text color - WCAG AA compliant",
+        "type": "color"
       },
       "tertiary": {
-        "$type": "color",
-        "$value": "{color.gray.gray-600}",
-        "$description": "Tertiary/muted text - WCAG AA for large text"
+        "value": "{color.gray.gray-600}",
+        "description": "Tertiary/muted text - WCAG AA for large text",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{color.white}",
-        "$description": "Inverse text for dark backgrounds"
+        "value": "{color.white}",
+        "description": "Inverse text for dark backgrounds",
+        "type": "color"
       },
       "brand": {
-        "$type": "color",
-        "$value": "{color.blue.blue-700}",
-        "$description": "Brand colored text - WCAG AA compliant"
+        "value": "{color.blue.blue-700}",
+        "description": "Brand colored text - WCAG AA compliant",
+        "type": "color"
       },
       "success": {
-        "$type": "color",
-        "$value": "{color.green.green-700}",
-        "$description": "Success text color - WCAG AA compliant"
+        "value": "{color.green.green-700}",
+        "description": "Success text color - WCAG AA compliant",
+        "type": "color"
       },
       "warning": {
-        "$type": "color",
-        "$value": "{color.orange.orange-700}",
-        "$description": "Warning text color - WCAG AA compliant"
+        "value": "{color.orange.orange-700}",
+        "description": "Warning text color - WCAG AA compliant",
+        "type": "color"
       },
       "danger": {
-        "$type": "color",
-        "$value": "{color.red.red-700}",
-        "$description": "Danger/error text - WCAG AA compliant"
+        "value": "{color.red.red-700}",
+        "description": "Danger/error text - WCAG AA compliant",
+        "type": "color"
       },
       "disabled": {
-        "$type": "color",
-        "$value": "{color.gray.gray-500}",
-        "$description": "Disabled text color - WCAG AA for large text"
+        "value": "{color.gray.gray-500}",
+        "description": "Disabled text color - WCAG AA for large text",
+        "type": "color"
       },
       "placeholder": {
-        "$type": "color",
-        "$value": "{color.gray.gray-500}",
-        "$description": "Placeholder text color"
+        "value": "{color.gray.gray-500}",
+        "description": "Placeholder text color",
+        "type": "color"
       },
       "on-brand": {
-        "$type": "color",
-        "$value": "{color.white}",
-        "$description": "Text on brand background"
+        "value": "{color.white}",
+        "description": "Text on brand background",
+        "type": "color"
       },
       "on-success": {
-        "$type": "color",
-        "$value": "{color.white}",
-        "$description": "Text on success background"
+        "value": "{color.white}",
+        "description": "Text on success background",
+        "type": "color"
       },
       "on-warning": {
-        "$type": "color",
-        "$value": "{color.white}",
-        "$description": "Text on warning background"
+        "value": "{color.white}",
+        "description": "Text on warning background",
+        "type": "color"
       },
       "on-danger": {
-        "$type": "color",
-        "$value": "{color.white}",
-        "$description": "Text on danger background"
+        "value": "{color.white}",
+        "description": "Text on danger background",
+        "type": "color"
       },
       "status": {
         "info": {
-          "$type": "color",
-          "$value": "{color.blue.blue-700}"
+          "value": "{color.blue.blue-700}",
+          "type": "color"
         },
         "success": {
-          "$type": "color",
-          "$value": "{color.green.green-700}"
+          "value": "{color.green.green-700}",
+          "type": "color"
         },
         "warning": {
-          "$type": "color",
-          "$value": "{color.yellow.yellow-700}"
+          "value": "{color.yellow.yellow-700}",
+          "type": "color"
         },
         "danger": {
-          "$type": "color",
-          "$value": "{color.red.red-700}"
+          "value": "{color.red.red-700}",
+          "type": "color"
         },
         "neutral": {
-          "$type": "color",
-          "$value": "{color.gray.gray-700}"
+          "value": "{color.gray.gray-700}",
+          "type": "color"
+        }
+      },
+      "indicator": {
+        "selected": {
+          "value": "{color.aqua.aqua-500}",
+          "type": "color"
         }
       }
     },
     "border": {
       "primary": {
-        "$type": "color",
-        "$value": "{color.gray.gray-300}",
-        "$description": "Primary border color"
+        "value": "{color.gray.gray-300}",
+        "description": "Primary border color",
+        "type": "color"
       },
       "secondary": {
-        "$type": "color",
-        "$value": "{color.gray.gray-200}",
-        "$description": "Secondary/subtle border"
+        "value": "{color.gray.gray-200}",
+        "description": "Secondary/subtle border",
+        "type": "color"
       },
       "focus": {
-        "$type": "color",
-        "$value": "{color.blue.blue-700}",
-        "$description": "Focus ring color - WCAG compliant"
+        "value": "{color.blue.blue-700}",
+        "description": "Focus ring color - WCAG compliant",
+        "type": "color"
       },
       "brand": {
-        "$type": "color",
-        "$value": "{color.blue.blue-600}",
-        "$description": "Brand border color"
+        "value": "{color.blue.blue-600}",
+        "description": "Brand border color",
+        "type": "color"
       },
       "success": {
-        "$type": "color",
-        "$value": "{color.green.green-600}",
-        "$description": "Success border color"
+        "value": "{color.green.green-600}",
+        "description": "Success border color",
+        "type": "color"
       },
       "warning": {
-        "$type": "color",
-        "$value": "{color.orange.orange-600}",
-        "$description": "Warning border color"
+        "value": "{color.orange.orange-600}",
+        "description": "Warning border color",
+        "type": "color"
       },
       "danger": {
-        "$type": "color",
-        "$value": "{color.red.red-600}",
-        "$description": "Danger border color"
+        "value": "{color.red.red-600}",
+        "description": "Danger border color",
+        "type": "color"
       },
       "disabled": {
-        "$type": "color",
-        "$value": "{color.gray.gray-300}",
-        "$description": "Disabled border color"
+        "value": "{color.gray.gray-300}",
+        "description": "Disabled border color",
+        "type": "color"
       },
       "transparent": {
-        "$type": "color",
-        "$value": "{color.white-alpha.white-alpha-1000}",
-        "$description": "Transparent border color"
+        "value": "{color.white-alpha.white-alpha-1000}",
+        "description": "Transparent border color",
+        "type": "color"
       }
     }
   },
   "opacity": {
     "disabled": {
-      "$type": "number",
-      "$value": "{opacity.50}",
-      "$description": "Disabled state opacity"
+      "value": "{opacity.50}",
+      "description": "Disabled state opacity",
+      "type": "number"
     },
     "hover": {
-      "$type": "number",
-      "$value": "{opacity.80}",
-      "$description": "Hover state opacity"
+      "value": "{opacity.80}",
+      "description": "Hover state opacity",
+      "type": "number"
     },
     "visible": {
-      "$type": "number",
-      "$value": "{opacity.100}",
-      "$description": "Fully visible"
+      "value": "{opacity.100}",
+      "description": "Fully visible",
+      "type": "number"
     },
     "hidden": {
-      "$type": "number",
-      "$value": "{opacity.0}",
-      "$description": "Fully hidden"
+      "value": "{opacity.0}",
+      "description": "Fully hidden",
+      "type": "number"
     }
   }
 }

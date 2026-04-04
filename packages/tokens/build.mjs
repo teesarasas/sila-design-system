@@ -172,6 +172,7 @@ const getStyleDictionaryConfig = (theme = 'light') => {
       "tokens/semantic/elevation.json",
       "tokens/semantic/icon.json",
       "tokens/semantic/size.json",
+      "tokens/semantic/aspect-ratio.json",
       "tokens/semantic/typography.json",
       themeFile,
       "tokens/component/**/*.json"

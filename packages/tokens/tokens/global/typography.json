@@ -2,152 +2,152 @@
   "typography": {
     "font-family": {
       "sans": {
-        "$type": "fontFamilies",
-        "$value": "Geist",
-        "$description": "Primary sans-serif font stack with Geist"
+        "value": "Geist",
+        "description": "Primary sans-serif font stack with Geist",
+        "type": "fontFamilies"
       },
       "mono": {
-        "$type": "fontFamilies",
-        "$value": "Geist Mono",
-        "$description": "Monospace font stack with Geist Mono"
+        "value": "Geist Mono",
+        "description": "Monospace font stack with Geist Mono",
+        "type": "fontFamilies"
       }
     },
     "font-weight": {
       "regular": {
-        "$type": "fontWeights",
-        "$value": "400",
-        "$description": "Regular weight for body text"
+        "value": "400",
+        "description": "Regular weight for body text",
+        "type": "fontWeights"
       },
       "medium": {
-        "$type": "fontWeights",
-        "$value": "500",
-        "$description": "Medium weight for emphasis"
+        "value": "500",
+        "description": "Medium weight for emphasis",
+        "type": "fontWeights"
       },
       "semibold": {
-        "$type": "fontWeights",
-        "$value": "600",
-        "$description": "Semibold weight for headings"
+        "value": "600",
+        "description": "Semibold weight for headings",
+        "type": "fontWeights"
       },
       "bold": {
-        "$type": "fontWeights",
-        "$value": "700",
-        "$description": "Bold weight for strong emphasis"
+        "value": "700",
+        "description": "Bold weight for strong emphasis",
+        "type": "fontWeights"
       }
     },
     "font-size": {
       "xs": {
-        "$type": "number",
-        "$value": "0.75rem",
-        "$description": "12px - Extra small text"
+        "value": "0.75rem",
+        "description": "12px - Extra small text",
+        "type": "number"
       },
       "sm": {
-        "$type": "number",
-        "$value": "0.875rem",
-        "$description": "14px - Small text"
+        "value": "0.875rem",
+        "description": "14px - Small text",
+        "type": "number"
       },
       "base": {
-        "$type": "number",
-        "$value": "1rem",
-        "$description": "16px - Base body text"
+        "value": "1rem",
+        "description": "16px - Base body text",
+        "type": "number"
       },
       "lg": {
-        "$type": "number",
-        "$value": "1.125rem",
-        "$description": "18px - Large text"
+        "value": "1.125rem",
+        "description": "18px - Large text",
+        "type": "number"
       },
       "xl": {
-        "$type": "number",
-        "$value": "1.25rem",
-        "$description": "20px - Extra large text"
+        "value": "1.25rem",
+        "description": "20px - Extra large text",
+        "type": "number"
       },
       "2xl": {
-        "$type": "number",
-        "$value": "1.5rem",
-        "$description": "24px - Heading 4"
+        "value": "1.5rem",
+        "description": "24px - Heading 4",
+        "type": "number"
       },
       "3xl": {
-        "$type": "number",
-        "$value": "1.875rem",
-        "$description": "30px - Heading 3"
+        "value": "1.875rem",
+        "description": "30px - Heading 3",
+        "type": "number"
       },
       "4xl": {
-        "$type": "number",
-        "$value": "2.25rem",
-        "$description": "36px - Heading 2"
+        "value": "2.25rem",
+        "description": "36px - Heading 2",
+        "type": "number"
       },
       "5xl": {
-        "$type": "number",
-        "$value": "3rem",
-        "$description": "48px - Heading 1"
+        "value": "3rem",
+        "description": "48px - Heading 1",
+        "type": "number"
       },
       "6xl": {
-        "$type": "number",
-        "$value": "3.75rem",
-        "$description": "60px - Display text"
+        "value": "3.75rem",
+        "description": "60px - Display text",
+        "type": "number"
       }
     },
     "line-height": {
       "none": {
-        "$type": "number",
-        "$value": "1",
-        "$description": "No extra line height"
+        "value": "1",
+        "description": "No extra line height",
+        "type": "number"
       },
       "tight": {
-        "$type": "number",
-        "$value": "1.25",
-        "$description": "Tight line height for headings"
+        "value": "1.25",
+        "description": "Tight line height for headings",
+        "type": "number"
       },
       "snug": {
-        "$type": "number",
-        "$value": "1.375",
-        "$description": "Snug line height"
+        "value": "1.375",
+        "description": "Snug line height",
+        "type": "number"
       },
       "normal": {
-        "$type": "number",
-        "$value": "1.5",
-        "$description": "Normal line height for body text"
+        "value": "1.5",
+        "description": "Normal line height for body text",
+        "type": "number"
       },
       "relaxed": {
-        "$type": "number",
-        "$value": "1.625",
-        "$description": "Relaxed line height for readability"
+        "value": "1.625",
+        "description": "Relaxed line height for readability",
+        "type": "number"
       },
       "loose": {
-        "$type": "number",
-        "$value": "2",
-        "$description": "Loose line height"
+        "value": "2",
+        "description": "Loose line height",
+        "type": "number"
       }
     },
     "letter-spacing": {
       "tighter": {
-        "$type": "letterSpacing",
-        "$value": "-0.05em",
-        "$description": "Tighter letter spacing for large headings"
+        "value": "-0.05em",
+        "description": "Tighter letter spacing for large headings",
+        "type": "letterSpacing"
       },
       "tight": {
-        "$type": "letterSpacing",
-        "$value": "-0.025em",
-        "$description": "Tight letter spacing"
+        "value": "-0.025em",
+        "description": "Tight letter spacing",
+        "type": "letterSpacing"
       },
       "normal": {
-        "$type": "letterSpacing",
-        "$value": "0em",
-        "$description": "Normal letter spacing"
+        "value": "0em",
+        "description": "Normal letter spacing",
+        "type": "letterSpacing"
       },
       "wide": {
-        "$type": "letterSpacing",
-        "$value": "0.025em",
-        "$description": "Wide letter spacing"
+        "value": "0.025em",
+        "description": "Wide letter spacing",
+        "type": "letterSpacing"
       },
       "wider": {
-        "$type": "letterSpacing",
-        "$value": "0.05em",
-        "$description": "Wider letter spacing"
+        "value": "0.05em",
+        "description": "Wider letter spacing",
+        "type": "letterSpacing"
       },
       "widest": {
-        "$type": "letterSpacing",
-        "$value": "0.1em",
-        "$description": "Widest letter spacing for all caps"
+        "value": "0.1em",
+        "description": "Widest letter spacing for all caps",
+        "type": "letterSpacing"
       }
     }
   }
