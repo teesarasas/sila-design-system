@@ -156,25 +156,25 @@
         "description": "Inverse text for dark backgrounds",
         "type": "color"
       },
-      "brand": {
+      "on-brand-subtle": {
         "value": "{color.blue.blue-700}",
-        "description": "Brand colored text - WCAG AA compliant",
-        "type": "color"
+        "type": "color",
+        "description": "Brand colored text - WCAG AA compliant"
       },
-      "success": {
+      "on-success-subtle": {
         "value": "{color.green.green-700}",
-        "description": "Success text color - WCAG AA compliant",
-        "type": "color"
+        "type": "color",
+        "description": "Success text color - WCAG AA compliant"
       },
-      "warning": {
-        "value": "{color.orange.orange-700}",
-        "description": "Warning text color - WCAG AA compliant",
-        "type": "color"
+      "on-warning-subtle": {
+        "value": "{color.yellow.yellow-700}",
+        "type": "color",
+        "description": "Warning text color - WCAG AA compliant"
       },
-      "danger": {
+      "on-danger-subtle": {
         "value": "{color.red.red-700}",
-        "description": "Danger/error text - WCAG AA compliant",
-        "type": "color"
+        "type": "color",
+        "description": "Danger/error text - WCAG AA compliant"
       },
       "disabled": {
         "value": "{color.gray.gray-500}",

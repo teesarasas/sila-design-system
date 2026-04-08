@@ -42,9 +42,9 @@
         "type": "color"
       },
       "warning": {
-        "value": "{color.orange.orange-600}",
-        "description": "Warning state background",
-        "type": "color"
+        "value": "{color.yellow-alpha.yellow-alpha-600}",
+        "type": "color",
+        "description": "Warning state background"
       },
       "warning-subtle": {
         "value": "{color.orange.orange-900}",
@@ -156,25 +156,25 @@
         "description": "Inverse text for light backgrounds",
         "type": "color"
       },
-      "brand": {
+      "on-brand-subtle": {
         "value": "{color.blue.blue-400}",
-        "description": "Brand colored text - WCAG AA compliant",
-        "type": "color"
+        "type": "color",
+        "description": "Brand colored text - WCAG AA compliant"
       },
-      "success": {
+      "on-success-subtle": {
         "value": "{color.green.green-400}",
-        "description": "Success text color - WCAG AA compliant",
-        "type": "color"
+        "type": "color",
+        "description": "Success text color - WCAG AA compliant"
       },
-      "warning": {
-        "value": "{color.orange.orange-400}",
-        "description": "Warning text color - WCAG AA compliant",
-        "type": "color"
+      "on-warning-subtle": {
+        "value": "{color.yellow-alpha.yellow-alpha-400}",
+        "type": "color",
+        "description": "Warning text color - WCAG AA compliant"
       },
-      "danger": {
+      "on-danger-subtle": {
         "value": "{color.red.red-400}",
-        "description": "Danger/error text - WCAG AA compliant",
-        "type": "color"
+        "type": "color",
+        "description": "Danger/error text - WCAG AA compliant"
       },
       "disabled": {
         "value": "{color.gray.gray-600}",
