@@ -47,9 +47,9 @@
         "description": "Warning state background"
       },
       "warning-subtle": {
-        "value": "{color.orange.orange-900}",
-        "description": "Subtle warning background",
-        "type": "color"
+        "value": "{color.yellow.yellow-900}",
+        "type": "color",
+        "description": "Subtle warning background"
       },
       "danger": {
         "value": "{color.red.red-600}",
@@ -262,9 +262,9 @@
         "type": "color"
       },
       "warning": {
-        "value": "{color.orange.orange-500}",
-        "description": "Warning border color",
-        "type": "color"
+        "value": "{color.yellow.yellow-500}",
+        "type": "color",
+        "description": "Warning border color"
       },
       "danger": {
         "value": "{color.red.red-500}",

@@ -35,55 +35,10 @@
       }
     },
     "font-size": {
-      "xs": {
-        "value": "0.75rem",
-        "description": "12px - Extra small text",
-        "type": "number"
-      },
-      "sm": {
-        "value": "0.875rem",
-        "description": "14px - Small text",
-        "type": "number"
-      },
       "base": {
-        "value": "1rem",
-        "description": "16px - Base body text",
-        "type": "number"
-      },
-      "lg": {
-        "value": "1.125rem",
-        "description": "18px - Large text",
-        "type": "number"
-      },
-      "xl": {
-        "value": "1.25rem",
-        "description": "20px - Extra large text",
-        "type": "number"
-      },
-      "2xl": {
-        "value": "1.5rem",
-        "description": "24px - Heading 4",
-        "type": "number"
-      },
-      "3xl": {
-        "value": "1.875rem",
-        "description": "30px - Heading 3",
-        "type": "number"
-      },
-      "4xl": {
-        "value": "2.25rem",
-        "description": "36px - Heading 2",
-        "type": "number"
-      },
-      "5xl": {
-        "value": "3rem",
-        "description": "48px - Heading 1",
-        "type": "number"
-      },
-      "6xl": {
-        "value": "3.75rem",
-        "description": "60px - Display text",
-        "type": "number"
+        "value": 16,
+        "type": "number",
+        "description": "16px - Base body text"
       }
     },
     "line-height": {
@@ -149,6 +104,10 @@
         "description": "Widest letter spacing for all caps",
         "type": "letterSpacing"
       }
+    },
+    "typescale": {
+      "value": 1.125,
+      "type": "number"
     }
   }
 }

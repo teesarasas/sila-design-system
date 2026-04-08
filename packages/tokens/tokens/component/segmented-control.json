@@ -1,11 +1,9 @@
 {
-  "semented-control": {
+  "segmented-control": {
     "border-radius": {
       "value": "{border-radius.xl}",
       "type": "borderRadius"
-    }
-  },
-  "segmented-control": {
+    },
     "background": {
       "defaullt": {
         "value": "{color.background.tertiary}",

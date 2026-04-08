@@ -44,7 +44,7 @@
     },
     "title": {
       "font-size": {
-        "value": "{typography.font-size.body-base}",
+        "value": "{typography.font-size.body-md}",
         "type": "fontSizes"
       },
       "font-weight": {

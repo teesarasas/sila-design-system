@@ -262,9 +262,9 @@
         "type": "color"
       },
       "warning": {
-        "value": "{color.orange.orange-600}",
-        "description": "Warning border color",
-        "type": "color"
+        "value": "{color.yellow.yellow-600}",
+        "type": "color",
+        "description": "Warning border color"
       },
       "danger": {
         "value": "{color.red.red-600}",

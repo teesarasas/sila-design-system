@@ -125,6 +125,31 @@ StyleDictionary.registerTransform({
   }
 });
 
+// Custom: resolved numeric fontSizes and lineHeights → rem
+// Runs after ts/resolveMath, which outputs unitless integers for math-resolved tokens.
+// This transform appends the rem unit so values are valid CSS.
+StyleDictionary.registerTransform({
+  name: 'size/numericToRem',
+  type: 'value',
+  transitive: true,
+  filter: (token) => {
+    const type = token.type || token.$type;
+    return ['fontSizes', 'lineHeights'].includes(type);
+  },
+  transform: (token) => {
+    const value = token.value;
+    // Skip values that already have a unit
+    if (typeof value === 'string' && (value.endsWith('rem') || value.endsWith('px') || value.endsWith('em'))) {
+      return value;
+    }
+    const num = parseFloat(value);
+    if (!isNaN(num) && num !== 0) {
+      return `${num / 16}rem`;
+    }
+    return value;
+  }
+});
+
 // Custom: kebab-case naming with level prefix (global, semantic, component)
 StyleDictionary.registerTransform({
   name: 'name/kebab-with-level',
@@ -187,6 +212,7 @@ const getStyleDictionaryConfig = (theme = 'light') => {
           'ts/size/lineheight',
           'ts/typography/fontWeight',
           'ts/resolveMath',
+          'size/numericToRem',
           'ts/size/css/letterspacing',
           'ts/color/css/hexrgba',
           'name/kebab-with-level'
@@ -197,7 +223,28 @@ const getStyleDictionaryConfig = (theme = 'light') => {
             destination: theme === 'light' ? "variables.css" : `variables-${theme}.css`,
             format: "css/variables",
             options: {
-              outputReferences: true,
+              outputReferences: (token) => {
+                const raw = token.original?.value ?? token.value;
+                const type = token.type || token.$type;
+                const filePath = token.filePath || '';
+                const isComponent = filePath.includes('/component/') || filePath.includes('\\component\\');
+
+                // Component tokens always reference semantic tokens via var() — preserve the chain.
+                if (isComponent) return true;
+
+                // Math expressions can't be evaluated with var() references — resolve at build time.
+                if (typeof raw === 'string' && (raw.includes('round(') || raw.includes('^'))) {
+                  return false;
+                }
+
+                // Semantic fontSizes/lineHeights that reference global number tokens (unitless)
+                // must resolve to concrete values so size/numericToRem can apply rem units.
+                if (['fontSizes', 'lineHeights'].includes(type)) {
+                  return false;
+                }
+
+                return true;
+              },
               selector: theme === 'light' ? ':root' : `[data-theme="${theme}"], .${theme}`
             }
           }
