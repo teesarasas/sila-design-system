@@ -63,9 +63,7 @@
     "line-height": {
       "value": "{typography.line-height.heading-sm}",
       "type": "lineHeights"
-    }
-  },
-  "moda": {
+    },
     "font-size": {
       "value": "{typography.font-size.heading-sm}",
       "type": "fontSizes"

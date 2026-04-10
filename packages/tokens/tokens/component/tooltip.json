@@ -21,6 +21,14 @@
     "border-radius": {
       "value": "{border-radius.lg}",
       "type": "borderRadius"
+    },
+    "font-weight": {
+      "value": "{typography.font-weight.body-strong}",
+      "type": "fontWeights"
+    },
+    "font-size": {
+      "value": "{typography.font-size.body-sm}",
+      "type": "fontSizes"
     }
   }
 }

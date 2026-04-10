@@ -5,7 +5,7 @@
       "type": "borderRadius"
     },
     "background": {
-      "defaullt": {
+      "default": {
         "value": "{color.background.tertiary}",
         "type": "color"
       }
