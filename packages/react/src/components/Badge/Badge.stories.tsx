@@ -20,14 +20,6 @@ const meta: Meta<typeof Badge> = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-// Default story
-export const Default: Story = {
-  args: {
-    children: 'Badge',
-    variant: 'neutral',
-  },
-};
-
 // Variants
 export const Info: Story = {
   args: {

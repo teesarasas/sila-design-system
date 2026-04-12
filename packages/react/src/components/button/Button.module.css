@@ -78,15 +78,18 @@
 
 .primary:hover:not(:disabled) {
     background-color: var(--component-button-primary-background-hover);
+    border-color: var(--component-button-primary-border-hover);
 }
 
 .primary:active:not(:disabled) {
     background-color: var(--component-button-primary-background-active);
+    border-color: var(--component-button-primary-border-active);
 }
 
 .primary:disabled {
     background-color: var(--component-button-primary-background-disabled);
     color: var(--component-button-primary-foreground-disabled);
+    border-color: var(--component-button-primary-border-disabled);
     cursor: not-allowed;
 }
 

@@ -25,10 +25,12 @@ const preview: Preview = {
     (Story, context) => {
       const theme = context.globals.theme || 'light';
       document.documentElement.setAttribute('data-theme', theme);
-      document.documentElement.style.backgroundColor =
-        theme === 'dark' ? '#272727' : '#ffffff';
-      document.documentElement.style.color =
-        theme === 'dark' ? '#ffffff' : '#3b3b3b';
+      const bg = theme === 'dark' ? '#1a1a1a' : '#ffffff';
+      const fg = theme === 'dark' ? '#ffffff' : '#3b3b3b';
+      document.documentElement.style.backgroundColor = bg;
+      document.documentElement.style.color = fg;
+      document.body.style.backgroundColor = bg;
+      document.body.style.color = fg;
       return Story();
     },
   ],

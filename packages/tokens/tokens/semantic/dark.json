@@ -27,9 +27,9 @@
         "type": "color"
       },
       "brand-subtle": {
-        "value": "{color.blue.blue-900}",
-        "description": "Subtle brand background",
-        "type": "color"
+        "value": "{color.blue-alpha.blue-alpha-100}",
+        "type": "color",
+        "description": "Subtle brand background"
       },
       "success": {
         "value": "{color.green.green-600}",
@@ -37,9 +37,9 @@
         "type": "color"
       },
       "success-subtle": {
-        "value": "{color.green.green-900}",
-        "description": "Subtle success background",
-        "type": "color"
+        "value": "{color.green-alpha.green-alpha-100}",
+        "type": "color",
+        "description": "Subtle success background"
       },
       "warning": {
         "value": "{color.yellow.yellow-600}",
@@ -47,7 +47,7 @@
         "description": "Warning state background"
       },
       "warning-subtle": {
-        "value": "{color.yellow.yellow-900}",
+        "value": "{color.yellow-alpha.yellow-alpha-100}",
         "type": "color",
         "description": "Subtle warning background"
       },
@@ -57,9 +57,9 @@
         "type": "color"
       },
       "danger-subtle": {
-        "value": "{color.red.red-900}",
-        "description": "Subtle danger background",
-        "type": "color"
+        "value": "{color.red-alpha.red-alpha-100}",
+        "type": "color",
+        "description": "Subtle danger background"
       },
       "disabled": {
         "value": "{color.gray.gray-800}",
@@ -157,22 +157,22 @@
         "type": "color"
       },
       "on-brand-subtle": {
-        "value": "{color.blue.blue-400}",
+        "value": "{color.blue.blue-700}",
         "type": "color",
         "description": "Brand colored text - WCAG AA compliant"
       },
       "on-success-subtle": {
-        "value": "{color.green.green-400}",
+        "value": "{color.green.green-700}",
         "type": "color",
         "description": "Success text color - WCAG AA compliant"
       },
       "on-warning-subtle": {
-        "value": "{color.yellow.yellow-400}",
+        "value": "{color.yellow.yellow-700}",
         "type": "color",
         "description": "Warning text color - WCAG AA compliant"
       },
       "on-danger-subtle": {
-        "value": "{color.red.red-400}",
+        "value": "{color.red.red-700}",
         "type": "color",
         "description": "Danger/error text - WCAG AA compliant"
       },
