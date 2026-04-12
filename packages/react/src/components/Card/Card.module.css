@@ -1,0 +1,56 @@
+/* Card Base */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--component-card-spacing-main-gap);
+  padding-block: var(--component-card-spacing-padding-y);
+  padding-inline: var(--component-card-spacing-padding-x);
+  background-color: var(--component-card-background);
+  border: var(--component-card-border-width) solid var(--component-card-border);
+  border-radius: var(--component-card-border-radius);
+  font-family: var(--semantic-typography-font-family-body);
+}
+
+/* Image */
+.imageWrapper {
+  overflow: hidden;
+  border-radius: var(--component-card-image-container-border-radius);
+}
+
+.image {
+  display: block;
+  width: 100%;
+  aspect-ratio: var(--component-card-image-size);
+  object-fit: cover;
+}
+
+/* Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--component-card-spacing-body-gap);
+}
+
+/* Title */
+.title {
+  margin: 0;
+  font-size: var(--component-card-title-font-size);
+  line-height: var(--component-card-title-line-height);
+  font-weight: var(--semantic-typography-font-weight-heading);
+  color: var(--component-card-foreground-title);
+}
+
+/* Description */
+.description {
+  margin: 0;
+  font-size: var(--component-card-body-font-size);
+  line-height: var(--component-card-body-line-height);
+  font-weight: var(--semantic-typography-font-weight-body);
+  color: var(--component-card-foreground-body);
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  gap: var(--component-card-spacing-actions-gap);
+}

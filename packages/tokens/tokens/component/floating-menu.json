@@ -21,6 +21,10 @@
         "value": "{spacing.sm}",
         "type": "spacing"
       },
+      "padding-y": {
+        "value": "{spacing.sm}",
+        "type": "spacing"
+      },
       "gap": {
         "value": "{spacing.sm}",
         "type": "spacing"

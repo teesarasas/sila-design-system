@@ -42,7 +42,7 @@
         "type": "color"
       },
       "warning": {
-        "value": "{color.yellow-alpha.yellow-alpha-600}",
+        "value": "{color.yellow.yellow-600}",
         "type": "color",
         "description": "Warning state background"
       },
@@ -72,7 +72,7 @@
         "type": "color"
       },
       "transparent": {
-        "value": "{color.black-alpha.black-alpha-1000}",
+        "value": "{color.black-alpha.black-alpha-100}",
         "type": "color"
       },
       "interactive": {
@@ -167,7 +167,7 @@
         "description": "Success text color - WCAG AA compliant"
       },
       "on-warning-subtle": {
-        "value": "{color.yellow-alpha.yellow-alpha-400}",
+        "value": "{color.yellow.yellow-400}",
         "type": "color",
         "description": "Warning text color - WCAG AA compliant"
       },
@@ -277,7 +277,7 @@
         "type": "color"
       },
       "transparent": {
-        "value": "{color.black-alpha.black-alpha-1000}",
+        "value": "{color.black-alpha.black-alpha-100}",
         "type": "color"
       }
     }
