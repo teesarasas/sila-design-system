@@ -28,6 +28,12 @@
       "gap": {
         "value": "{spacing.xs}",
         "type": "spacing"
+      },
+      "icon-title": {
+        "gap": {
+          "value": "{spacing.sm}",
+          "type": "spacing"
+        }
       }
     },
     "body": {
@@ -36,11 +42,11 @@
         "type": "color"
       },
       "padding-x": {
-        "value": "{spacing.xl}",
+        "value": "{spacing.lg}",
         "type": "spacing"
       },
       "padding-y": {
-        "value": "{spacing.xl}",
+        "value": "{spacing.lg}",
         "type": "spacing"
       }
     },
@@ -61,7 +67,7 @@
       "type": "fontWeights"
     },
     "line-height": {
-      "value": "{typography.line-height.heading-sm}",
+      "value": "{typography.line-height.body-lg}",
       "type": "lineHeights"
     },
     "font-size": {

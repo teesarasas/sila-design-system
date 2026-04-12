@@ -200,6 +200,7 @@
   border-right-color: transparent;
 }
 
+
 @keyframes spin {
   from {
     transform: rotate(0deg);

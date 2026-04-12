@@ -48,7 +48,7 @@
         "type": "fontSizes"
       },
       "font-weight": {
-        "value": "{typography.font-weight.heading}",
+        "value": "{typography.font-weight.body-strong}",
         "type": "fontWeights"
       }
     },

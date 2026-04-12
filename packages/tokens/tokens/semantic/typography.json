@@ -76,9 +76,14 @@
         "type": "fontWeights"
       },
       "heading": {
+        "value": "{typography.font-weight.medium}",
+        "type": "fontWeights",
+        "description": "Heading weight"
+      },
+      "heading-strong": {
         "value": "{typography.font-weight.semibold}",
-        "description": "Heading weight",
-        "type": "fontWeights"
+        "type": "fontWeights",
+        "description": "Heading weight"
       },
       "display": {
         "value": "{typography.font-weight.bold}",

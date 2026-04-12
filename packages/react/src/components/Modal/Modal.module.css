@@ -37,7 +37,7 @@
 .headerContent {
   display: flex;
   align-items: center;
-  gap: var(--component-modal-header-gap);
+  gap: var(--component-modal-header-icon-title-gap);
   min-width: 0;
 }
 
