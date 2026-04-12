@@ -1,0 +1,47 @@
+/* Segmented Control Container */
+.control {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--component-segmented-control-spacing-gap);
+  padding-block: var(--component-segmented-control-spacing-padding-y);
+  padding-inline: var(--component-segmented-control-spacing-padding-x);
+  background-color: var(--component-segmented-control-background-default);
+  border-radius: var(--component-segmented-control-border-radius);
+}
+
+/* Segmented Control Item */
+.item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: var(--component-segmented-control-item-spacing-padding-y);
+  padding-inline: var(--component-segmented-control-item-spacing-padding-x);
+  border: var(--component-segmented-control-item-border-width) solid var(--component-segmented-control-item-border-default);
+  border-radius: var(--component-segmented-control-item-border-radius);
+  background-color: var(--component-segmented-control-item-background-default);
+  color: var(--component-segmented-control-item-foreground-default);
+  font-family: var(--semantic-typography-font-family-body);
+  font-size: var(--component-segmented-control-item-font-size);
+  font-weight: var(--component-segmented-control-item-font-weight);
+  cursor: pointer;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
+  user-select: none;
+}
+
+.item:hover:not(.selected) {
+  background-color: var(--component-segmented-control-item-background-hover);
+  border-color: var(--component-segmented-control-item-border-hover);
+  color: var(--component-segmented-control-item-foreground-hover);
+}
+
+.item:focus-visible {
+  outline: 2px solid var(--semantic-color-border-focus);
+  outline-offset: 2px;
+}
+
+/* Selected State */
+.selected {
+  background-color: var(--component-segmented-control-item-background-selected);
+  border-color: var(--component-segmented-control-item-border-selected);
+  color: var(--component-segmented-control-item-foreground-selected);
+}

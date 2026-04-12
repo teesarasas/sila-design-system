@@ -198,11 +198,6 @@
     border-right-color: transparent;
 }
 
-.ghost.loading::after {
-    border-color: var(--component-icon-button-ghost-foreground-default);
-    border-right-color: transparent;
-}
-
 @keyframes spin {
     from {
         transform: rotate(0deg);

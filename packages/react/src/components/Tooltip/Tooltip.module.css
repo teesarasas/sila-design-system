@@ -1,0 +1,54 @@
+/* Tooltip Wrapper */
+.wrapper {
+  position: relative;
+  display: inline-flex;
+}
+
+/* Tooltip Base */
+.tooltip {
+  position: absolute;
+  z-index: 50;
+  background-color: var(--component-tooltip-background);
+  color: var(--component-tooltip-foreground);
+  padding-block: var(--component-tooltip-spacing-padding-y);
+  padding-inline: var(--component-tooltip-spacing-padding-x);
+  border-radius: var(--component-tooltip-border-radius);
+  font-weight: var(--component-tooltip-font-weight);
+  font-size: var(--component-tooltip-font-size);
+  font-family: var(--semantic-typography-font-family-body);
+  line-height: var(--semantic-typography-line-height-body-sm);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* Position: Top */
+.top {
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 6px;
+}
+
+/* Position: Bottom */
+.bottom {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 6px;
+}
+
+/* Position: Left */
+.left {
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 6px;
+}
+
+/* Position: Right */
+.right {
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 6px;
+}

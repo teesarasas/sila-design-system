@@ -28,6 +28,15 @@
       "gap": {
         "value": "{spacing.xs}",
         "type": "spacing"
+<<<<<<< HEAD
+=======
+      },
+      "icon-title": {
+        "gap": {
+          "value": "{spacing.sm}",
+          "type": "spacing"
+        }
+>>>>>>> designing
       }
     },
     "body": {
@@ -36,11 +45,19 @@
         "type": "color"
       },
       "padding-x": {
+<<<<<<< HEAD
         "value": "{spacing.xl}",
         "type": "spacing"
       },
       "padding-y": {
         "value": "{spacing.xl}",
+=======
+        "value": "{spacing.lg}",
+        "type": "spacing"
+      },
+      "padding-y": {
+        "value": "{spacing.lg}",
+>>>>>>> designing
         "type": "spacing"
       }
     },
@@ -61,11 +78,17 @@
       "type": "fontWeights"
     },
     "line-height": {
+<<<<<<< HEAD
       "value": "{typography.line-height.heading-sm}",
       "type": "lineHeights"
     }
   },
   "moda": {
+=======
+      "value": "{typography.line-height.body-lg}",
+      "type": "lineHeights"
+    },
+>>>>>>> designing
     "font-size": {
       "value": "{typography.font-size.heading-sm}",
       "type": "fontSizes"

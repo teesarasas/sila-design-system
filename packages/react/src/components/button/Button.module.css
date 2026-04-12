@@ -78,15 +78,18 @@
 
 .primary:hover:not(:disabled) {
     background-color: var(--component-button-primary-background-hover);
+    border-color: var(--component-button-primary-border-hover);
 }
 
 .primary:active:not(:disabled) {
     background-color: var(--component-button-primary-background-active);
+    border-color: var(--component-button-primary-border-active);
 }
 
 .primary:disabled {
     background-color: var(--component-button-primary-background-disabled);
     color: var(--component-button-primary-foreground-disabled);
+    border-color: var(--component-button-primary-border-disabled);
     cursor: not-allowed;
 }
 
@@ -135,32 +138,6 @@
   background-color: var(--component-button-tertiary-background-disabled);
   color: var(--component-button-tertiary-foreground-disabled);
   border-color: var(--component-button-tertiary-border-disabled);
-  cursor: not-allowed;
-}
-
-/* Danger Variant */
-.danger {
-  background-color: var(--component-button-danger-background-default);
-  color: var(--component-button-danger-foreground-default);
-  border-color: var(--component-button-danger-border-default);
-}
-
-.danger:hover:not(:disabled) {
-  background-color: var(--component-button-danger-background-hover);
-}
-
-.danger:active:not(:disabled) {
-  background-color: var(--component-button-danger-background-active);
-}
-
-.danger:focus-visible {
-  outline-color: var(--component-button-danger-border-focus);
-}
-
-.danger:disabled {
-  background-color: var(--component-button-danger-background-disabled);
-  color: var(--component-button-danger-foreground-disabled);
-  border-color: var(--component-button-danger-border-disabled);
   cursor: not-allowed;
 }
 
@@ -222,11 +199,6 @@
 
 .tertiary.loading::after {
   border-color: var(--component-button-tertiary-foreground-default);
-  border-right-color: transparent;
-}
-
-.danger.loading::after {
-  border-color: var(--component-button-danger-foreground-default);
   border-right-color: transparent;
 }
 

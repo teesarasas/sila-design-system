@@ -1,0 +1,104 @@
+/* Accordion Container */
+.accordion {
+  background-color: var(--component-accordion-background);
+  border: var(--component-accordion-border-width) solid var(--component-accordion-border);
+  border-radius: var(--component-accordion-border-radius);
+  overflow: hidden;
+}
+
+/* Accordion Item */
+.item {
+  border-bottom: var(--component-accordion-item-border-width) solid var(--component-accordion-item-border-default);
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+/* Trigger Button */
+.trigger {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: var(--component-accordion-item-spacing-gap);
+  padding-block: var(--component-accordion-item-spacing-padding-y);
+  padding-inline: var(--component-accordion-item-spacing-padding-x);
+  background-color: var(--component-accordion-item-background-default);
+  border: none;
+  cursor: pointer;
+  font-family: var(--semantic-typography-font-family-body);
+  text-align: left;
+}
+
+.trigger:hover {
+  background-color: var(--component-accordion-item-background-hover);
+}
+
+.trigger:active {
+  background-color: var(--component-accordion-item-background-active);
+}
+
+.trigger:focus-visible {
+  outline: 2px solid var(--semantic-color-border-focus);
+  outline-offset: -2px;
+}
+
+/* Icon Container */
+.iconContainer {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--component-accordion-item-icon-container-size);
+  height: var(--component-accordion-item-icon-container-size);
+  border-radius: var(--component-accordion-item-icon-container-border-radius);
+  background-color: var(--component-accordion-item-foreground-icon-background);
+  color: var(--component-accordion-item-foreground-icon-foreground);
+  flex-shrink: 0;
+}
+
+.iconContainer svg {
+  width: var(--component-accordion-item-icon-size);
+  height: var(--component-accordion-item-icon-size);
+}
+
+/* Text Content */
+.textContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  font-size: var(--component-accordion-item-title-font-size);
+  font-weight: var(--component-accordion-item-title-font-weight);
+  color: var(--component-accordion-item-foreground-text-title);
+}
+
+.subtitle {
+  font-size: var(--component-accordion-item-sub-title-font-size);
+  font-weight: var(--component-accordion-item-sub-title-font-weight);
+  color: var(--component-accordion-item-foreground-text-body);
+}
+
+/* Chevron */
+.chevron {
+  width: var(--component-accordion-item-chevron-size);
+  height: var(--component-accordion-item-chevron-size);
+  color: var(--component-accordion-item-foreground-chevron);
+  flex-shrink: 0;
+  transition: transform 200ms ease;
+}
+
+.expanded .chevron {
+  transform: rotate(180deg);
+}
+
+/* Panel */
+.panel {
+  padding-block: var(--component-accordion-item-spacing-padding-y);
+  padding-inline: var(--component-accordion-item-spacing-padding-x);
+  color: var(--component-accordion-item-foreground-text-body);
+  font-size: var(--component-accordion-item-sub-title-font-size);
+  font-family: var(--semantic-typography-font-family-body);
+}

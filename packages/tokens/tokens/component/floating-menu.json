@@ -21,6 +21,13 @@
         "value": "{spacing.sm}",
         "type": "spacing"
       },
+<<<<<<< HEAD
+=======
+      "padding-y": {
+        "value": "{spacing.sm}",
+        "type": "spacing"
+      },
+>>>>>>> designing
       "gap": {
         "value": "{spacing.sm}",
         "type": "spacing"

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './IconButton.module.css';
 
-export type IconButtonVariant = 'default' | 'primary' | 'secondary' | 'tertiary' | 'ghost';
+export type IconButtonVariant = 'default' | 'primary' | 'secondary' | 'tertiary';
 export type IconButtonSize = 'sm' | 'md' | 'lg';
 
 export interface IconButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {

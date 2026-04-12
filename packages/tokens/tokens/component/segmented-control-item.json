@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "semented-control-item": {
     "border-radius": {
       "value": "{border-radius.lg}",
@@ -6,6 +7,13 @@
     }
   },
   "segmented-control-item": {
+=======
+  "segmented-control-item": {
+    "border-radius": {
+      "value": "{border-radius.lg}",
+      "type": "borderRadius"
+    },
+>>>>>>> designing
     "border-width": {
       "value": "{border-width.thin}",
       "type": "borderWidth"
@@ -61,6 +69,17 @@
         "value": "{color.foreground.primary}",
         "type": "color"
       }
+<<<<<<< HEAD
+=======
+    },
+    "font-size": {
+      "value": "{typography.font-size.body-md}",
+      "type": "fontSizes"
+    },
+    "font-weight": {
+      "value": "{typography.font-weight.body-strong}",
+      "type": "fontWeights"
+>>>>>>> designing
     }
   }
 }

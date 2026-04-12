@@ -19,6 +19,7 @@
     },
     "font-size": {
       "caption": {
+<<<<<<< HEAD
         "value": "{typography.font-size.xs}",
         "description": "Caption/helper text size",
         "type": "fontSizes"
@@ -62,6 +63,51 @@
         "value": "{typography.font-size.5xl}",
         "description": "Display text size",
         "type": "fontSizes"
+=======
+        "value": "round( {typography.font-size.base} / ( {typography.typescale}^2)/2)*2",
+        "type": "fontSizes",
+        "description": "Caption/helper text size"
+      },
+      "body-sm": {
+        "value": "round( {typography.font-size.base} / ( {typography.typescale}^1)/2)*2",
+        "type": "fontSizes",
+        "description": "Small body text size"
+      },
+      "body-md": {
+        "value": "{typography.font-size.base}",
+        "type": "fontSizes",
+        "description": "Base body text size"
+      },
+      "body-lg": {
+        "value": "round( {typography.font-size.base} * ( {typography.typescale}^1)/2)*2",
+        "type": "fontSizes",
+        "description": "Large body text size"
+      },
+      "heading-sm": {
+        "value": "round( {typography.font-size.base} * ( {typography.typescale}^2)/2)*2",
+        "type": "fontSizes",
+        "description": "Small heading size"
+      },
+      "heading-md": {
+        "value": "round( {typography.font-size.base} * ( {typography.typescale}^4)/2)*2",
+        "type": "fontSizes",
+        "description": "Base heading size"
+      },
+      "heading-lg": {
+        "value": "round( {typography.font-size.base} * ( {typography.typescale}^6)/2)*2",
+        "type": "fontSizes",
+        "description": "Large heading size"
+      },
+      "heading-xl": {
+        "value": "round( {typography.font-size.base} * ( {typography.typescale}^8)/2)*2",
+        "type": "fontSizes",
+        "description": "Extra large heading size"
+      },
+      "display": {
+        "value": "round( {typography.font-size.base} * ( {typography.typescale}^12)/2)*2",
+        "type": "fontSizes",
+        "description": "Display text size"
+>>>>>>> designing
       }
     },
     "font-weight": {
@@ -76,9 +122,20 @@
         "type": "fontWeights"
       },
       "heading": {
+<<<<<<< HEAD
         "value": "{typography.font-weight.semibold}",
         "description": "Heading weight",
         "type": "fontWeights"
+=======
+        "value": "{typography.font-weight.medium}",
+        "type": "fontWeights",
+        "description": "Heading weight"
+      },
+      "heading-strong": {
+        "value": "{typography.font-weight.semibold}",
+        "type": "fontWeights",
+        "description": "Heading weight"
+>>>>>>> designing
       },
       "display": {
         "value": "{typography.font-weight.bold}",
@@ -88,6 +145,7 @@
     },
     "line-height": {
       "caption": {
+<<<<<<< HEAD
         "value": "1.25rem",
         "description": "Body text line height",
         "type": "lineHeights"
@@ -131,6 +189,51 @@
         "value": "3.75rem",
         "description": "Display text line height",
         "type": "lineHeights"
+=======
+        "value": "round( {typography.line-height.normal} * {typography.font-size.caption}/2)*2",
+        "type": "lineHeights",
+        "description": "Body text line height"
+      },
+      "body-sm": {
+        "value": "round( {typography.line-height.normal} * {typography.font-size.body-sm}/2)*2",
+        "type": "lineHeights",
+        "description": "Body text line height"
+      },
+      "body-md": {
+        "value": "{typography.line-height.normal} * {typography.font-size.base}",
+        "type": "lineHeights",
+        "description": "Body text line height"
+      },
+      "body-lg": {
+        "value": "round( {typography.line-height.normal} * {typography.font-size.body-lg}/2)*2",
+        "type": "lineHeights",
+        "description": "Body text line height"
+      },
+      "heading-sm": {
+        "value": "round( {typography.line-height.tight} * {typography.font-size.heading-sm}/2)*2",
+        "type": "lineHeights",
+        "description": "Heading line height"
+      },
+      "heading-md": {
+        "value": "round( {typography.line-height.tight} * {typography.font-size.heading-md}/2)*2",
+        "type": "lineHeights",
+        "description": "Heading line height"
+      },
+      "heading-lg": {
+        "value": "round( {typography.line-height.tight} * {typography.font-size.heading-lg}/2)*2",
+        "type": "lineHeights",
+        "description": "Heading line height"
+      },
+      "heading-xl": {
+        "value": "round( {typography.line-height.tight} * {typography.font-size.heading-xl}/2)*2",
+        "type": "lineHeights",
+        "description": "Heading line height"
+      },
+      "display": {
+        "value": "round( {typography.line-height.tight} * {typography.font-size.display}/2)*2",
+        "type": "lineHeights",
+        "description": "Display text line height"
+>>>>>>> designing
       }
     },
     "letter-spacing": {

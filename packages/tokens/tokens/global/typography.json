@@ -35,6 +35,7 @@
       }
     },
     "font-size": {
+<<<<<<< HEAD
       "xs": {
         "value": "0.75rem",
         "description": "12px - Extra small text",
@@ -84,6 +85,12 @@
         "value": "3.75rem",
         "description": "60px - Display text",
         "type": "number"
+=======
+      "base": {
+        "value": "16",
+        "type": "number",
+        "description": "16px - Base body text"
+>>>>>>> designing
       }
     },
     "line-height": {
@@ -149,6 +156,13 @@
         "description": "Widest letter spacing for all caps",
         "type": "letterSpacing"
       }
+<<<<<<< HEAD
+=======
+    },
+    "typescale": {
+      "value": "1.125",
+      "type": "number"
+>>>>>>> designing
     }
   }
 }

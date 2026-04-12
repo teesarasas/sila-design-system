@@ -10,45 +10,82 @@
     },
     "white-alpha": {
       "white-alpha-100": {
+<<<<<<< HEAD
+=======
+        "value": "#ffffff00",
+        "type": "color",
+        "description": "transparent"
+      },
+      "white-alpha-200": {
+>>>>>>> designing
         "value": "#ffffff1a",
         "description": "White 10%",
         "type": "color"
       },
+<<<<<<< HEAD
       "white-alpha-200": {
+=======
+      "white-alpha-300": {
+>>>>>>> designing
         "value": "#ffffff33",
         "description": "White 20%",
         "type": "color"
       },
+<<<<<<< HEAD
       "white-alpha-300": {
+=======
+      "white-alpha-400": {
+>>>>>>> designing
         "value": "#ffffff4d",
         "description": "White 30%",
         "type": "color"
       },
+<<<<<<< HEAD
       "white-alpha-400": {
+=======
+      "white-alpha-500": {
+>>>>>>> designing
         "value": "#ffffff66",
         "description": "White 40%",
         "type": "color"
       },
+<<<<<<< HEAD
       "white-alpha-500": {
+=======
+      "white-alpha-600": {
+>>>>>>> designing
         "value": "#ffffff80",
         "description": "White 50% (Medium)",
         "type": "color"
       },
+<<<<<<< HEAD
       "white-alpha-600": {
+=======
+      "white-alpha-700": {
+>>>>>>> designing
         "value": "#ffffff99",
         "description": "White 60%",
         "type": "color"
       },
+<<<<<<< HEAD
       "white-alpha-700": {
+=======
+      "white-alpha-800": {
+>>>>>>> designing
         "value": "#ffffffb3",
         "description": "White 70%",
         "type": "color"
       },
+<<<<<<< HEAD
       "white-alpha-800": {
+=======
+      "white-alpha-900": {
+>>>>>>> designing
         "value": "#ffffffcc",
         "description": "White 80%",
         "type": "color"
       },
+<<<<<<< HEAD
       "white-alpha-900": {
         "value": "#ffffffe6",
         "description": "White 90%",
@@ -58,49 +95,92 @@
         "value": "#ffffff00",
         "description": "transparent",
         "type": "color"
+=======
+      "white-alpha-1000": {
+        "value": "#ffffffe6",
+        "description": "White 90%",
+        "type": "color"
+>>>>>>> designing
       }
     },
     "black-alpha": {
       "black-alpha-100": {
+<<<<<<< HEAD
+=======
+        "value": "#00000000",
+        "type": "color",
+        "description": "transparent"
+      },
+      "black-alpha-200": {
+>>>>>>> designing
         "value": "#0000001a",
         "description": "Black 10%",
         "type": "color"
       },
+<<<<<<< HEAD
       "black-alpha-200": {
+=======
+      "black-alpha-300": {
+>>>>>>> designing
         "value": "#00000033",
         "description": "Black 20%",
         "type": "color"
       },
+<<<<<<< HEAD
       "black-alpha-300": {
+=======
+      "black-alpha-400": {
+>>>>>>> designing
         "value": "#0000004d",
         "description": "Black 30%",
         "type": "color"
       },
+<<<<<<< HEAD
       "black-alpha-400": {
+=======
+      "black-alpha-500": {
+>>>>>>> designing
         "value": "#00000066",
         "description": "Black 40%",
         "type": "color"
       },
+<<<<<<< HEAD
       "black-alpha-500": {
+=======
+      "black-alpha-600": {
+>>>>>>> designing
         "value": "#00000080",
         "description": "Black 50% (Medium)",
         "type": "color"
       },
+<<<<<<< HEAD
       "black-alpha-600": {
+=======
+      "black-alpha-700": {
+>>>>>>> designing
         "value": "#00000099",
         "description": "Black 60%",
         "type": "color"
       },
+<<<<<<< HEAD
       "black-alpha-700": {
+=======
+      "black-alpha-800": {
+>>>>>>> designing
         "value": "#000000b3",
         "description": "Black 70%",
         "type": "color"
       },
+<<<<<<< HEAD
       "black-alpha-800": {
+=======
+      "black-alpha-900": {
+>>>>>>> designing
         "value": "#000000cc",
         "description": "Black 80%",
         "type": "color"
       },
+<<<<<<< HEAD
       "black-alpha-900": {
         "value": "#000000e6",
         "description": "Black 90%",
@@ -110,6 +190,12 @@
         "value": "#00000000",
         "description": "transparent",
         "type": "color"
+=======
+      "black-alpha-1000": {
+        "value": "#000000e6",
+        "description": "Black 90%",
+        "type": "color"
+>>>>>>> designing
       }
     },
     "gray": {

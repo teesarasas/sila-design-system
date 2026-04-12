@@ -1,0 +1,77 @@
+/* Floating Menu Container */
+.menu {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--component-floating-menu-spacing-gap);
+  padding-inline: var(--component-floating-menu-spacing-padding-x);
+  padding-block: var(--component-floating-menu-spacing-padding-y);
+  background-color: var(--component-floating-menu-background-default);
+  border: 1px solid var(--component-floating-menu-border-default);
+  border-radius: var(--component-floating-menu-border-radius);
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+/* Floating Menu Button */
+.button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--semantic-size-interactive-height-lg);
+  height: var(--semantic-size-interactive-height-lg);
+  padding: 0;
+  border: none;
+  border-radius: var(--component-floating-menu-button-border-radius);
+  background-color: var(--component-floating-menu-button-background-default);
+  color: var(--component-floating-menu-button-foreground-default);
+  cursor: pointer;
+  transition: background-color 150ms ease;
+}
+
+.button:hover {
+  background-color: var(--component-floating-menu-button-background-hover);
+}
+
+.button:active {
+  background-color: var(--component-floating-menu-button-background-active);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--semantic-color-border-focus);
+  outline-offset: 2px;
+}
+
+/* Icon */
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Indicator Dot */
+.indicator {
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: var(--component-floating-menu-button-indicator-border-radius);
+  height: 4px;
+  transition: width 150ms ease, background-color 150ms ease;
+}
+
+.indicatorActive {
+  width: var(--component-floating-menu-button-indicator-width-selected-active);
+  background-color: var(--component-floating-menu-button-foreground-indicator-selected-active);
+}
+
+.indicatorInactive {
+  width: var(--component-floating-menu-button-indicator-width-selected-inactive);
+  background-color: var(--component-floating-menu-button-foreground-indicator-selected-inactive);
+}
