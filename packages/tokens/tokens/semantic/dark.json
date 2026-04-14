@@ -27,15 +27,9 @@
         "type": "color"
       },
       "brand-subtle": {
-<<<<<<< HEAD
-        "value": "{color.blue.blue-900}",
-        "description": "Subtle brand background",
-        "type": "color"
-=======
         "value": "{color.blue-alpha.blue-alpha-100}",
         "type": "color",
         "description": "Subtle brand background"
->>>>>>> designing
       },
       "success": {
         "value": "{color.green.green-600}",
@@ -43,21 +37,6 @@
         "type": "color"
       },
       "success-subtle": {
-<<<<<<< HEAD
-        "value": "{color.green.green-900}",
-        "description": "Subtle success background",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{color.orange.orange-600}",
-        "description": "Warning state background",
-        "type": "color"
-      },
-      "warning-subtle": {
-        "value": "{color.orange.orange-900}",
-        "description": "Subtle warning background",
-        "type": "color"
-=======
         "value": "{color.green-alpha.green-alpha-100}",
         "type": "color",
         "description": "Subtle success background"
@@ -71,7 +50,6 @@
         "value": "{color.yellow-alpha.yellow-alpha-100}",
         "type": "color",
         "description": "Subtle warning background"
->>>>>>> designing
       },
       "danger": {
         "value": "{color.red.red-600}",
@@ -79,15 +57,9 @@
         "type": "color"
       },
       "danger-subtle": {
-<<<<<<< HEAD
-        "value": "{color.red.red-900}",
-        "description": "Subtle danger background",
-        "type": "color"
-=======
         "value": "{color.red-alpha.red-alpha-100}",
         "type": "color",
         "description": "Subtle danger background"
->>>>>>> designing
       },
       "disabled": {
         "value": "{color.gray.gray-800}",
@@ -100,11 +72,7 @@
         "type": "color"
       },
       "transparent": {
-<<<<<<< HEAD
-        "value": "{color.black-alpha.black-alpha-1000}",
-=======
         "value": "{color.black-alpha.black-alpha-100}",
->>>>>>> designing
         "type": "color"
       },
       "interactive": {
@@ -188,27 +156,6 @@
         "description": "Inverse text for light backgrounds",
         "type": "color"
       },
-<<<<<<< HEAD
-      "brand": {
-        "value": "{color.blue.blue-400}",
-        "description": "Brand colored text - WCAG AA compliant",
-        "type": "color"
-      },
-      "success": {
-        "value": "{color.green.green-400}",
-        "description": "Success text color - WCAG AA compliant",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{color.orange.orange-400}",
-        "description": "Warning text color - WCAG AA compliant",
-        "type": "color"
-      },
-      "danger": {
-        "value": "{color.red.red-400}",
-        "description": "Danger/error text - WCAG AA compliant",
-        "type": "color"
-=======
       "on-brand-subtle": {
         "value": "{color.blue.blue-700}",
         "type": "color",
@@ -228,7 +175,6 @@
         "value": "{color.red.red-700}",
         "type": "color",
         "description": "Danger/error text - WCAG AA compliant"
->>>>>>> designing
       },
       "disabled": {
         "value": "{color.gray.gray-600}",
@@ -316,15 +262,9 @@
         "type": "color"
       },
       "warning": {
-<<<<<<< HEAD
-        "value": "{color.orange.orange-500}",
-        "description": "Warning border color",
-        "type": "color"
-=======
         "value": "{color.yellow.yellow-500}",
         "type": "color",
         "description": "Warning border color"
->>>>>>> designing
       },
       "danger": {
         "value": "{color.red.red-500}",
@@ -337,11 +277,7 @@
         "type": "color"
       },
       "transparent": {
-<<<<<<< HEAD
-        "value": "{color.black-alpha.black-alpha-1000}",
-=======
         "value": "{color.black-alpha.black-alpha-100}",
->>>>>>> designing
         "type": "color"
       }
     }

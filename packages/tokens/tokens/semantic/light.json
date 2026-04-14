@@ -72,11 +72,7 @@
         "type": "color"
       },
       "transparent": {
-<<<<<<< HEAD
-        "value": "{color.white-alpha.white-alpha-1000}",
-=======
         "value": "{color.white-alpha.white-alpha-100}",
->>>>>>> designing
         "type": "color"
       },
       "interactive": {
@@ -160,27 +156,6 @@
         "description": "Inverse text for dark backgrounds",
         "type": "color"
       },
-<<<<<<< HEAD
-      "brand": {
-        "value": "{color.blue.blue-700}",
-        "description": "Brand colored text - WCAG AA compliant",
-        "type": "color"
-      },
-      "success": {
-        "value": "{color.green.green-700}",
-        "description": "Success text color - WCAG AA compliant",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{color.orange.orange-700}",
-        "description": "Warning text color - WCAG AA compliant",
-        "type": "color"
-      },
-      "danger": {
-        "value": "{color.red.red-700}",
-        "description": "Danger/error text - WCAG AA compliant",
-        "type": "color"
-=======
       "on-brand-subtle": {
         "value": "{color.blue.blue-700}",
         "type": "color",
@@ -200,7 +175,6 @@
         "value": "{color.red.red-700}",
         "type": "color",
         "description": "Danger/error text - WCAG AA compliant"
->>>>>>> designing
       },
       "disabled": {
         "value": "{color.gray.gray-500}",
@@ -288,15 +262,9 @@
         "type": "color"
       },
       "warning": {
-<<<<<<< HEAD
-        "value": "{color.orange.orange-600}",
-        "description": "Warning border color",
-        "type": "color"
-=======
         "value": "{color.yellow.yellow-600}",
         "type": "color",
         "description": "Warning border color"
->>>>>>> designing
       },
       "danger": {
         "value": "{color.red.red-600}",
@@ -309,15 +277,9 @@
         "type": "color"
       },
       "transparent": {
-<<<<<<< HEAD
-        "value": "{color.white-alpha.white-alpha-1000}",
-        "description": "Transparent border color",
-        "type": "color"
-=======
         "value": "{color.white-alpha.white-alpha-100}",
         "type": "color",
         "description": "Transparent border color"
->>>>>>> designing
       }
     }
   },

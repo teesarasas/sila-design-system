@@ -17,11 +17,7 @@
           "type": "color"
         },
         "foreground": {
-<<<<<<< HEAD
-          "value": "{color.foreground.brand}",
-=======
           "value": "{color.foreground.on-brand-subtle}",
->>>>>>> designing
           "type": "color"
         }
       },
@@ -48,19 +44,11 @@
     },
     "title": {
       "font-size": {
-<<<<<<< HEAD
-        "value": "{typography.font-size.body-base}",
-        "type": "fontSizes"
-      },
-      "font-weight": {
-        "value": "{typography.font-weight.medium}",
-=======
         "value": "{typography.font-size.body-md}",
         "type": "fontSizes"
       },
       "font-weight": {
         "value": "{typography.font-weight.body-strong}",
->>>>>>> designing
         "type": "fontWeights"
       }
     },
@@ -70,11 +58,7 @@
         "type": "fontSizes"
       },
       "font-weight": {
-<<<<<<< HEAD
-        "value": "{typography.font-weight.medium}",
-=======
         "value": "{typography.font-weight.body-strong}",
->>>>>>> designing
         "type": "fontWeights"
       }
     },

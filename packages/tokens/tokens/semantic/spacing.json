@@ -39,21 +39,6 @@
       "value": "{spacing.48px}",
       "description": "3x large spacing",
       "type": "dimension"
-    },
-    "4xl": {
-      "value": "{spacing.64px}",
-      "description": "4x large spacing",
-      "type": "dimension"
-    },
-    "5xl": {
-      "value": "{spacing.80px}",
-      "description": "5x large spacing",
-      "type": "dimension"
-    },
-    "6xl": {
-      "value": "{spacing.96px}",
-      "description": "6x large spacing",
-      "type": "dimension"
     }
   }
 }

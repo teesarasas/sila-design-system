@@ -1,15 +1,4 @@
 {
-<<<<<<< HEAD
-  "semented-control": {
-    "border-radius": {
-      "value": "{border-radius.xl}",
-      "type": "borderRadius"
-    }
-  },
-  "segmented-control": {
-    "background": {
-      "defaullt": {
-=======
   "segmented-control": {
     "border-radius": {
       "value": "{border-radius.xl}",
@@ -17,7 +6,6 @@
     },
     "background": {
       "default": {
->>>>>>> designing
         "value": "{color.background.tertiary}",
         "type": "color"
       }

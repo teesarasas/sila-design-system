@@ -125,8 +125,6 @@ StyleDictionary.registerTransform({
   }
 });
 
-<<<<<<< HEAD
-=======
 // Custom: resolved numeric fontSizes and lineHeights → rem
 // Runs after ts/resolveMath, which outputs unitless integers for math-resolved tokens.
 // This transform appends the rem unit so values are valid CSS.
@@ -152,7 +150,7 @@ StyleDictionary.registerTransform({
   }
 });
 
->>>>>>> designing
+
 // Custom: kebab-case naming with level prefix (global, semantic, component)
 StyleDictionary.registerTransform({
   name: 'name/kebab-with-level',
@@ -215,10 +213,7 @@ const getStyleDictionaryConfig = (theme = 'light') => {
           'ts/size/lineheight',
           'ts/typography/fontWeight',
           'ts/resolveMath',
-<<<<<<< HEAD
-=======
           'size/numericToRem',
->>>>>>> designing
           'ts/size/css/letterspacing',
           'ts/color/css/hexrgba',
           'name/kebab-with-level'
@@ -229,9 +224,6 @@ const getStyleDictionaryConfig = (theme = 'light') => {
             destination: theme === 'light' ? "variables.css" : `variables-${theme}.css`,
             format: "css/variables",
             options: {
-<<<<<<< HEAD
-              outputReferences: true,
-=======
               outputReferences: (token) => {
                 const raw = token.original?.value ?? token.value;
                 const type = token.type || token.$type;
@@ -254,7 +246,6 @@ const getStyleDictionaryConfig = (theme = 'light') => {
 
                 return true;
               },
->>>>>>> designing
               selector: theme === 'light' ? ':root' : `[data-theme="${theme}"], .${theme}`
             }
           }

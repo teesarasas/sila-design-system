@@ -19,51 +19,6 @@
     },
     "font-size": {
       "caption": {
-<<<<<<< HEAD
-        "value": "{typography.font-size.xs}",
-        "description": "Caption/helper text size",
-        "type": "fontSizes"
-      },
-      "body-sm": {
-        "value": "{typography.font-size.sm}",
-        "description": "Small body text size",
-        "type": "fontSizes"
-      },
-      "body-base": {
-        "value": "{typography.font-size.base}",
-        "description": "Base body text size",
-        "type": "fontSizes"
-      },
-      "body-lg": {
-        "value": "{typography.font-size.lg}",
-        "description": "Large body text size",
-        "type": "fontSizes"
-      },
-      "heading-sm": {
-        "value": "{typography.font-size.xl}",
-        "description": "Small heading size",
-        "type": "fontSizes"
-      },
-      "heading-base": {
-        "value": "{typography.font-size.2xl}",
-        "description": "Base heading size",
-        "type": "fontSizes"
-      },
-      "heading-lg": {
-        "value": "{typography.font-size.3xl}",
-        "description": "Large heading size",
-        "type": "fontSizes"
-      },
-      "heading-xl": {
-        "value": "{typography.font-size.4xl}",
-        "description": "Extra large heading size",
-        "type": "fontSizes"
-      },
-      "display": {
-        "value": "{typography.font-size.5xl}",
-        "description": "Display text size",
-        "type": "fontSizes"
-=======
         "value": "round( {typography.font-size.base} / ( {typography.typescale}^2)/2)*2",
         "type": "fontSizes",
         "description": "Caption/helper text size"
@@ -107,7 +62,6 @@
         "value": "round( {typography.font-size.base} * ( {typography.typescale}^12)/2)*2",
         "type": "fontSizes",
         "description": "Display text size"
->>>>>>> designing
       }
     },
     "font-weight": {
@@ -122,11 +76,6 @@
         "type": "fontWeights"
       },
       "heading": {
-<<<<<<< HEAD
-        "value": "{typography.font-weight.semibold}",
-        "description": "Heading weight",
-        "type": "fontWeights"
-=======
         "value": "{typography.font-weight.medium}",
         "type": "fontWeights",
         "description": "Heading weight"
@@ -135,7 +84,6 @@
         "value": "{typography.font-weight.semibold}",
         "type": "fontWeights",
         "description": "Heading weight"
->>>>>>> designing
       },
       "display": {
         "value": "{typography.font-weight.bold}",
@@ -145,51 +93,6 @@
     },
     "line-height": {
       "caption": {
-<<<<<<< HEAD
-        "value": "1.25rem",
-        "description": "Body text line height",
-        "type": "lineHeights"
-      },
-      "body-sm": {
-        "value": "1.25rem",
-        "description": "Body text line height",
-        "type": "lineHeights"
-      },
-      "body-base": {
-        "value": "1.5rem",
-        "description": "Body text line height",
-        "type": "lineHeights"
-      },
-      "body-lg": {
-        "value": "1.75rem",
-        "description": "Body text line height",
-        "type": "lineHeights"
-      },
-      "heading-sm": {
-        "value": "1.5rem",
-        "description": "Heading line height",
-        "type": "lineHeights"
-      },
-      "heading-base": {
-        "value": "2rem",
-        "description": "Heading line height",
-        "type": "lineHeights"
-      },
-      "heading-lg": {
-        "value": "2.5rem",
-        "description": "Heading line height",
-        "type": "lineHeights"
-      },
-      "heading-xl": {
-        "value": "3rem",
-        "description": "Heading line height",
-        "type": "lineHeights"
-      },
-      "display": {
-        "value": "3.75rem",
-        "description": "Display text line height",
-        "type": "lineHeights"
-=======
         "value": "round( {typography.line-height.normal} * {typography.font-size.caption}/2)*2",
         "type": "lineHeights",
         "description": "Body text line height"
@@ -233,7 +136,6 @@
         "value": "round( {typography.line-height.tight} * {typography.font-size.display}/2)*2",
         "type": "lineHeights",
         "description": "Display text line height"
->>>>>>> designing
       }
     },
     "letter-spacing": {
