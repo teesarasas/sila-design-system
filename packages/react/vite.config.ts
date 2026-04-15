@@ -12,6 +12,27 @@ const dirname = typeof __dirname !== 'undefined' ? __dirname : path.dirname(file
 // More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 export default defineConfig({
   plugins: [react()],
+  build: {
+    lib: {
+      entry: path.resolve(dirname, 'src/index.ts'),
+      name: 'SilaDsReact',
+      fileName: 'index',
+      formats: ['es'],
+    },
+    rollupOptions: {
+      // React must be provided by the consuming app — do not bundle it
+      external: ['react', 'react-dom', 'react/jsx-runtime'],
+      output: {
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+          'react/jsx-runtime': 'ReactJSXRuntime',
+        },
+      },
+    },
+    // Keep CSS modules inlined into the JS bundle so consumers get styles automatically
+    cssCodeSplit: false,
+  },
   test: {
     projects: [{
       extends: true,
