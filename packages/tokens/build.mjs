@@ -194,6 +194,7 @@ const getStyleDictionaryConfig = (theme = 'light') => {
     source: [
       "tokens/global/**/*.json",
       "tokens/semantic/spacing.json",
+      "tokens/semantic/layout.json",
       "tokens/semantic/border.json",
       "tokens/semantic/elevation.json",
       "tokens/semantic/icon.json",

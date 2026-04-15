@@ -1,0 +1,157 @@
+{
+  "layout": {
+    "container": {
+      "maxWidth": {
+        "value": "{layout.container.max}",
+        "description": "Maximum content container width (1280px). Beyond this the container auto-centers.",
+        "type": "dimension"
+      }
+    },
+    "grid": {
+      "gutter": {
+        "mobile": {
+          "value": "{spacing.16px}",
+          "description": "Gap between grid columns on mobile",
+          "type": "dimension"
+        },
+        "tablet": {
+          "value": "{spacing.24px}",
+          "description": "Gap between grid columns on tablet",
+          "type": "dimension"
+        },
+        "desktop": {
+          "value": "{spacing.32px}",
+          "description": "Gap between grid columns on desktop",
+          "type": "dimension"
+        }
+      },
+      "margin": {
+        "mobile": {
+          "value": "{spacing.16px}",
+          "description": "Fixed page-edge margin on mobile — breathing room from screen edges",
+          "type": "dimension"
+        },
+        "tablet": {
+          "value": "{spacing.32px}",
+          "description": "Fixed page-edge margin on tablet",
+          "type": "dimension"
+        },
+        "desktop": {
+          "value": "{spacing.48px}",
+          "description": "Fixed page-edge margin on desktop. Once container hits maxWidth it auto-centers instead.",
+          "type": "dimension"
+        }
+      }
+    },
+    "gap": {
+      "xs": {
+        "value": "{spacing.4px}",
+        "description": "Extra small gap — tight inline groupings",
+        "type": "dimension"
+      },
+      "sm": {
+        "value": "{spacing.8px}",
+        "description": "Small gap — compact lists and stacks",
+        "type": "dimension"
+      },
+      "md": {
+        "value": "{spacing.12px}",
+        "description": "Medium gap — default flex/grid gap",
+        "type": "dimension"
+      },
+      "lg": {
+        "value": "{spacing.16px}",
+        "description": "Large gap — comfortable content groupings",
+        "type": "dimension"
+      },
+      "xl": {
+        "value": "{spacing.24px}",
+        "description": "Extra large gap — spacious layouts",
+        "type": "dimension"
+      },
+      "2xl": {
+        "value": "{spacing.32px}",
+        "description": "2x large gap — distinct content blocks",
+        "type": "dimension"
+      },
+      "3xl": {
+        "value": "{spacing.48px}",
+        "description": "3x large gap — major layout divisions",
+        "type": "dimension"
+      }
+    },
+    "padding": {
+      "inline": {
+        "xs": {
+          "value": "{spacing.4px}",
+          "description": "Extra small horizontal padding",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{spacing.8px}",
+          "description": "Small horizontal padding",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{spacing.12px}",
+          "description": "Medium horizontal padding",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{spacing.16px}",
+          "description": "Large horizontal padding",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{spacing.24px}",
+          "description": "Extra large horizontal padding",
+          "type": "dimension"
+        }
+      },
+      "stack": {
+        "xs": {
+          "value": "{spacing.4px}",
+          "description": "Extra small vertical padding",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "{spacing.8px}",
+          "description": "Small vertical padding",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{spacing.12px}",
+          "description": "Medium vertical padding",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{spacing.16px}",
+          "description": "Large vertical padding",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "{spacing.24px}",
+          "description": "Extra large vertical padding",
+          "type": "dimension"
+        }
+      },
+      "section": {
+        "sm": {
+          "value": "{spacing.48px}",
+          "description": "Compact section vertical padding — dense content pages",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "{spacing.64px}",
+          "description": "Standard section vertical padding — most page sections",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "{spacing.96px}",
+          "description": "Spacious section vertical padding — hero and major page breaks",
+          "type": "dimension"
+        }
+      }
+    }
+  }
+}
