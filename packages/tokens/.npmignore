@@ -1,0 +1,15 @@
+# Source token files — consumers only need the compiled dist/
+tokens/
+tokens.json
+test-tokens.json
+tokens-build-instructions.md
+
+# Build script — not needed at runtime
+build.mjs
+update-tokens.mjs
+
+# Config and tooling
+*.config.*
+.eslintrc*
+.prettierrc*
+node_modules/

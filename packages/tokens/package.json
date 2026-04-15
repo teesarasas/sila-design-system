@@ -1,11 +1,27 @@
 {
   "name": "@sila-ds/tokens",
   "version": "1.0.0",
+  "description": "Design tokens for the Sila Design System — CSS custom properties for color, typography, spacing, layout, and more",
+  "main": "./dist/css/variables.css",
+  "exports": {
+    ".": "./dist/css/variables.css",
+    "./light": "./dist/css/variables.css",
+    "./dark": "./dist/css/variables-dark.css"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "node build.mjs"
   },
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "css-variables",
+    "sila"
+  ],
   "dependencies": {
-    "style-dictionary": "^4.0.0",
-    "@tokens-studio/sd-transforms": "^1.0.0"
+    "@tokens-studio/sd-transforms": "^1.0.0",
+    "style-dictionary": "^5.1.1"
   }
 }

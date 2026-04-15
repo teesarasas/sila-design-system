@@ -1,4 +1,12 @@
 {
+  "name": "@sila-ds/workspace",
+  "version": "1.0.0",
+  "description": "Sila Design System — monorepo workspace",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "style-dictionary": "^5.1.1"
   },

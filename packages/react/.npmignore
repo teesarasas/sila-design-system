@@ -1,0 +1,25 @@
+# Source — consumers only need the compiled dist/
+src/
+
+# Storybook
+.storybook/
+stories/
+
+# Test files
+**/*.stories.tsx
+**/*.stories.ts
+**/*.test.tsx
+**/*.test.ts
+vitest.shims.d.ts
+
+# Config and tooling
+vite.config.ts
+tsconfig*.json
+eslint.config.*
+*.config.*
+node_modules/
+
+# Dev artifacts
+public/
+index.html
+dist/vite.svg
